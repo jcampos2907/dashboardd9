@@ -140,9 +140,17 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
             })
             .attr("r", CIRCLE_RADIUS)
             .attr("fill", (d) => CountryColors[d["Country Name"]])
-            .attr("opacity", 0.8)
+            .attr("opacity", (d) => {
+                const previousYearDataItem = lastYearFilteredData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
+                if (!previousYearDataItem?.Value) {
+                    return 0
+                }
+                return 0.8
+
+            })
             .transition()
             .duration(500)
+
             .attr("cx", (d) => {
                 const previousYearDataItem = lastYearFilteredData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
                 return xScale(previousYearDataItem?.Value ?? 0)
@@ -172,10 +180,15 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
     }, [currentFilteredData]);
 
 
+
     const allShapesLastYear = lastYearFilteredData.map((dataItem, i) => {
         const gdpValue = lastYearGdpData.find((item) => item["Country Name"] === dataItem["Country Name"] && item.Year === dataItem.Year);
         const color = CountryColors[dataItem["Country Name"]]
-        console.log(dataItem["Country Name"])
+        if (!gdpValue) {
+            console.log("No gdp value found for", dataItem["Country Name"], "in year", dataItem.Year);
+        }
+        // if (!dataItem.Value) return null
+        // if (!gdpValue?.["Log Value"]) return null
         return (
             <circle
                 className="border-2 stroke-white -z-10 last_year"
