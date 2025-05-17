@@ -1,35 +1,35 @@
-import { useEffect } from "react";
+import { useMemo } from "react";
 import useStore from "./useStore";
 
 export function useData() {
-    const { year, indicator, data, updateData } = useStore()
-
-    useEffect(() => {
-        fetch("/parsed_data_normalized_log.json")
-            .then((response) => response.json())
-            .then((jsonData) => updateData(jsonData));
-    }, []);
-
+    const { year, indicator, data } = useStore()
 
     // const filteredData = data.filter(
     //     (item) => item.Indicator === indicator && (item.Year === year || item.Year === String(parseInt(year) - 1))
     // );
 
-    const filteredDataCurrent = [...data.filter((item) =>
-        item.Year == year && item.Indicator === indicator
+    const [filteredDataCurrent, gdpDataCurrent, filteredDataLastYear, gdpDataLastYear] = useMemo(() => {
 
-    )]
-    const gdpDataCurrent = [...data.filter((item) =>
-        item.Year == year && item.Indicator === "GDP ($)"
-    )]
+        const filteredDataCurrent = [...data.filter((item) =>
+            item.Year == year && item.Indicator === indicator
 
-    const filteredDataLastYear = [...data.filter((item) =>
-        item.Year == (year - 1) && item.Indicator === indicator
+        )]
+        const gdpDataCurrent = [...data.filter((item) =>
+            item.Year == year && item.Indicator === "GDP ($)"
+        )]
 
-    )]
-    const gdpDataLastYear = [...data.filter((item) =>
-        item.Year == (year - 1) && item.Indicator === "GDP ($)"
-    )]
+        const filteredDataLastYear = [...data.filter((item) =>
+            item.Year == (year - 1) && item.Indicator === indicator
+
+        )]
+        const gdpDataLastYear = [...data.filter((item) =>
+            item.Year == (year - 1) && item.Indicator === "GDP ($)"
+        )]
+        return [filteredDataCurrent, gdpDataCurrent, filteredDataLastYear, gdpDataLastYear]
+
+    }, [data, year, indicator])
+
+
 
 
     return { currentData: { data: filteredDataCurrent, gdp: gdpDataCurrent }, lastYearData: { data: filteredDataLastYear, gdp: gdpDataLastYear } }

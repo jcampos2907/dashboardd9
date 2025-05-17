@@ -1,5 +1,7 @@
-import type { DataRow } from '@/types/types'
-import { create } from 'zustand'
+import type { DataRow } from '@/types/types';
+import { create } from 'zustand';
+import { data } from "../data";
+
 
 
 
@@ -15,7 +17,7 @@ type Store = {
 
 const useStore = create<Store>((set) => ({
     indicator: 'Women in Parliament (%)',
-    data: [],
+    data: data,
     year: 2022,
     updateIndicator: (indicator: string) => set({ indicator }),
     updateYear: (year: number) => set({ year }),

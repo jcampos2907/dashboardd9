@@ -19,10 +19,11 @@ function App() {
       <h1 className="w-full text-2xl font-bold mb-4">{indicator} vs GDP Dashboard</h1>
       <div className='h-full flex flex-col items-center gap-4'>
         <IndicatorSelector />
-        <YearSelector />
         <div className='w-full h-[66vh]' ref={ref}>
           <ScatterPlot height={height} width={width} />
         </div>
+        <YearSelector />
+
       </div>
       {/* </div> */}
     </div>
