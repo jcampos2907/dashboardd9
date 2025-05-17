@@ -82,9 +82,9 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                 else
                     return 1
             })
-        svg.selectAll('arrow')
+        svg.selectAll('.arrow')
             .filter(function () {
-                return (this as SVGElement).id !== "arrow" + interactionDataDebounced?.["Country Name"];
+                return (this as SVGElement).id !== "arrow" + interactionDataDebounced?.["Country Name"].replace(/ /g, "_").toLowerCase();
             })
             .transition()
             .duration(500)
@@ -93,7 +93,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                     return 1
                 }
                 else {
-                    return 0.2
+                    return 0.3
                 }
             }
             )
@@ -184,9 +184,9 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
     const allShapesLastYear = lastYearFilteredData.map((dataItem, i) => {
         const gdpValue = lastYearGdpData.find((item) => item["Country Name"] === dataItem["Country Name"] && item.Year === dataItem.Year);
         const color = CountryColors[dataItem["Country Name"]]
-        if (!gdpValue) {
-            console.log("No gdp value found for", dataItem["Country Name"], "in year", dataItem.Year);
-        }
+        // if (!gdpValue) {
+        //     console.log("No gdp value found for", dataItem["Country Name"], "in year", dataItem.Year);
+        // }
         // if (!dataItem.Value) return null
         // if (!gdpValue?.["Log Value"]) return null
         return (

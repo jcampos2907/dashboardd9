@@ -76,7 +76,7 @@ const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickne
 
     }, [x1, y1, x2, y2, color, thickness, animated, radius]);
 
-    return <svg ref={svgRef} className="w-screen h-screen arrow" id={'arrow' + country.replace(' ', '_').toLowerCase()} />;
+    return <svg ref={svgRef} className="w-screen h-screen arrow" id={'arrow' + country.replace(/ /g, "_").toLowerCase()} />;
 };
 
 export default D3Arrow;
