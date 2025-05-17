@@ -38,12 +38,14 @@ const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickne
             .attr('stroke-width', thickness);
 
         if (animated) {
-            line.transition()
+            line
+                .transition()
                 .delay(500)
-                .duration(1000)
+                .duration(1200)
                 .attr('x2', adjustedX2)
                 .attr('y2', adjustedY2)
-                .on('end', () => drawArrowhead(svg, adjustedX2, adjustedY2, angle, color, thickness));
+                .on('end', () => drawArrowhead(svg, adjustedX2, adjustedY2, angle, color, thickness))
+
         } else {
             drawArrowhead(svg, adjustedX2, adjustedY2, angle, color, thickness);
         }

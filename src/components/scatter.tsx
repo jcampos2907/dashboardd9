@@ -10,7 +10,8 @@ import { useDebounce } from 'use-debounce';
 //@ts-ignore
 // import { unstable_ViewTransition as ViewTransition } from 'react';
 // import { useMemo, useState } from "react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { data } from "@/data";
+import { useEffect, useRef, useState } from "react";
 import D3Arrow from "./Arrow";
 import { AxisBottom } from "./AxisBottom";
 import { AxisLeft } from "./AxisLeft";
@@ -39,14 +40,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
     const boundsWidth = width - MARGIN.right - MARGIN.left;
     const boundsHeight = height - MARGIN.top - MARGIN.bottom;
 
-    const joinedGDPData = useMemo(() => {
 
-        return [...currentGdpData, ...lastYearGdpData]
-    }, [currentGdpData, lastYearGdpData])
-
-    const joinedFilteredData = useMemo(() => {
-        return [...currentFilteredData, ...lastYearFilteredData]
-    }, [currentFilteredData, lastYearFilteredData])
     const [interactionData, setInteractiondata] = useState<InteractionData | null>(null);
 
     const [interactionDataDebounced] = useDebounce(interactionData, 500);
@@ -99,8 +93,8 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
             )
     }, [interactionDataDebounced])
 
-    const yScale = scaleLinear().domain([Math.min(...joinedGDPData.map(v => v["Log Value"])) - 0.5, Math.max(...joinedGDPData.map(v => v["Log Value"])) + 0.5]).range([boundsHeight, 0]);
-    const xScale = scaleLinear().domain([Math.min(...joinedFilteredData.map(v => v["Value"])) - 1, Math.max(...joinedFilteredData.map(v => v["Value"])) + 1]).range([0, boundsWidth]);
+    const yScale = scaleLinear().domain([Math.min(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Log Value"])) - 0.5, Math.max(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Log Value"])) + 0.5]).range([boundsHeight, 0]);
+    const xScale = scaleLinear().domain([Math.min(...data.filter(item => item.Indicator != 'GDP ($)').map(v => v["Value"])) - 1, Math.max(...data.filter(item => item.Indicator != 'GDP ($)').map(v => v["Value"])) + 1]).range([0, boundsWidth]);
     const allShapes = currentFilteredData.map((dataItem, i) => {
         const gdpValue = currentGdpData.find((item) => item["Country Name"] === dataItem["Country Name"] && item.Year === dataItem.Year);
         const color = CountryColors[dataItem["Country Name"]]
@@ -133,11 +127,19 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
         svg.selectAll("circle.last_year")
             .data(currentFilteredData)
             .join("circle")
-            .attr("cx", (d) => xScale(d.Value))
-            .attr("cy", (d) => {
-                const gdpValue = currentGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === d.Year);
-                return yScale(gdpValue?.["Log Value"] ?? 0)
+            .attr("cx", (d) => {
+                const previousYearDataItem = lastYearFilteredData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
+                return xScale(previousYearDataItem?.Value ?? 0)
             })
+            .attr("cy", (d) => {
+                const previousYearGdpValue = lastYearGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
+                return yScale(previousYearGdpValue?.["Log Value"] ?? 0)
+            })
+            // .attr("cx", (d) => xScale(d.Value))
+            // .attr("cy", (d) => {
+            //     const gdpValue = currentGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === d.Year);
+            //     return yScale(gdpValue?.["Log Value"] ?? 0)
+            // })
             .attr("r", CIRCLE_RADIUS)
             .attr("fill", (d) => CountryColors[d["Country Name"]])
             .attr("opacity", (d) => {
@@ -149,16 +151,8 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
 
             })
             .transition()
-            .duration(500)
+            .duration(1000)
 
-            .attr("cx", (d) => {
-                const previousYearDataItem = lastYearFilteredData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
-                return xScale(previousYearDataItem?.Value ?? 0)
-            })
-            .attr("cy", (d) => {
-                const previousYearGdpValue = lastYearGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
-                return yScale(previousYearGdpValue?.["Log Value"] ?? 0)
-            })
             // .attr('cy', 0)
             .attr("r", () => CIRCLE_RADIUS / 2);
 
@@ -166,16 +160,26 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
             .data(currentFilteredData)
             .join("circle")
             .attr("r", 0)
+            .attr("cx", (d) => {
+                const previousYearDataItem = lastYearFilteredData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
+                return xScale(previousYearDataItem?.Value ?? d.Value)
+            })
+            .attr("cy", (d) => {
+                const previousYearGdpValue = lastYearGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
+                const currentGdpValue = currentGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === d.Year);
+                return yScale(previousYearGdpValue?.["Log Value"] ?? (currentGdpValue?.["Log Value"] ?? 0))
+            })
 
+            .attr("fill", (d) => CountryColors[d["Country Name"]])
+            .transition()
+            .delay(600)
+            .duration(1000)
+            //desactivar para opcion 2
             .attr("cx", (d) => xScale(d.Value))
             .attr("cy", (d) => {
                 const gdpValue = currentGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === d.Year);
                 return yScale(gdpValue?.["Log Value"] ?? 0)
             })
-            .attr("fill", (d) => CountryColors[d["Country Name"]])
-            .transition()
-            .delay(600)
-            .duration(1000)
             .attr("r", CIRCLE_RADIUS)
     }, [currentFilteredData]);
 
