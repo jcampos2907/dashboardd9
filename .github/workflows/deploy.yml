@@ -1,0 +1,44 @@
+name: Deploy Dashboard
+
+on:
+  push:
+    branches: ['*']  # Run on all branches
+
+jobs:
+  cd:
+    runs-on: [self-hosted]  # ensure matches your runner labels
+
+    env:
+      IMAGE_NAME: jicamposr/d9-dashboard
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Docker credentials
+        run: |
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+      - name: Build and push Docker image
+        run: |
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            docker build -t $IMAGE_NAME:latest -t $IMAGE_NAME:main .
+            docker push $IMAGE_NAME:latest
+            docker push $IMAGE_NAME:main
+          else
+            docker build -t $IMAGE_NAME:${GITHUB_REF_NAME} .
+            docker push $IMAGE_NAME:${GITHUB_REF_NAME}
+          fi
+
+      - name: Set up Kubeconfig
+        run: |
+          echo "${{ secrets.KUBECONFIG_BASE64 }}" | base64 -d > kubeconfig
+          export KUBECONFIG=$PWD/kubeconfig
+          echo "KUBECONFIG=$PWD/kubeconfig" >> $GITHUB_ENV
+
+
+      - name: Deploy with Helm
+        run: |
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            kubectl rollout restart deployment dashboardd9 -n universidad
+          fi

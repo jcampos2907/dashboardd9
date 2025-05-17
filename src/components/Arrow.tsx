@@ -6,13 +6,14 @@ interface ArrowProps {
     y1: number;
     x2: number;
     y2: number;
+    country: string;
     color?: string;
     thickness?: number;
     animated?: boolean;
     radius?: number;
 }
 
-const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickness = 1, animated = true, radius = 0 }) => {
+const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickness = 1, animated = true, radius = 0, country }) => {
     const svgRef = useRef<SVGSVGElement>(null);
 
     useEffect(() => {
@@ -38,6 +39,7 @@ const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickne
 
         if (animated) {
             line.transition()
+                .delay(500)
                 .duration(1000)
                 .attr('x2', adjustedX2)
                 .attr('y2', adjustedY2)
@@ -74,7 +76,7 @@ const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickne
 
     }, [x1, y1, x2, y2, color, thickness, animated, radius]);
 
-    return <svg ref={svgRef} className="w-screen h-screen" />;
+    return <svg ref={svgRef} className="w-screen h-screen arrow" id={'arrow' + country.replace(' ', '_').toLowerCase()} />;
 };
 
 export default D3Arrow;
