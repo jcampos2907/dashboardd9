@@ -1,6 +1,5 @@
 import useStore from "@/hooks/useStore";
 import type { DataRow } from "@/types/types";
-import styles from "./tooltip.module.css";
 import { Separator } from "./ui/separator";
 
 export type InteractionData = DataRow & {
@@ -37,7 +36,7 @@ export const Tooltip = ({ interactionData }: TooltipProps) => {
     font-size: 14px; */}
 
             <div className='border-l-4 pl-2 pt-0 mb-2' style={{ borderColor: color }}>
-                <b className={styles.title}>{name}</b>
+                <b className='text-md'>{name}</b>
             </div>
             <div className='flex justify-between text-xs px-1'>
                 <span>GDP per Capita</span>

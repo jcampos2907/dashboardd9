@@ -1,4 +1,5 @@
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useLayoutEffect } from "react";
+import useStore from "./useStore";
 
 export const useDimensions = (targetRef: React.RefObject<HTMLDivElement>) => {
 
@@ -9,7 +10,7 @@ export const useDimensions = (targetRef: React.RefObject<HTMLDivElement>) => {
         };
     };
 
-    const [dimensions, setDimensions] = useState(getDimensions);
+    const { dimensions, setDimensions } = useStore()
 
     const handleResize = () => {
         setDimensions(getDimensions());

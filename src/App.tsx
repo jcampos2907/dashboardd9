@@ -1,8 +1,10 @@
 
 import { useRef } from 'react'
 // import './App.css'
+import Filters from './components/filters'
 import IndicatorSelector from './components/indicatorSelector'
 import ScatterPlot from './components/scatter'
+import { Separator } from './components/ui/separator'
 import YearSelector from './components/yearSelector'
 import { useDimensions } from './hooks/use-dimensions'
 import useStore from './hooks/useStore'
@@ -19,10 +21,14 @@ function App() {
       <h1 className="w-full text-2xl font-bold mb-4">{indicator} vs GDP Dashboard</h1>
       <div className='h-full flex flex-col items-center gap-4'>
         <IndicatorSelector />
-        <div className='w-full h-[66vh]' ref={ref}>
-          <ScatterPlot height={height} width={width} />
+        <div className='w-full h-[66vh] flex flex-row gap-4' >
+          <div className='w-full flex flex-col gap-4' ref={ref} id='svg-container'>
+            <ScatterPlot height={height} width={width} />
+            <YearSelector />
+          </div>
+          <Separator orientation='vertical' />
+          <Filters />
         </div>
-        <YearSelector />
 
       </div>
       {/* </div> */}

@@ -10,12 +10,15 @@ import { useDebounce } from 'use-debounce';
 //@ts-ignore
 // import { unstable_ViewTransition as ViewTransition } from 'react';
 // import { useMemo, useState } from "react";
+import { CIRCLE_RADIUS, MARGIN } from "@/constants";
 import { data } from "@/data";
-import { useEffect, useRef, useState } from "react";
+
+import { useEffect, useRef } from "react";
 import D3Arrow from "./Arrow";
 import { AxisBottom } from "./AxisBottom";
 import { AxisLeft } from "./AxisLeft";
-import { Tooltip, type InteractionData } from "./Tooltip";
+import SweepLines from "./SweepLines";
+import { Tooltip } from "./Tooltip";
 
 type ScatterplotProps = {
     width: number;
@@ -24,33 +27,23 @@ type ScatterplotProps = {
 
 };
 
-const MARGIN = { top: 60, right: 60, bottom: 60, left: 60 };
-const CIRCLE_RADIUS = 10
-
-
 
 export default function ScatterPlot({ width, height }: ScatterplotProps) {
     const { currentData, lastYearData } = useData()
     const svgRef = useRef<SVGSVGElement>(null);
     const CountryColors = useCountryColors(currentData.data.map((d) => d["Country Name"]));
-    const { indicator } = useStore()
+    const { indicator, interactionData, setInteractionData } = useStore()
     const { data: currentFilteredData, gdp: currentGdpData } = currentData
     const { data: lastYearFilteredData, gdp: lastYearGdpData } = lastYearData
-
     const boundsWidth = width - MARGIN.right - MARGIN.left;
     const boundsHeight = height - MARGIN.top - MARGIN.bottom;
-
-
-    const [interactionData, setInteractiondata] = useState<InteractionData | null>(null);
-
-    const [interactionDataDebounced] = useDebounce(interactionData, 500);
-
+    const [interactionDataDebounced] = useDebounce(interactionData, 300);
     useEffect(() => {
         const svg = select(svgRef.current);
         svg.selectAll("circle.current_year")
             .data(currentFilteredData)
             .transition()
-            .duration(500)
+            .duration(300)
             .attr("opacity", (d) => {
                 if (interactionDataDebounced == null) {
                     return 1
@@ -65,7 +58,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
         svg.selectAll("circle.last_year")
             .data(lastYearFilteredData)
             .transition()
-            .duration(500)
+            .duration(300)
             .attr("opacity", (d) => {
                 if (interactionDataDebounced == null) {
                     return 1
@@ -81,7 +74,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                 return (this as SVGElement).id !== "arrow" + interactionDataDebounced?.["Country Name"].replace(/ /g, "_").toLowerCase();
             })
             .transition()
-            .duration(500)
+            .duration(300)
             .attr("opacity", () => {
                 if (interactionDataDebounced == null) {
                     return 1
@@ -100,7 +93,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
         const color = CountryColors[dataItem["Country Name"]]
         return (
             <circle
-                className="stroke-white stroke-2 z-20 current_year"
+                className="stroke-white stroke-2 z-20 current_year countries"
                 key={i}
                 r={CIRCLE_RADIUS}
                 cx={xScale(dataItem.Value)}
@@ -110,7 +103,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                 fillOpacity={1}
                 strokeWidth={1}
                 onMouseEnter={() => // Each time the circle is hovered hover...
-                    setInteractiondata({ // ... update the interactionData state with the circle information
+                    setInteractionData({ // ... update the interactionData state with the circle information
                         xPos: xScale(dataItem.Value),
                         yPos: yScale(gdpValue?.["Log Value"] ?? 0),
                         gdp: gdpValue?.["Value"] ?? 0,
@@ -118,7 +111,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                         ...dataItem
                     })
                 }
-                onMouseLeave={() => setInteractiondata(null)} // When the u
+                onMouseLeave={() => setInteractionData(null)} // When the u
             />
         );
     });
@@ -195,7 +188,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
         // if (!gdpValue?.["Log Value"]) return null
         return (
             <circle
-                className="border-2 stroke-white -z-10 last_year"
+                className="border-2 stroke-white -z-10 last_year countries"
                 key={i}
                 r={CIRCLE_RADIUS / 2}
                 cx={xScale(dataItem.Value)}
@@ -246,6 +239,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                                 label={indicator}
                             />
                         </g>
+                        <SweepLines boundsWidth={boundsWidth} />
 
                         {/* Circles */}
                         {allShapesLastYear}
