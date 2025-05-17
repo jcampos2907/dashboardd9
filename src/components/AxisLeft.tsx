@@ -11,7 +11,13 @@ type AxisLeftProps = {
 
 const TICK_LENGTH = 10;
 
-export const AxisLeft = ({ yScale, pixelsPerTick, width, label = 'GDP per capita (normalized)', margin = 60 }: AxisLeftProps) => {
+export const AxisLeft = ({
+    yScale,
+    pixelsPerTick,
+    width,
+    label = 'GDP per capita (normalized)',
+    margin = 60
+}: AxisLeftProps) => {
     const range = yScale.range();
 
     const ticks = useMemo(() => {
@@ -32,41 +38,34 @@ export const AxisLeft = ({ yScale, pixelsPerTick, width, label = 'GDP per capita
                     key={value}
                     transform={`translate(0, ${yOffset})`}
                     shapeRendering={"crispEdges"}
+                    className="pointer-events-none select-none" // Non-selectable text
                 >
                     <line
                         x1={-TICK_LENGTH}
                         x2={width + TICK_LENGTH}
                         stroke="#D2D7D3"
                         strokeWidth={0.5}
+                        className="pointer-events-none" // Non-selectable text
                     />
                     <text
                         key={value}
+                        className="pointer-events-none select-none" // Non-selectable text
                         style={{
                             fontSize: "10px",
                             textAnchor: "middle",
                             transform: "translateX(-20px)",
                             fill: "#D2D7D3",
+                            userSelect: "none", // Double insurance for non-selectable
                         }}
                     >
                         {value}
                     </text>
                 </g>
             ))}
-            {/* Axis label - Corrected Vertical */}
-            {/* <text
-                x={-((range[1] - range[0]) / 2)} // Adjust distance from the axis
-                y={-(margin - 10)} // Centered along the axis height
-                transform="rotate(-90)"
-                style={{
-                    fontSize: "12px",
-                    textAnchor: "middle",
-                    fill: "#D2D7D3",
-                }}
-            >
-                {label}
-            </text> */}
+
             {/* Axis label - Corrected Vertical */}
             <text
+                className="pointer-events-none select-none" // Non-selectable text
                 x={-(((range[0] - range[1]) / 2))} // Adjust distance from the axis
                 y={-(margin - TICK_LENGTH)} // Centered along the axis height
                 transform="rotate(-90)"
@@ -74,11 +73,11 @@ export const AxisLeft = ({ yScale, pixelsPerTick, width, label = 'GDP per capita
                     fontSize: "12px",
                     textAnchor: "middle",
                     fill: "#D2D7D3",
+                    userSelect: "none", // Double insurance for non-selectable
                 }}
             >
                 {label}
             </text>
-
         </>
     );
 };

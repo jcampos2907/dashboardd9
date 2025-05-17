@@ -239,7 +239,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                                 label={indicator}
                             />
                         </g>
-                        <SweepLines boundsWidth={boundsWidth} />
+                        <SweepLines boundsWidth={boundsWidth} yScale={yScale} />
 
                         {/* Circles */}
                         {allShapesLastYear}

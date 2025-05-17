@@ -8,7 +8,6 @@ export default function useSweepLines() {
     const boundsHeight = dimensions.height - MARGIN.top - MARGIN.bottom;
     const [yTop, setYTop] = useState(1);
     const [yBottom, setYBottom] = useState(boundsHeight);
-
     const [isDraggingTop, setIsDraggingTop] = useState(false);
     const [isDraggingBottom, setIsDraggingBottom] = useState(false);
     useEffect(() => {
@@ -100,7 +99,7 @@ export default function useSweepLines() {
     }, [yTop, yBottom, boundsHeight]);
 
     useEffect(() => {
-        setYBottom(boundsHeight)
+        setYBottom(boundsHeight - 2)
     }, [boundsHeight])
 
     return {

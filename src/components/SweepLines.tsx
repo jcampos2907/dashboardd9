@@ -1,8 +1,12 @@
-import useSweepLines from "@/hooks/use-sweeplines"
-import { GripHorizontalIcon } from "lucide-react"
+import useSweepLines from "@/hooks/use-sweeplines";
+import { GripHorizontalIcon } from "lucide-react";
+import { useState } from "react";
 
-export default function SweepLines({ boundsWidth, }: { boundsWidth: number }) {
-    const { yTop, yBottom } = useSweepLines()
+export default function SweepLines({ boundsWidth, yScale }: { boundsWidth: number, yScale: any }) {
+    const { yTop, yBottom, isDraggingBottom, isDraggingTop } = useSweepLines()
+
+    const [isHoveredTop, setIsHoveredTop] = useState(false);
+    const [isHoveredBottom, setIsHoveredBottom] = useState(false);
 
     return (
         <>
@@ -17,6 +21,8 @@ export default function SweepLines({ boundsWidth, }: { boundsWidth: number }) {
             />
 
             <foreignObject
+                onMouseEnter={() => setIsHoveredTop(true)}
+                onMouseLeave={() => setIsHoveredTop(false)}
                 className="sweep-handle-top cursor-ns-resize bg-border h-3 w-4 items-center justify-center rounded-sm border"
                 x={boundsWidth - 8}
                 y={yTop - 6}
@@ -29,6 +35,15 @@ export default function SweepLines({ boundsWidth, }: { boundsWidth: number }) {
                     />
                 </div>
             </foreignObject>
+            <text
+                x={boundsWidth - 40}
+                y={yTop}
+                className={`text-sm font-semibold pointer-events-none select-none ${isHoveredTop || isDraggingTop ? 'block' : 'hidden'}`}
+                textAnchor="end"
+                dy="0.3em"
+            >
+                Log: {yScale.invert(yTop).toFixed(2)} → GDP: ${((Math.exp(yScale.invert(yTop)) - 1) || 0).toFixed(2)}
+            </text>
 
 
             {/* Sweep Line Bottom */}
@@ -41,7 +56,20 @@ export default function SweepLines({ boundsWidth, }: { boundsWidth: number }) {
                 style={{ transition: "y 0.1s" }}
             />
 
+            <text
+                x={boundsWidth - 40}
+                y={yBottom}
+                className={`text-sm font-semibold pointer-events-none select-none ${isHoveredBottom || isDraggingBottom ? 'block' : 'hidden'}`}
+                fontSize="12px"
+                textAnchor="end"
+                dy="0.3em"
+            >
+                Log: {yScale.invert(yBottom).toFixed(2)} → GDP: ${((Math.exp(yScale.invert(yBottom)) - 1) || 0).toFixed(2)}
+            </text>
+
             <foreignObject
+                onMouseEnter={() => setIsHoveredBottom(true)}
+                onMouseLeave={() => setIsHoveredBottom(false)}
                 className="sweep-handle-bottom cursor-ns-resize bg-border h-3 w-4 items-center justify-center rounded-sm border"
                 x={boundsWidth - 8}
                 y={yBottom - 6}
