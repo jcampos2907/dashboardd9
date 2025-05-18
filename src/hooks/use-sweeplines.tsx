@@ -21,7 +21,7 @@ export default function useSweepLines() {
                 setYBottom(Math.min(boundsHeight, Math.max(y, yTop + 10)));
             })
             .on("end", () => {
-                setIsDraggingTop(false);
+                setIsDraggingBottom(false);
             });
 
         const handleDragTop = drag<SVGCircleElement, unknown>()
