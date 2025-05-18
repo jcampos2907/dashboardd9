@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "node server",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "vite build --outDir dist/client",
+    "build:server": "vite build --ssr src/entry-server.tsx --outDir dist/server",
+    "preview": "cross-env NODE_ENV=production node server"
   },
   "dependencies": {
     "@radix-ui/react-scroll-area": "^1.2.8",
@@ -17,12 +18,15 @@
     "@tailwindcss/vite": "^4.1.7",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "compression": "^1.8.0",
     "d3": "^7.9.0",
+    "express": "^5.1.0",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-resizable-panels": "^3.0.2",
     "recharts": "^2.15.3",
+    "sirv": "^3.0.1",
     "tailwind-merge": "^3.3.0",
     "tailwindcss": "^4.1.7",
     "use-debounce": "^10.0.4",
@@ -30,7 +34,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@types/compression": "^1.7.5",
     "@types/d3": "^7.4.3",
+    "@types/express": "^5.0.2",
     "@types/node": "^22.15.18",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
