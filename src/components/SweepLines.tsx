@@ -1,12 +1,19 @@
 import useSweepLines from "@/hooks/use-sweeplines";
+import useStore from "@/hooks/useStore";
 import { GripHorizontalIcon } from "lucide-react";
 import { useState } from "react";
 
-export default function SweepLines({ boundsWidth, yScale }: { boundsWidth: number, yScale: any }) {
+export default function SweepLines() {
     const { yTop, yBottom, isDraggingBottom, isDraggingTop } = useSweepLines()
+    const boundsWidth = useStore((state) => state.boundsWidth)
+    const yScale = useStore((state) => state.yScale)();
 
     const [isHoveredTop, setIsHoveredTop] = useState(false);
     const [isHoveredBottom, setIsHoveredBottom] = useState(false);
+
+    if (!yScale) {
+        return null;
+    }
 
     return (
         <>
@@ -42,7 +49,7 @@ export default function SweepLines({ boundsWidth, yScale }: { boundsWidth: numbe
                 textAnchor="end"
                 dy="0.3em"
             >
-                Log: {yScale.invert(yTop).toFixed(2)} → GDP: ${((Math.exp(yScale.invert(yTop)) - 1) || 0).toFixed(2)}
+                GDP: ${yScale.invert(yTop).toFixed(2)}
             </text>
 
 
@@ -64,7 +71,7 @@ export default function SweepLines({ boundsWidth, yScale }: { boundsWidth: numbe
                 textAnchor="end"
                 dy="0.3em"
             >
-                Log: {yScale.invert(yBottom).toFixed(2)} → GDP: ${((Math.exp(yScale.invert(yBottom)) - 1) || 0).toFixed(2)}
+                GDP: ${yScale.invert(yBottom).toFixed(2)}
             </text>
 
             <foreignObject

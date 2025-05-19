@@ -16,12 +16,12 @@
 //             })
 //             .attr("cy", (d) => {
 //                 const previousYearGdpValue = lastYearGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
-//                 return yScale(previousYearGdpValue?.["Log Value"] ?? 0)
+//                 return yScale(previousYearGdpValue?.["Value"] ?? 0)
 //             })
 //             // .attr("cx", (d) => xScale(d.Value))
 //             // .attr("cy", (d) => {
 //             //     const gdpValue = currentGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === d.Year);
-//             //     return yScale(gdpValue?.["Log Value"] ?? 0)
+//             //     return yScale(gdpValue?.["Value"] ?? 0)
 //             // })
 //             .attr("r", CIRCLE_RADIUS)
 //             .attr("fill", (d) => CountryColors[d["Country Name"]])
@@ -50,7 +50,7 @@
 //             .attr("cy", (d) => {
 //                 const previousYearGdpValue = lastYearGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === (d.Year - 1));
 //                 const currentGdpValue = currentGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === d.Year);
-//                 return yScale(previousYearGdpValue?.["Log Value"] ?? (currentGdpValue?.["Log Value"] ?? 0))
+//                 return yScale(previousYearGdpValue?.["Value"] ?? (currentGdpValue?.["Value"] ?? 0))
 //             })
 
 //             .attr("fill", (d) => CountryColors[d["Country Name"]])
@@ -61,7 +61,7 @@
 //             .attr("cx", (d) => xScale(d.Value))
 //             .attr("cy", (d) => {
 //                 const gdpValue = currentGdpData.find((item) => item["Country Name"] === d["Country Name"] && item.Year === d.Year);
-//                 return yScale(gdpValue?.["Log Value"] ?? 0)
+//                 return yScale(gdpValue?.["Value"] ?? 0)
 //             })
 //             .attr("r", CIRCLE_RADIUS)
 //     }, [currentFilteredData]);

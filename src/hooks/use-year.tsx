@@ -13,8 +13,8 @@ const setCookie = (name: string, value: string, days = 365) => {
 
 
 export function useYear() {
-    const store = useStore()
-    const { year, updateYear: setYear } = store
+    const year = useStore((state) => state.year)
+    const setYear = useStore((state) => state.updateYear)
     const updateYear = useCallback((year: number) => {
         setYear(year);
         // Store in localStorage for client-side persistence...

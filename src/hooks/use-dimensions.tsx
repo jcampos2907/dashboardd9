@@ -9,8 +9,8 @@ export const useDimensions = (targetRef: React.RefObject<HTMLDivElement>) => {
             height: targetRef.current ? targetRef.current.offsetHeight : 0
         };
     };
-
-    const { dimensions, setDimensions } = useStore()
+    const dimensions = useStore((state) => state.dimensions)
+    const setDimensions = useStore((state) => state.setDimensions)
 
     const handleResize = () => {
         setDimensions(getDimensions());

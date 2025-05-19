@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import useStore from "./useStore";
 
 export default function useSweepLines() {
-    const { dimensions } = useStore()
+    const dimensions = useStore((state) => state.dimensions)
     const boundsHeight = dimensions.height - MARGIN.top - MARGIN.bottom;
     const [yTop, setYTop] = useState(1);
     const [yBottom, setYBottom] = useState(boundsHeight);

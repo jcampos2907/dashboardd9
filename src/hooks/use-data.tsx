@@ -1,36 +1,34 @@
+import { data } from "@/data";
 import { useMemo } from "react";
 import useStore from "./useStore";
 
 export function useData() {
-    const { year, indicator, data } = useStore()
+    const indicator = useStore((state) => state.indicator)
+    // const data = useStore((state) => state.data)
+    const dataPerYear = useMemo(() => {
+        return data.reduce((acc, item) => {
+            const year = item.Year;
+            const isGDP = item.Indicator === 'GDP ($)';
+            const isIndicator = item.Indicator === indicator;
 
-    // const filteredData = data.filter(
-    //     (item) => item.Indicator === indicator && (item.Year === year || item.Year === String(parseInt(year) - 1))
-    // );
+            if (!acc[year]) {
+                acc[year] = {
+                    filteredData: [],
+                    filteredDataGDP: []
+                };
+            }
 
-    const [filteredDataCurrent, gdpDataCurrent, filteredDataLastYear, gdpDataLastYear] = useMemo(() => {
+            if (isIndicator) {
+                acc[year].filteredData.push(item);
+            }
 
-        const filteredDataCurrent = [...data.filter((item) =>
-            item.Year == year && item.Indicator === indicator
+            if (isGDP) {
+                acc[year].filteredDataGDP.push(item);
+            }
 
-        )]
-        const gdpDataCurrent = [...data.filter((item) =>
-            item.Year == year && item.Indicator === "GDP ($)"
-        )]
+            return acc;
+        }, {} as Record<string, { filteredData: typeof data; filteredDataGDP: typeof data }>);
+    }, [data, indicator]);
 
-        const filteredDataLastYear = [...data.filter((item) =>
-            item.Year == (year - 1) && item.Indicator === indicator
-
-        )]
-        const gdpDataLastYear = [...data.filter((item) =>
-            item.Year == (year - 1) && item.Indicator === "GDP ($)"
-        )]
-        return [filteredDataCurrent, gdpDataCurrent, filteredDataLastYear, gdpDataLastYear]
-
-    }, [data, year, indicator])
-
-
-
-
-    return { currentData: { data: filteredDataCurrent, gdp: gdpDataCurrent }, lastYearData: { data: filteredDataLastYear, gdp: gdpDataLastYear } }
+    return dataPerYear
 }

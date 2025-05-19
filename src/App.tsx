@@ -12,9 +12,8 @@ import useStore from './hooks/useStore'
 function App() {
 
   const ref = useRef<any>(null)
-
   const { width, height } = useDimensions(ref)
-  const { indicator } = useStore()
+  const indicator = useStore((state) => state.indicator)
   return (
     <div className='p-8 h-screen'>
       {/* <div className='w-full flex flex-col items-center justify-center'> */}

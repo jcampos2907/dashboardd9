@@ -13,9 +13,8 @@ const setCookie = (name: string, value: string, days = 365) => {
 
 
 export function useIndicator() {
-    const store = useStore()
-    const { indicator } = store
-    const setIndicator = store.updateIndicator
+    const indicator = useStore((state) => state.indicator)
+    const setIndicator = useStore((state) => state.updateIndicator)
     const updateIndicator = useCallback((indicator: string) => {
         setIndicator(indicator);
         // Store in localStorage for client-side persistence...

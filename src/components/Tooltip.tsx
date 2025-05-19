@@ -9,13 +9,11 @@ export type InteractionData = DataRow & {
     color: string
 };
 
-type TooltipProps = {
-    interactionData: InteractionData | null;
-};
 
-export const Tooltip = ({ interactionData }: TooltipProps) => {
 
-    const { indicator } = useStore()
+export const Tooltip = () => {
+    const indicator = useStore((state) => state.indicator)
+    const interactionData = useStore((state) => state.interactionData)
     if (!interactionData) {
         return null;
     }
