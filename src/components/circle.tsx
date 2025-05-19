@@ -67,7 +67,7 @@ export default function Circle(
         'transition-all duration-700 ease-in-out transform', // Tailwind animation
         ' z-20 current_year countries',
         Number(year) === selectedYear ? 'stroke-2 ' : 'stroke-0.5 opacity-20',
-        interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : ` z-0`,
+        interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : `opacity-20 z-0`,
         'hover:cursor-pointer hover:transition-opacity',
         !interactionData && selectedYear === Number(year) ? 'opacity-100 stroke-white' : 'stroke-white'
     );
