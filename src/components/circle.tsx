@@ -23,7 +23,7 @@ export default function Circle(
     // State to control the animated position
     const [cx, setCx] = useState(xScale ? xScale(previousYearFilteredData?.['Value'] ?? data.Value) : 0);
     const [cy, setCy] = useState(yScale ? yScale(previousYearGdpData?.['Value'] ?? (gdpData?.['Value'] ?? 0)) : 0);
-    const [radius, setRadius] = useState(CIRCLE_RADIUS / 2); // Start with half radius
+    // const [radius, setRadius] = useState(CIRCLE_RADIUS / 2); // Start with half radius
 
     // Calculate final position
     const finalCx = xScale ? xScale(data.Value) : 0;
@@ -41,15 +41,15 @@ export default function Circle(
     }, [finalCx, finalCy, yScale, xScale]);
 
     // Animate radius on year change
-    useEffect(() => {
-        if (Number(year) === selectedYear) {
-            setTimeout(() => {
-                setRadius(CIRCLE_RADIUS);
-            }, 300);
-        } else {
-            setRadius(CIRCLE_RADIUS / 2);
-        }
-    }, [selectedYear, year]);
+    // useEffect(() => {
+    //     if (Number(year) === selectedYear) {
+    //         setTimeout(() => {
+    //             setRadius(CIRCLE_RADIUS);
+    //         }, 300);
+    //     } else {
+    //         setRadius(CIRCLE_RADIUS / 2);
+    //     }
+    // }, [selectedYear, year]);
 
     if (!xScale || !yScale) {
         return null;
@@ -65,20 +65,30 @@ export default function Circle(
 
     const classNames = cn(
         'transition-all duration-700 ease-in-out transform', // Tailwind animation
-        'stroke-white z-20 current_year countries',
+        ' z-20 current_year countries',
         Number(year) === selectedYear ? 'stroke-2 ' : 'stroke-0.5 opacity-20',
-        interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : "opacity-5 z-0",
+        interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : ` z-0`,
         'hover:cursor-pointer hover:transition-opacity',
-        !interactionData && selectedYear === Number(year) ? 'opacity-100' : ''
+        !interactionData && selectedYear === Number(year) ? 'opacity-100 stroke-white' : 'stroke-white'
     );
 
+    // const maxOpacity = 1;
+    // const minOpacity = 0.1;
+    // const yearDifference = selectedYear - Number(year);
+    // const dynamicOpacity = Math.max(
+    //     minOpacity,
+    //     maxOpacity - yearDifference * 0.1 // Reduce opacity by 0.1 for each year difference
+    // );
     return (
         <circle
             className={classNames}
-            r={radius} // Animated radius
+            r={Number(year) === selectedYear ? CIRCLE_RADIUS : CIRCLE_RADIUS / 2} // Animated radius
             cx={cx} // Animated position
             cy={cy} // Animated position
             fill={color}
+            // style={{
+            //     opacity: dynamicOpacity, // Directly set dynamic opacity
+            // }}
             onMouseEnter={() => // Each time the circle is hovered hover...
             {
                 setInteractionData({ // ... update the interactionData state with the circle information
