@@ -16,6 +16,8 @@ type Store = {
     dimensions: { width: number; height: number };
     boundsHeight: number;
     boundsWidth: number;
+    selectedCountries: string[];
+    setSelectedCountries: (selectedCountries: string[]) => void;
     setBoundsHeight: (height: number) => void;
     setBoundsWidth: (width: number) => void;
     setDimensions: (dimensions: { width: number; height: number }) => void;
@@ -41,6 +43,8 @@ const useStore = create<Store>((set) => ({
     setBoundsHeight: (boundsHeight: number) => set({ boundsHeight }),
     interactionData: null,
     dimensions: { width: 0, height: 0 },
+    selectedCountries: Array.from(new Set(data.map((item) => item["Country Name"]))),
+    setSelectedCountries: (selectedCountries: string[]) => set({ selectedCountries }),
     setDimensions: (dimensions: { width: number, height: number }) => {
         const boundsHeight = dimensions.height - MARGIN.top - MARGIN.bottom;
         const boundsWidth = dimensions.width - MARGIN.left - MARGIN.right;
