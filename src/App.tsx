@@ -12,19 +12,18 @@ function App() {
   const ref = useRef<any>(null)
   const { width, height } = useDimensions(ref)
   return (
-    <div className='p-8 '>
-      <div className='h-screen '>
-        {/* <div className='w-full flex flex-col items-center justify-center'> */}
-        <h1 className="w-full text-2xl mb-4">Liderazgo femenino y desarrollo económico: historias que contrastan</h1>
-        <div className='h-full flex flex-col items-center gap-4'>
-          <IndicatorSelector />
-          <div className='w-full h-[66vh] flex flex-row gap-4' >
-            <Filters />
-            <Separator orientation='vertical' />
-            <div className='w-full flex flex-col gap-4' ref={ref} id='svg-container'>
+    <div className='p-8 h-screen flex flex-col items-center justify-center'>
+      <h1 className="w-full text-2xl mb-4 h-auto">Liderazgo femenino y desarrollo económico: historias que contrastan</h1>
+      <div className='h-full flex flex-col items-end gap-4 w-full'>
+        <IndicatorSelector />
+        <div className='flex flex-row gap-4 w-full flex-1'>
+          <Filters />
+          <Separator orientation='vertical' />
+          <div className='w-full flex flex-col gap-4' >
+            <div ref={ref} id='svg-container' className='w-full h-full'>
               <ScatterPlot height={height} width={width} />
-              <YearSelector />
             </div>
+            <YearSelector />
           </div>
         </div>
       </div>

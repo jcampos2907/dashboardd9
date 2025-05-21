@@ -7,7 +7,7 @@ export default function IndicatorSelector() {
     // const [indicator, setIndicator] = useState("Women in Parliament (%)");
 
     return (
-        <Tabs defaultValue={indicator} className="w-[400px]" onValueChange={updateIndicator} value={indicator}>
+        <Tabs defaultValue={indicator} className="w-auto" onValueChange={updateIndicator} value={indicator}>
             <TabsList>
                 <TabsTrigger value='Women in Parliament (%)'>Women in Parliament (%)</TabsTrigger>
                 <TabsTrigger value="Women in Managerial Positions (%)">Women in Managerial Positions (%)</TabsTrigger>
