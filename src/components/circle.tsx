@@ -57,11 +57,11 @@ export default function Circle(
 
     const classNames = cn(
         'transition-all duration-700 ease-in-out transform', // Tailwind animation
-        ' z-20 current_year countries',
-        Number(year) === selectedYear ? 'stroke-2' : 'stroke-0.5 opacity-20',
+        '  current_year countries',
+        Number(year) === selectedYear ? 'stroke-2 z-20' : 'stroke-0.5 opacity-20 z-0',
         interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : `opacity-15 z-0`,
         'hover:cursor-pointer hover:transition-opacity',
-        !interactionData && selectedYear === Number(year) ? 'opacity-100 stroke-white' :
+        !interactionData && selectedYear === Number(year) ? 'opacity-100 z-50 stroke-white' :
             (!interactionData && (selectedYear - Number(year) == 1)) ? 'opacity-70 stroke-white' :
                 (!interactionData && (selectedYear - Number(year) == 2)) ? 'opacity-60 stroke-white' :
                     (!interactionData && (selectedYear - Number(year) == 3)) ? 'opacity-40 stroke-white' : 'stroke-white',
