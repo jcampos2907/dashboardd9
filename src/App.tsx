@@ -12,7 +12,7 @@ function App() {
   const { width, height } = useDimensions(ref)
   return (
     <div className='p-8 h-screen flex flex-col items-center justify-center font-sans'>
-      <h1 className="w-full text-2xl mb-4 h-auto">Liderazgo femenino y desarrollo económico: historias que contrastan</h1>
+      <h1 className="w-full text-3xl mb-4 h-auto">Liderazgo femenino y desarrollo económico: historias que contrastan</h1>
       <div className='h-full flex flex-col items-end gap-4 w-full'>
         <IndicatorSelector />
         <div className='flex flex-row gap-8 w-full flex-1'>
