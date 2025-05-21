@@ -70,7 +70,11 @@ export default function Circle(
         Number(year) === selectedYear ? 'stroke-2 ' : 'stroke-0.5 opacity-20',
         interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : `opacity-15 z-0`,
         'hover:cursor-pointer hover:transition-opacity',
-        !interactionData && selectedYear === Number(year) ? 'opacity-100 stroke-white' : 'stroke-white'
+        !interactionData && selectedYear === Number(year) ? 'opacity-100 stroke-white' :
+            (!interactionData && (selectedYear - Number(year) == 1)) ? 'opacity-70 stroke-white' :
+                (!interactionData && (selectedYear - Number(year) == 2)) ? 'opacity-60 stroke-white' :
+                    (!interactionData && (selectedYear - Number(year) == 3)) ? 'opacity-40 stroke-white' : 'stroke-white',
+
     );
 
     const baseColor = color; // e.g., "#D74B4B"
@@ -82,7 +86,7 @@ export default function Circle(
     // Scale radius based on proximity to selected year
     const radius = yearDiff === 0
         ? CIRCLE_RADIUS
-        : Math.max(minRadius, CIRCLE_RADIUS * (1 - yearDiff / maxYearDiff));
+        : Math.max(minRadius, CIRCLE_RADIUS * (1 - 1.75 * yearDiff / maxYearDiff));
 
     const gradientId = `radial-${data["Country Name"].replace(/\s+/g, '-')}-${year}`;
 
