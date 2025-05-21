@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/chart"
 import { useData } from "@/hooks/use-data"
 import useStore from "@/hooks/useStore"
-import { useMemo } from "react"
+import { useEffect, useMemo } from "react"
 import {
     Bar,
     BarChart,
@@ -43,12 +43,13 @@ function binData(values: number[], binSize: number) {
 
 export default function FilterSliderIndicator() {
     const year = useStore((state) => state.year)
+    const indicator = useStore((state) => state.indicator)
     const dataPerYear = useData()
     const { filteredData } = dataPerYear[year.toString()] ?? { filteredData: [] }
     const [minVal, maxVal] = useMemo(() => {
         const vals = filteredData.map(item => Number(item.Value)).filter(val => !isNaN(val))
         return [Math.min(...vals), Math.max(...vals)]
-    }, [filteredData])
+    }, [filteredData, indicator])
     const values = useStore((state) => state.indicatorRange)
     const setValues = useStore((state) => state.setIndicatorRange)
     const histogramData = useMemo(() => {
@@ -63,6 +64,11 @@ export default function FilterSliderIndicator() {
                 : "var(--foreground)"        // normal opacity
         }))
     }, [filteredData, values])
+
+    useEffect(() => {
+        const newValues = [minVal, maxVal]
+        setValues(newValues)
+    }, [indicator, year, minVal, maxVal])
 
     const chartConfig = {
         count: {
@@ -98,7 +104,7 @@ export default function FilterSliderIndicator() {
                 className="w-full px-4"
             />
 
-            <div className="flex flex-row justify-between w-full px-4 gap-2">
+            <div className="flex flex-row justify-between w-full px-4 gap-2 font-mono">
                 <Input
                     value={values[0]}
                     type="number"

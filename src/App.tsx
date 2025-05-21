@@ -12,12 +12,14 @@ function App() {
   const ref = useRef<any>(null)
   const { width, height } = useDimensions(ref)
   return (
-    <div className='p-8 h-screen flex flex-col items-center justify-center'>
+    <div className='p-8 h-screen flex flex-col items-center justify-center font-sans'>
       <h1 className="w-full text-2xl mb-4 h-auto">Liderazgo femenino y desarrollo económico: historias que contrastan</h1>
       <div className='h-full flex flex-col items-end gap-4 w-full'>
         <IndicatorSelector />
         <div className='flex flex-row gap-4 w-full flex-1'>
-          <Filters />
+          <div className='w-[33vw]'>
+            <Filters />
+          </div>
           <Separator orientation='vertical' />
           <div className='w-full flex flex-col gap-4' >
             <div ref={ref} id='svg-container' className='w-full h-full'>

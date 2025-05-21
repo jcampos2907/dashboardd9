@@ -15,7 +15,7 @@ const YearSelector: React.FC = () => {
         return Array.from({ length: total + 1 }, (_, i) => {
             const value = min + i * step;
             return (
-                <div key={value} className="text-xs text-muted-foreground">
+                <div key={value} className="text-xs text-muted-foreground font-mono">
                     {value}
                 </div>
             );

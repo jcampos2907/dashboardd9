@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/chart"
 import { useData } from "@/hooks/use-data"
 import useStore from "@/hooks/useStore"
-import { useMemo } from "react"
+import { useMemo, useState } from "react"
 import {
     Bar,
     BarChart,
@@ -43,6 +43,7 @@ function binData(values: number[], binSize: number) {
 
 export default function FilterSliderGDP() {
     const year = useStore((state) => state.year)
+    const [isFocused, setIsFocused] = useState(false)
     const dataPerYear = useData()
     const { filteredDataGDP } = dataPerYear[year.toString()] ?? { filteredDataGDP: [] }
     const [minVal, maxVal] = useMemo(() => {
@@ -94,15 +95,18 @@ export default function FilterSliderGDP() {
                 value={values}
                 min={minVal}
                 max={maxVal}
-                step={5000}
+                // step={5000}
                 onValueChange={setValues}
                 className="w-full px-4"
             />
 
-            <div className="flex flex-row justify-between w-full px-4 gap-2">
+            <div className="flex flex-row justify-between w-full px-4 gap-2 font-mono">
                 <Input
-                    value={values[0]}
-                    type="number"
+                    onFocus={() => setIsFocused(true)}
+                    onBlur={() => setIsFocused(false)}
+                    value={isFocused ? values[0] : new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(
+                        values[0],
+                    )}
                     min={minVal}
                     max={values[1] - 1}
                     onChange={(e) => {
@@ -112,8 +116,11 @@ export default function FilterSliderGDP() {
                     className="w-1/2"
                 />
                 <Input
-                    value={values[1]}
-                    type="number"
+                    onFocus={() => setIsFocused(true)}
+                    onBlur={() => setIsFocused(false)}
+                    value={isFocused ? values[1] : new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(
+                        values[1],
+                    )}
                     min={values[0] + 1}
                     max={maxVal}
                     onChange={(e) => {

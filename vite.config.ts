@@ -9,6 +9,14 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), Unfonts({
     typekit: {
       id: 'hmd5kzm'
+    },
+    custom: {
+      families: [
+        {
+          name: 'HelveticaNeue',
+          src: './src/assets/fonts/HelveticaNeueMedium.otf',
+        }
+      ]
     }
   }),],
   resolve: {
