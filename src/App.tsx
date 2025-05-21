@@ -4,7 +4,6 @@ import { useRef } from 'react'
 import Filters from './components/filters'
 import IndicatorSelector from './components/indicatorSelector'
 import ScatterPlot from './components/scatter'
-import { Separator } from './components/ui/separator'
 import YearSelector from './components/yearSelector'
 import { useDimensions } from './hooks/use-dimensions'
 
@@ -16,11 +15,10 @@ function App() {
       <h1 className="w-full text-2xl mb-4 h-auto">Liderazgo femenino y desarrollo económico: historias que contrastan</h1>
       <div className='h-full flex flex-col items-end gap-4 w-full'>
         <IndicatorSelector />
-        <div className='flex flex-row gap-4 w-full flex-1'>
+        <div className='flex flex-row gap-8 w-full flex-1'>
           <div className='w-[33vw]'>
             <Filters />
           </div>
-          <Separator orientation='vertical' />
           <div className='w-full flex flex-col gap-4' >
             <div ref={ref} id='svg-container' className='w-full h-full'>
               <ScatterPlot height={height} width={width} />
