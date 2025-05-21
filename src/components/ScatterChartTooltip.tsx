@@ -8,31 +8,18 @@ export type InteractionData = DataRow & {
     gdp: number;
     color: string
 };
-
-
-
-export const Tooltip = () => {
+export const ScatterChartTooltip = ({ interactionData }: { interactionData: InteractionData }) => {
     const indicator = useStore((state) => state.indicator)
-    const interactionData = useStore((state) => state.interactionData)
     if (!interactionData) {
         return null;
     }
 
-    const { xPos, yPos, "Country Name": name, Value: x, gdp, color } = interactionData;
+    const { "Country Name": name, Value: x, gdp, color } = interactionData;
 
     return (
         <div
-            className='w-[365px] bg-white border text-sm max-w-[200px] p-2 rounded-lg  absolute translate-y-[-50%] z-50 ml-8 shadow-xl'
-            style={{
-                left: xPos,
-                top: yPos,
-            }}
+            className='w-[365px] bg-white border text-sm max-w-[200px] p-2 rounded-lg z-50  shadow-xl'
         >
-            {/* display: flex;
-    justify-content: space-between;
-    line-height: 20px;
-    font-size: 14px; */}
-
             <div className='border-l-4 pl-2 pt-0 mb-2' style={{ borderColor: color }}>
                 <b className='text-md'>{name}</b>
             </div>

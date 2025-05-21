@@ -1,4 +1,3 @@
-import type { InteractionData } from '@/components/Tooltip';
 import { MARGIN } from '@/constants';
 import type { DataRow } from '@/types/types';
 import { type ScaleLinear } from 'd3';
@@ -10,7 +9,7 @@ type Store = {
     indicator: string;
     data: DataRow[];
     year: number;
-    interactionData: InteractionData | null;
+    interactionData: { 'Country Name': string, 'Group': string } | null;
     xScale: () => ScaleLinear<number, number, never> | null;
     yScale: () => ScaleLinear<number, number, never> | null;
     dimensions: { width: number; height: number };
@@ -27,7 +26,7 @@ type Store = {
     setDimensions: (dimensions: { width: number; height: number }) => void;
     setXScale: (xScale: () => ScaleLinear<number, number, never>) => void;
     setYScale: (yScale: () => ScaleLinear<number, number, never>) => void;
-    setInteractionData: (data: InteractionData | null) => void;
+    setInteractionData: (data: { 'Country Name': string, 'Group': string } | null) => void;
     updateData: (data: DataRow[]) => void;
     updateIndicator: (indicator: string) => void;
     updateYear: (year: number) => void;
@@ -60,7 +59,7 @@ const useStore = create<Store>((set) => ({
     },
     setXScale: (xScaleFn: () => ScaleLinear<number, number, never>) => set({ xScale: xScaleFn }),
     setYScale: (yScaleFn: () => ScaleLinear<number, number, never>) => set({ yScale: yScaleFn }),
-    setInteractionData: (interactionData: InteractionData | null) => {
+    setInteractionData: (interactionData: { 'Country Name': string, 'Group': string } | null) => {
 
         set({ interactionData });
     },

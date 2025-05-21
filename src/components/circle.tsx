@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils";
 import { color as d3color } from "d3-color";
 import { Fragment, useEffect, useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
+import { ScatterChartTooltip } from "./ScatterChartTooltip";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 
 export default function Circle(
     { year, color, data, gdpData }
@@ -95,9 +97,9 @@ export default function Circle(
     if (gdpData.is_active === false) { return null; }
 
     return (
+
         <Fragment>
             <defs>
-
                 <radialGradient id={gradientId}
                     cx={cx + radius}
                     cy={cy - radius}
@@ -108,21 +110,35 @@ export default function Circle(
                     <stop offset="1" stop-color={darkerColor} />
                 </radialGradient>
             </defs>
-            <circle
-                className={classNames}
-                r={radius}
-                cx={cx}
-                cy={cy}
-                fill={`url(#${gradientId})`}
-                onMouseEnter={() => setInteractionData({
-                    xPos: xScale(data.Value),
-                    yPos: yScale(gdpData!.Value),
-                    gdp: gdpData!.Value,
-                    color,
-                    ...data
-                })}
-                onMouseLeave={() => setInteractionData(null)}
-            />
+            <TooltipProvider>
+                <Tooltip delayDuration={300} >
+                    <TooltipTrigger asChild>
+                        <circle
+                            className={classNames}
+                            r={radius}
+                            cx={cx}
+                            cy={cy}
+                            fill={`url(#${gradientId})`}
+                            onMouseEnter={() => setInteractionData({
+                                'Country Name': data["Country Name"],
+                                'Group': 'Group A',
+                            })}
+                            onMouseLeave={() => setInteractionData(null)}
+                        /></TooltipTrigger>
+                    <TooltipContent side="right" className="bg-background text-foreground">
+                        {/* <div>hi</div> */}
+                        <ScatterChartTooltip interactionData={{
+                            xPos: xScale(data.Value),
+                            yPos: yScale(gdpData!.Value),
+                            gdp: gdpData!.Value,
+                            color,
+                            ...data
+                        }} />
+                    </TooltipContent>
+                </Tooltip>
+            </TooltipProvider>
+
+
         </Fragment>
     );
 }

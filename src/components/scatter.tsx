@@ -8,7 +8,6 @@ import Arrows from "./Arrows";
 import { AxisBottom } from "./AxisBottom";
 import { AxisLeft } from "./AxisLeft";
 import Circles from "./Circles";
-import { Tooltip } from "./Tooltip";
 
 type ScatterplotProps = {
     width: number;
@@ -75,7 +74,6 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                         marginTop: MARGIN.top,
                     }}
                 >
-                    <Tooltip />
                 </div>
             </div>
 
