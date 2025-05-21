@@ -17,7 +17,7 @@ export default function CountryList() {
             <div className="flex items-center space-x-2">
                 <Checkbox
                     id={`selectall-checkbox`}
-                    disabled={filteredData.filter((item) => !item.is_active).length > 0 || filteredDataGDP.filter((item) => !item.is_active).length > 0}
+                    // disabled={filteredData.filter((item) => !item.is_active).length > 0 || filteredDataGDP.filter((item) => !item.is_active).length > 0}
                     checked={selectedCountries.length === countries.length && !filteredData.filter((item) => !item.is_active).length && !filteredDataGDP.filter((item) => !item.is_active).length}
                     onCheckedChange={(checked) => {
                         return checked
@@ -46,7 +46,7 @@ export default function CountryList() {
                             <div className="flex items-center space-x-2">
                                 <Checkbox
                                     id={`${item}-checkbox`}
-                                    disabled={!isActive || !isActiveGDP}
+                                    // disabled={!isActive || !isActiveGDP}
                                     checked={selectedCountries.includes(item) && isActive && isActiveGDP}
                                     onCheckedChange={(checked) => {
                                         return checked
