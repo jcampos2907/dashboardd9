@@ -110,35 +110,48 @@ export default function Circle(
                     <stop offset="1" stop-color={darkerColor} />
                 </radialGradient>
             </defs>
-            <TooltipProvider>
-                <Tooltip delayDuration={300} >
-                    <TooltipTrigger asChild>
-                        <circle
-                            className={classNames}
-                            r={radius}
-                            cx={cx}
-                            cy={cy}
-                            fill={`url(#${gradientId})`}
-                            onMouseEnter={() => setInteractionData({
-                                'Country Name': data["Country Name"],
-                                'Group': 'Group A',
-                            })}
-                            onMouseLeave={() => setInteractionData(null)}
-                        /></TooltipTrigger>
-                    <TooltipContent side="right" className="bg-background text-foreground">
-                        {/* <div>hi</div> */}
-                        <ScatterChartTooltip interactionData={{
-                            xPos: xScale(data.Value),
-                            yPos: yScale(gdpData!.Value),
-                            gdp: gdpData!.Value,
-                            color,
-                            ...data
-                        }} />
-                    </TooltipContent>
-                </Tooltip>
-            </TooltipProvider>
-
-
+            {yearDiff === 0 ?
+                <TooltipProvider>
+                    <Tooltip delayDuration={300} >
+                        <TooltipTrigger asChild>
+                            <circle
+                                className={classNames}
+                                r={radius}
+                                cx={cx}
+                                cy={cy}
+                                fill={`url(#${gradientId})`}
+                                onMouseEnter={() => setInteractionData({
+                                    'Country Name': data["Country Name"],
+                                    'Group': 'Group A',
+                                })}
+                                onMouseLeave={() => setInteractionData(null)}
+                            /></TooltipTrigger>
+                        <TooltipContent side="right" className="bg-background text-foreground">
+                            {/* <div>hi</div> */}
+                            <ScatterChartTooltip interactionData={{
+                                xPos: xScale(data.Value),
+                                yPos: yScale(gdpData!.Value),
+                                gdp: gdpData!.Value,
+                                color,
+                                ...data
+                            }} />
+                        </TooltipContent>
+                    </Tooltip>
+                </TooltipProvider>
+                :
+                <circle
+                    className={classNames}
+                    r={radius}
+                    cx={cx}
+                    cy={cy}
+                    fill={`url(#${gradientId})`}
+                    onMouseEnter={() => setInteractionData({
+                        'Country Name': data["Country Name"],
+                        'Group': 'Group A',
+                    })}
+                    onMouseLeave={() => setInteractionData(null)}
+                />
+            }
         </Fragment>
     );
 }

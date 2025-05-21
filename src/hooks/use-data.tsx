@@ -22,7 +22,11 @@ export function useData() {
             }
 
             if (isIndicator) {
-                acc[year].filteredData.push({ ...item, 'is_active': selectedCountries.includes(item["Country Name"]) && item.Value >= indicatorRange[0] && item.Value <= indicatorRange[1] });
+                if (indicatorRange.length === 0) {
+                    acc[year].filteredData.push({ ...item, 'is_active': selectedCountries.includes(item["Country Name"]) });
+                } else {
+                    acc[year].filteredData.push({ ...item, 'is_active': selectedCountries.includes(item["Country Name"]) && item.Value >= indicatorRange[0] && item.Value <= indicatorRange[1] });
+                }
             }
 
             if (isGDP) {

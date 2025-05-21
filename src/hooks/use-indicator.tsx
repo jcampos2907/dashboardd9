@@ -23,6 +23,20 @@ export function useIndicator() {
         // Store in cookie for SSR...
         setCookie('indicator', indicator);
 
+        // const filteredData = useMemo(() => {
+        //     return Object.values(dataPerYear)
+        //         .flatMap(entry => entry.filteredData ?? [])
+        //         .filter(item => item.Indicator === indicator)
+        // }, [dataPerYear, indicator])
+        // const [minVal, maxVal] = useMemo(() => {
+        //     const vals = filteredData.map(item => Number(item.Value)).filter(val => !isNaN(val))
+        //     return [Math.min(...vals), Math.max(...vals)]
+        // }, [filteredData, indicator])
+        // const newValues = [minVal, maxVal]
+
+        // setValues(newValues)
+
+
         // applyTheme(mode);
     }, []);
 
