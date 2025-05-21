@@ -3,7 +3,8 @@ import type { data as dataType } from "@/data";
 import { useData } from "@/hooks/use-data";
 import useStore from "@/hooks/useStore";
 import { cn } from "@/lib/utils";
-import { useEffect, useState } from "react";
+import { color as d3color } from "d3-color";
+import { Fragment, useEffect, useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
 
 export default function Circle(
@@ -72,35 +73,57 @@ export default function Circle(
         !interactionData && selectedYear === Number(year) ? 'opacity-100 stroke-white' : 'stroke-white'
     );
 
-    // const maxOpacity = 1;
-    // const minOpacity = 0.1;
-    // const yearDifference = selectedYear - Number(year);
-    // const dynamicOpacity = Math.max(
-    //     minOpacity,
-    //     maxOpacity - yearDifference * 0.1 // Reduce opacity by 0.1 for each year difference
-    // );
+    const baseColor = color; // e.g., "#D74B4B"
+    const darkerColor = d3color(baseColor)?.darker(1.2).formatHex(); // Slightly darker
+    const radius = Number(year) === selectedYear ? CIRCLE_RADIUS : CIRCLE_RADIUS / 2;
+
+    const gradientId = `radial-${data["Country Name"].replace(/\s+/g, '-')}-${year}`;
+
     return (
-        <circle
-            className={classNames}
-            r={Number(year) === selectedYear ? CIRCLE_RADIUS : CIRCLE_RADIUS / 2} // Animated radius
-            cx={cx} // Animated position
-            cy={cy} // Animated position
-            fill={color}
-            // style={{
-            //     opacity: dynamicOpacity, // Directly set dynamic opacity
-            // }}
-            onMouseEnter={() => // Each time the circle is hovered hover...
-            {
-                setInteractionData({ // ... update the interactionData state with the circle information
+        <Fragment>
+            {/* Inject a gradient keyed to this circle */}
+            {/* <defs>
+                <radialGradient
+                    id={gradientId}
+                    cx={cx}
+                    cy={cy}
+                    r={radius}
+                    gradientUnits="userSpaceOnUse"
+                >
+                    <stop offset="0.153402" stopColor={color} />
+                    <stop offset="0.580475" stopColor={color} />
+                    <stop offset="100%" stopColor={darkerColor} />
+                </radialGradient>
+            </defs> */}
+
+            <defs>
+
+                <radialGradient id={gradientId}
+                    cx={cx + radius}
+                    cy={cy - radius}
+                    r={radius * 2.5}
+                    gradientUnits="userSpaceOnUse" >
+                    <stop offset="0.153402" stop-color={color} />
+                    <stop offset="0.580475" stop-color={color} />
+                    <stop offset="1" stop-color={darkerColor} />
+                </radialGradient>
+            </defs>
+
+            <circle
+                className={classNames}
+                r={radius}
+                cx={cx}
+                cy={cy}
+                fill={`url(#${gradientId})`}
+                onMouseEnter={() => setInteractionData({
                     xPos: xScale(data.Value),
-                    yPos: yScale(gdpData?.['Value'] ?? 0),
-                    gdp: gdpData?.["Value"] ?? 0,
+                    yPos: yScale(gdpData!.Value),
+                    gdp: gdpData!.Value,
                     color,
                     ...data
-                })
-            }
-            }
-            onMouseLeave={() => setInteractionData(null)} // When the user leaves the circle
-        />
+                })}
+                onMouseLeave={() => setInteractionData(null)}
+            />
+        </Fragment>
     );
 }

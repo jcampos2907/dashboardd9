@@ -1,54 +1,49 @@
-// import { useYear } from "@/hooks/use-year";
-// import { Slider } from "./ui/slider";
-
-// export default function YearSelector() {
-//     const { year, updateYear } = useYear();
-//     // const [indicator, setIndicator] = useState("Women in Parliament (%)");
-
-//     return (
-//         <Slider value={[year]} defaultValue={[year]} min={2012} max={2022} step={1} onValueChange={(e) => updateYear(e[0])} />
-//     )
-// }
-
 import { Slider } from "@/components/ui/slider";
 import { useYear } from "@/hooks/use-year";
 import React from "react";
-
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const YearSelector: React.FC = () => {
-    const min = 2012
-    const max = 2022
-    const step = 1
-    // const onChange = (value: number) => {
-    // console.log("Selected Year:", value);
-    // }
-    // const [value, setValue] = useState(min);
-
-    // const handleChange = (newValue: number[]) => {
-    //     setValue(newValue[0]);
-    //     onChange(newValue[0]);
-    // };
+    const min = 2012;
+    const max = 2022;
+    const step = 1;
 
     const { year, updateYear } = useYear();
 
     const generateMarkers = () => {
-        const markers = [];
-        for (let i = min; i <= max; i += step) {
-            markers.push(<div key={i} className="text-xs text-muted-foreground">{i}</div>);
-        }
-        return markers;
+        const total = (max - min) / step;
+        return Array.from({ length: total + 1 }, (_, i) => {
+            const value = min + i * step;
+            return (
+                <div key={value} className="text-xs text-muted-foreground">
+                    {value}
+                </div>
+            );
+        });
     };
 
     return (
-        <div className="flex flex-col items-center space-y-4 w-full">
-            <div className="w-full relative">
-                <Slider value={[year]} defaultValue={[year]} min={2012} max={2022} step={1} onValueChange={(e) => updateYear(e[0])} />
-
-                <div className="absolute inset-x-0 top-full flex justify-between mt-2">
-                    {generateMarkers()}
+        <Card className="w-full p-4">
+            <CardHeader>
+                <CardTitle>Años</CardTitle>
+            </CardHeader>
+            {/* add pb-10 to give room for absolutely positioned markers */}
+            <CardContent className="flex flex-col space-y-4 w-full pb-10">
+                <div className="w-full relative">
+                    <Slider
+                        value={[year]}
+                        min={min}
+                        max={max}
+                        step={step}
+                        onValueChange={(e) => updateYear(e[0])}
+                    />
+                    {/* absolutely positioned marker row */}
+                    <div className="absolute inset-x-0 top-full mt-2 flex justify-between">
+                        {generateMarkers()}
+                    </div>
                 </div>
-            </div>
-        </div>
+            </CardContent>
+        </Card>
     );
 };
 

@@ -8,7 +8,6 @@ import Arrows from "./Arrows";
 import { AxisBottom } from "./AxisBottom";
 import { AxisLeft } from "./AxisLeft";
 import Circles from "./Circles";
-import SweepLines from "./SweepLines";
 import { Tooltip } from "./Tooltip";
 
 type ScatterplotProps = {
@@ -37,24 +36,6 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
             yScale
         );
     }, [yScale, xScale]);
-
-    // const allArrrows = currentFilteredData.map((dataItem, i) => {
-    //     const gdpValue = currentGdpData.find((item) => item["Country Name"] === dataItem["Country Name"] && item.Year === dataItem.Year);
-    //     const lastYearDataItem = lastYearFilteredData.find((item) => item["Country Name"] === dataItem["Country Name"] && item.Year === (dataItem.Year - 1));
-    //     const lastYearGdpValue = lastYearGdpData.find((item) => item["Country Name"] === dataItem["Country Name"] && item.Year === (dataItem.Year - 1));
-    //     const countryColor = CountryColors[dataItem["Country Name"]]
-
-    //     if (lastYearDataItem && gdpValue) {
-    //         return (
-    //             <D3Arrow key={i + 'key_arrow'} x1={xScale(lastYearDataItem.Value)} x2={xScale(dataItem.Value)} y1={yScale(lastYearGdpValue?.["Value"] ?? 0)} y2={yScale(gdpValue?.["Value"] ?? 0)} color={countryColor} radius={CIRCLE_RADIUS} country={lastYearDataItem["Country Name"]} />
-    //         )
-    //     }
-    //     else {
-
-    //         return null
-    //     }
-    // })
-
     return (
         <div className="flex flex-col items-center justify-center">
             <div className="relative">
@@ -76,7 +57,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                                 label={indicator}
                             />
                         </g>
-                        <SweepLines />
+                        {/* <SweepLines /> */}
                         <Arrows />
 
                         <Circles />

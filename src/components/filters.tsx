@@ -1,11 +1,19 @@
 import CountryList from "./countryList";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 export default function Filters() {
 
     return (
 
-        <div className="w-auto">
-            <CountryList />
-        </div>
+        <Card>
+            <CardHeader>
+                <CardTitle>
+                    Filtros
+                </CardTitle>
+            </CardHeader>
+            <CardContent>
+                <CountryList />
+            </CardContent>
+        </Card>
     )
 }
