@@ -75,7 +75,14 @@ export default function Circle(
 
     const baseColor = color; // e.g., "#D74B4B"
     const darkerColor = d3color(baseColor)?.darker(1.2).formatHex(); // Slightly darker
-    const radius = Number(year) === selectedYear ? CIRCLE_RADIUS : CIRCLE_RADIUS / 2;
+    const yearDiff = Math.abs(Number(year) - selectedYear);
+    const maxYearDiff = 10; // Adjust this value based on how many years your dataset spans
+    const minRadius = CIRCLE_RADIUS * 0.3; // Minimum radius for distant years
+
+    // Scale radius based on proximity to selected year
+    const radius = yearDiff === 0
+        ? CIRCLE_RADIUS
+        : Math.max(minRadius, CIRCLE_RADIUS * (1 - yearDiff / maxYearDiff));
 
     const gradientId = `radial-${data["Country Name"].replace(/\s+/g, '-')}-${year}`;
 
@@ -85,21 +92,6 @@ export default function Circle(
 
     return (
         <Fragment>
-            {/* Inject a gradient keyed to this circle */}
-            {/* <defs>
-                <radialGradient
-                    id={gradientId}
-                    cx={cx}
-                    cy={cy}
-                    r={radius}
-                    gradientUnits="userSpaceOnUse"
-                >
-                    <stop offset="0.153402" stopColor={color} />
-                    <stop offset="0.580475" stopColor={color} />
-                    <stop offset="100%" stopColor={darkerColor} />
-                </radialGradient>
-            </defs> */}
-
             <defs>
 
                 <radialGradient id={gradientId}
@@ -112,7 +104,6 @@ export default function Circle(
                     <stop offset="1" stop-color={darkerColor} />
                 </radialGradient>
             </defs>
-
             <circle
                 className={classNames}
                 r={radius}
