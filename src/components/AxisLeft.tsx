@@ -15,7 +15,7 @@ export const AxisLeft = ({
     yScale,
     pixelsPerTick,
     width,
-    label = 'GDP per capita (normalized)',
+    label = 'PIB per cápita ($)',
     margin = 60
 }: AxisLeftProps) => {
     const range = yScale.range();

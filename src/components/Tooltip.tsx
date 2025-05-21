@@ -36,8 +36,8 @@ export const Tooltip = () => {
             <div className='border-l-4 pl-2 pt-0 mb-2' style={{ borderColor: color }}>
                 <b className='text-md'>{name}</b>
             </div>
-            <div className='flex justify-between text-xs px-1'>
-                <span>GDP per Capita</span>
+            <div className='flex flex-row gap-8 mb-2 text-xs px-1 font-mono'>
+                <span>PIB per cápita</span>
                 <b>
                     {
                         new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(
@@ -47,11 +47,11 @@ export const Tooltip = () => {
                 </b>
             </div>
             <Separator className="w-full my-2" />
-            <div className='flex justify-between mb-2 text-xs px-1'>
+            <div className='flex flex-row gap-8 mb-2 text-xs px-1 font-mono'>
                 <span>
                     {indicator}
                 </span>
-                <b>{Math.round(x * 100) / 100}</b>
+                <b>{Math.round(x * 100) / 100}%</b>
             </div>
         </div>
     );

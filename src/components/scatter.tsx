@@ -46,7 +46,7 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
                         transform={`translate(${[MARGIN.left, MARGIN.top].join(',')})`}
                     >
                         {/* Y axis */}
-                        <AxisLeft yScale={yScale} pixelsPerTick={40} width={boundsWidth} label="GDP per Capita (normalized)" />
+                        <AxisLeft yScale={yScale} pixelsPerTick={40} width={boundsWidth} label="PIB per cápita ($)" />
 
                         {/* X axis, use an additional translation to appear at the bottom */}
                         <g transform={`translate(0, ${boundsHeight})`}>
