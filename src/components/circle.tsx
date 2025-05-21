@@ -43,17 +43,6 @@ export default function Circle(
         }, 300);
     }, [finalCx, finalCy, yScale, xScale]);
 
-    // Animate radius on year change
-    // useEffect(() => {
-    //     if (Number(year) === selectedYear) {
-    //         setTimeout(() => {
-    //             setRadius(CIRCLE_RADIUS);
-    //         }, 300);
-    //     } else {
-    //         setRadius(CIRCLE_RADIUS / 2);
-    //     }
-    // }, [selectedYear, year]);
-
     if (!xScale || !yScale) {
         return null;
     }
@@ -69,7 +58,7 @@ export default function Circle(
     const classNames = cn(
         'transition-all duration-700 ease-in-out transform', // Tailwind animation
         ' z-20 current_year countries',
-        Number(year) === selectedYear ? 'stroke-2 ' : 'stroke-0.5 opacity-20',
+        Number(year) === selectedYear ? 'stroke-2' : 'stroke-0.5 opacity-20',
         interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : `opacity-15 z-0`,
         'hover:cursor-pointer hover:transition-opacity',
         !interactionData && selectedYear === Number(year) ? 'opacity-100 stroke-white' :
@@ -78,7 +67,6 @@ export default function Circle(
                     (!interactionData && (selectedYear - Number(year) == 3)) ? 'opacity-40 stroke-white' : 'stroke-white',
 
     );
-
     const baseColor = color; // e.g., "#D74B4B"
     const darkerColor = d3color(baseColor)?.darker(1.2).formatHex(); // Slightly darker
     const yearDiff = Math.abs(Number(year) - selectedYear);

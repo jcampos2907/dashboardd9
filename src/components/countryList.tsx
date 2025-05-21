@@ -45,6 +45,7 @@ export default function CountryList() {
                         return (
                             <div className="flex items-center space-x-2">
                                 <Checkbox
+                                    key={`${item}-checkbox_key`}
                                     id={`${item}-checkbox`}
                                     // disabled={!isActive || !isActiveGDP}
                                     checked={selectedCountries.includes(item) && isActive && isActiveGDP}
