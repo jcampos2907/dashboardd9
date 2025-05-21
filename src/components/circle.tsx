@@ -9,7 +9,7 @@ import { useDebouncedCallback } from "use-debounce";
 
 export default function Circle(
     { year, color, data, gdpData }
-        : { year: string, color: string, data: typeof dataType[number] & { 'is_active': boolean }, gdpData: typeof dataType[number] | undefined }) {
+        : { year: string, color: string, data: typeof dataType[number] & { 'is_active': boolean }, gdpData: typeof dataType[number] & { 'is_active': boolean } | undefined }) {
 
     const dataPerYear = useData();
     const previousYearFilteredData = dataPerYear[(Number(year) - 1).toString()]?.filteredData.find((item) => item["Country Name"] === data["Country Name"]);
@@ -80,6 +80,8 @@ export default function Circle(
     const gradientId = `radial-${data["Country Name"].replace(/\s+/g, '-')}-${year}`;
 
     if (data.is_active === false) { return null; }
+
+    if (gdpData.is_active === false) { return null; }
 
     return (
         <Fragment>

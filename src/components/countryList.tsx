@@ -25,7 +25,7 @@ export default function CountryList() {
                     htmlFor={`selectall-checkbox`}
                     className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 >
-                    Paises
+                    Todos los paises
                 </label>
             </div>
             {/* <Input placeholder="Buscar pais" value={searchValue} onChange={(e) => setSearchValue(e.target.value)} /> */}

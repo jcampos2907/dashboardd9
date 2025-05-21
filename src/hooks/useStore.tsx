@@ -16,6 +16,10 @@ type Store = {
     dimensions: { width: number; height: number };
     boundsHeight: number;
     boundsWidth: number;
+    indicatorRange: number[];
+    gdpRange: number[];
+    setGdpRange: (gdpRange: number[]) => void;
+    setIndicatorRange: (indicatorRange: number[]) => void;
     selectedCountries: string[];
     setSelectedCountries: (selectedCountries: string[]) => void;
     setBoundsHeight: (height: number) => void;
@@ -44,6 +48,10 @@ const useStore = create<Store>((set) => ({
     interactionData: null,
     dimensions: { width: 0, height: 0 },
     selectedCountries: Array.from(new Set(data.map((item) => item["Country Name"]))),
+    indicatorRange: [0, 100],
+    gdpRange: [Math.min(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Value"])) - 0.5, Math.max(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Value"])) + 0.5],
+    setGdpRange: (gdpRange: number[]) => set({ gdpRange }),
+    setIndicatorRange: (indicatorRange: number[]) => set({ indicatorRange }),
     setSelectedCountries: (selectedCountries: string[]) => set({ selectedCountries }),
     setDimensions: (dimensions: { width: number, height: number }) => {
         const boundsHeight = dimensions.height - MARGIN.top - MARGIN.bottom;

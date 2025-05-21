@@ -36,6 +36,9 @@ export default function Arrows() {
                                 if (dataItem.is_active == false) {
                                     return null
                                 }
+                                if (gdpValue?.is_active == false) {
+                                    return null
+                                }
                                 return (
                                     <D3Arrow key={i + 'key_arrow'} x1={xScale(prevYearData.Value)} x2={xScale(dataItem.Value)} y1={yScale(prevYearGdpValue["Value"] ?? 0)} y2={yScale(gdpValue?.["Value"] ?? 0)} color={color} year={year} country={country} />
                                 );
