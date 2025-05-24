@@ -37,6 +37,15 @@ export function useData() {
             return acc;
         }, {} as Record<string, { filteredData: Array<(typeof data)[number] & { 'is_active': boolean }>; filteredDataGDP: Array<(typeof data)[number] & { 'is_active': boolean }> }>);
     }, [data, indicator, selectedCountries, indicatorRange, gdpRange]);
+    const filteredData = useMemo(() => {
+        return Object.values(dataPerYear)
+            .flatMap(entry => entry.filteredData ?? [])
+            .filter(item => item.Indicator === indicator)
+    }, [dataPerYear, indicator])
+    const [minVal, maxVal] = useMemo(() => {
+        const vals = filteredData.map(item => Number(item.Value)).filter(val => !isNaN(val))
+        return [Math.min(...vals), Math.max(...vals)]
+    }, [filteredData, indicator])
 
-    return dataPerYear
+    return [dataPerYear, minVal, maxVal] as const;
 }

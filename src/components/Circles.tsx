@@ -5,7 +5,7 @@ import Circle from "./circle";
 
 export default function Circles() {
     const selectedYear = useStore((state) => state.year)
-    const dataPerYear = useData()
+    const [dataPerYear] = useData()
     const CountryColors = useCountryColors(dataPerYear['2014'].filteredData.map((d) => d["Country Name"]));
 
     return (

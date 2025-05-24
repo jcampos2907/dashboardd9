@@ -44,16 +44,12 @@ function binData(values: number[], binSize: number) {
 export default function FilterSliderIndicator() {
     // const year = useStore((state) => state.year)
     const indicator = useStore((state) => state.indicator)
-    const dataPerYear = useData()
+    const [dataPerYear, minVal, maxVal] = useData()
     const filteredData = useMemo(() => {
         return Object.values(dataPerYear)
             .flatMap(entry => entry.filteredData ?? [])
             .filter(item => item.Indicator === indicator)
     }, [dataPerYear, indicator])
-    const [minVal, maxVal] = useMemo(() => {
-        const vals = filteredData.map(item => Number(item.Value)).filter(val => !isNaN(val))
-        return [Math.min(...vals), Math.max(...vals)]
-    }, [filteredData, indicator])
     const values = useStore((state) => state.indicatorRange)
     const setValues = useStore((state) => state.setIndicatorRange)
     const histogramData = useMemo(() => {

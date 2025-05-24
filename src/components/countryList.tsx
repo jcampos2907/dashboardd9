@@ -8,10 +8,11 @@ export default function CountryList() {
     const countries = Array.from(new Set(data.map((item) => item["Country Name"])))
     const selectedCountries = useStore((state) => state.selectedCountries)
     const setSelectedCountries = useStore((state) => state.setSelectedCountries)
-    const dataPerYear = useData();
+    const [dataPerYear] = useData();
     const yearRange = useStore((state) => state.year)
     const filteredData = dataPerYear[yearRange[1]]?.filteredData ?? []
     const filteredDataGDP = dataPerYear[yearRange[1]]?.filteredDataGDP ?? []
+
     return (
         <div className="flex flex-col gap-2">
             <div className="flex items-center space-x-2">

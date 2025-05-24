@@ -44,8 +44,8 @@ function binData(values: number[], binSize: number) {
 export default function FilterSliderGDP() {
     const year = useStore((state) => state.year)
     const [isFocused, setIsFocused] = useState(false)
-    const dataPerYear = useData()
-    const { filteredDataGDP } = dataPerYear[year.toString()] ?? { filteredDataGDP: [] }
+    const [dataPerYear] = useData()
+    const { filteredDataGDP } = dataPerYear[year[1].toString()] ?? { filteredDataGDP: [] }
     const [minVal, maxVal] = useMemo(() => {
         const vals = filteredDataGDP.map(item => Number(item.Value)).filter(val => !isNaN(val))
         return [Math.min(...vals), Math.max(...vals)]

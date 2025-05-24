@@ -13,7 +13,7 @@ export default function Circle(
     { year, color, data, gdpData }
         : { year: string, color: string, data: typeof dataType[number] & { 'is_active': boolean }, gdpData: typeof dataType[number] & { 'is_active': boolean } | undefined }) {
 
-    const dataPerYear = useData();
+    const [dataPerYear] = useData();
     const [open, setOpen] = useState(false);
     const previousYearFilteredData = dataPerYear[(Number(year) - 1).toString()]?.filteredData.find((item) => item["Country Name"] === data["Country Name"]);
     const previousYearGdpData = dataPerYear[(Number(year) - 1).toString()]?.filteredDataGDP.find((item) => item["Country Name"] === data["Country Name"]);

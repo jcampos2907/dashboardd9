@@ -10,12 +10,10 @@ export default function GroupCheckboxes() {
     const setSelectedCountries = useStore((state) => state.setSelectedCountries)
 
     const groupA = useMemo(() => {
-        return data.filter((item) => item.Group === 'A').map((item) => item['Country Name'])
-
+        return Array.from(new Set(data.filter((item) => item.Group === 'A').map((item) => item['Country Name'])))
     }, [])
     const groupB = useMemo(() => {
-        return data.filter((item) => item.Group === 'B').map((item) => item['Country Name'])
-
+        return Array.from(new Set(data.filter((item) => item.Group === 'B').map((item) => item['Country Name'])))
     }, [])
 
     const isGroupASelected = useMemo(() => {

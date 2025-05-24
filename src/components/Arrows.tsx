@@ -5,7 +5,7 @@ import D3Arrow from "./Arrow";
 
 export default function Arrows() {
     const selectedYear = useStore((state) => state.year)
-    const dataPerYear = useData()
+    const [dataPerYear] = useData()
     const CountryColors = useCountryColors(dataPerYear['2014'].filteredData.map((d) => d["Country Name"]));
     const yScale = useStore((state) => state.yScale)();
     const xScale = useStore((state) => state.xScale)();

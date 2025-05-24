@@ -30,7 +30,7 @@ type Store = {
     updateData: (data: DataRow[]) => void;
     updateIndicator: (indicator: string) => void;
     updateYear: (year: number[]) => void;
-    clearFilters: () => void;
+    clearFilters: (indicatorRange: number[]) => void;
 };
 
 // Zustand Store Definition
@@ -58,8 +58,8 @@ const useStore = create<Store>((set) => ({
         const boundsWidth = dimensions.width - MARGIN.left - MARGIN.right;
         set({ boundsHeight, boundsWidth, dimensions });
     },
-    clearFilters: () => {
-        set({ year: [2012, 2022], selectedCountries: Array.from(new Set(data.map((item) => item["Country Name"]))) });
+    clearFilters: (indicatorRange: number[]) => {
+        set({ year: [2012, 2022], selectedCountries: Array.from(new Set(data.map((item) => item["Country Name"]))), gdpRange: [Math.min(...data.filter(item => item.Indicator == 'PIB ($)').map(v => v["Value"])) - 0.5, Math.max(...data.filter(item => item.Indicator == 'PIB ($)').map(v => v["Value"])) + 0.5], indicatorRange });
     },
     setXScale: (xScaleFn: () => ScaleLinear<number, number, never>) => set({ xScale: xScaleFn }),
     setYScale: (yScaleFn: () => ScaleLinear<number, number, never>) => set({ yScale: yScaleFn }),
