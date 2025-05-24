@@ -13,12 +13,7 @@ const hashCode = (str: string) => {
 };
 
 export const useCountryColors = (countries: string[]) => {
-    // Create a color scale with a consistent range of colors
-    // const colorScale = d3.scaleOrdinal<string, string>()
-    //     .domain(countries)
-    //     .range(d3.schemeTableau10); // Choose a consistent color scheme
 
-    // Memoize color assignment
     const countryColors = useMemo(() => {
         const uniqueCountries = Array.from(new Set(countries));
         const colorMap: Record<string, string> = {};

@@ -28,7 +28,14 @@ export function useYear() {
 
     useEffect(() => {
         const savedYear = localStorage.getItem('year') as string | null;
-        updateYear(JSON.parse(savedYear ?? '[2012,2012]') || [2012, 2012]);
+
+        try {
+            const parsedYear = savedYear ? JSON.parse(savedYear) : null;
+            const isValidArray = Array.isArray(parsedYear) && parsedYear.length === 2;
+            updateYear(isValidArray ? parsedYear : [2012, 2022]);
+        } catch (error) {
+            updateYear([2012, 2022]);
+        }
         // return () => mediaQuery()?.removeEventListener('change', handleSystemThemeChange);
     }, [updateYear]);
 
