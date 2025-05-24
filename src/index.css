@@ -55,7 +55,6 @@
 
 @theme inline {
   --font-sans: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-
   --font-serif: 'georgia';
   --font-mono: 'degular-mono';
   --radius-sm: calc(var(--radius) - 4px);

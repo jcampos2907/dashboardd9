@@ -15,7 +15,7 @@ export default function Filters() {
 
         <Card>
             <CardHeader>
-                <div className="flex flex-row items-center justify-between">
+                <div className="flex flex-row font-sans items-center justify-between">
                     <CardTitle>
                         Filtros
                     </CardTitle>
