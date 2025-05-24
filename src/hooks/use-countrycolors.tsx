@@ -1,3 +1,4 @@
+import { data } from '@/data';
 import * as d3 from 'd3';
 import { useMemo } from 'react';
 
@@ -7,25 +8,52 @@ const hashCode = (str: string) => {
     for (let i = 0; i < str.length; i++) {
         const char = str.charCodeAt(i);
         hash = (hash << 5) - hash + char;
-        hash |= 0; // Convert to 32bit integer
+        hash |= 0;
     }
     return hash;
 };
 
-export const useCountryColors = (countries: string[]) => {
+export const useCountryColors = () => {
+    const [countriesA, countriesB] = useMemo(() => {
+        const countriesA: string[] = [];
+        const countriesB: string[] = [];
 
-    const countryColors = useMemo(() => {
-        const uniqueCountries = Array.from(new Set(countries));
+        data.forEach(item => {
+            if (item.Group === 'A') {
+                countriesA.push(item["Country Name"]);
+            } else if (item.Group === 'B') {
+                countriesB.push(item["Country Name"]);
+            }
+        });
+
+        return [countriesA, countriesB];
+    }, [data]);
+
+    const countryColorsA = useMemo(() => {
+        const uniqueCountries = Array.from(new Set(countriesA));
         const colorMap: Record<string, string> = {};
+        const colorScale = d3.schemeSet2; // Color scale for Group A
 
         uniqueCountries.forEach(country => {
-            // Use the hash function for consistent color mapping
-            const index = Math.abs(hashCode(country)) % d3.schemeTableau10.length;
-            colorMap[country] = d3.schemeTableau10[index];
+            const index = Math.abs(hashCode(country)) % colorScale.length;
+            colorMap[country] = colorScale[index];
         });
 
         return colorMap;
-    }, [countries]);
+    }, [countriesA]);
 
-    return countryColors;
+    const countryColorsB = useMemo(() => {
+        const uniqueCountries = Array.from(new Set(countriesB));
+        const colorMap: Record<string, string> = {};
+        const colorScale = d3.schemeTableau10; // Color scale for Group B
+
+        uniqueCountries.forEach(country => {
+            const index = Math.abs(hashCode(country)) % colorScale.length;
+            colorMap[country] = colorScale[index];
+        });
+
+        return colorMap;
+    }, [countriesB]);
+
+    return { ...countryColorsA, ...countryColorsB };
 };
