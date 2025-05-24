@@ -14,7 +14,8 @@ export default function Circles() {
                 const data = dataPerYear[year]
                 const { filteredData, filteredDataGDP } = data
 
-                if (selectedYear < parseInt(year)) return null
+                if (parseInt(year) > selectedYear[1] || parseInt(year) < selectedYear[0]) return null
+
                 return (
                     <>
                         {

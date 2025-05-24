@@ -31,11 +31,11 @@ const YearSelector: React.FC = () => {
             <CardContent className="flex flex-col space-y-4 w-full pb-10">
                 <div className="w-full relative">
                     <Slider
-                        value={[year]}
+                        value={year}
                         min={min}
                         max={max}
                         step={step}
-                        onValueChange={(e) => updateYear(e[0])}
+                        onValueChange={(e) => updateYear(e)}
                     />
                     {/* absolutely positioned marker row */}
                     <div className="absolute inset-x-0 top-full mt-2 flex justify-between">

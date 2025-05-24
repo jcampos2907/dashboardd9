@@ -47,13 +47,12 @@ export const AxisBottom = ({
                         strokeWidth={0.5}
                     />
                     <text
-                        className="pointer-events-none select-none font-mono" // Non-selectable text
+                        className="pointer-events-none select-none font-mono text-muted" // Non-selectable text
                         key={value}
                         style={{
                             fontSize: "10px",
                             textAnchor: "middle",
                             transform: "translateY(20px)",
-                            fill: "#D2D7D3",
                             userSelect: "none", // Double insurance for non-selectable
                         }}
                     >
@@ -64,7 +63,7 @@ export const AxisBottom = ({
 
             {/* Axis label */}
             <text
-                className="pointer-events-none select-none font-mono text-sm text-black " // Non-selectable text
+                className="pointer-events-none select-none font-sans text-sm text-black " // Non-selectable text
                 x={range[0] + (range[1] - range[0]) / 2} // Centered
                 y={TICK_LENGTH + 30} // Positioned below the ticks
                 style={{

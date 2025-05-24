@@ -15,20 +15,20 @@ const setCookie = (name: string, value: string, days = 365) => {
 export function useYear() {
     const year = useStore((state) => state.year)
     const setYear = useStore((state) => state.updateYear)
-    const updateYear = useCallback((year: number) => {
+    const updateYear = useCallback((year: number[]) => {
         setYear(year);
         // Store in localStorage for client-side persistence...
-        localStorage.setItem('year', String(year));
+        localStorage.setItem('year', JSON.stringify(year));
 
         // Store in cookie for SSR...
-        setCookie('year', String(year));
+        setCookie('year', JSON.stringify(year));
 
         // applyTheme(mode);
     }, []);
 
     useEffect(() => {
         const savedYear = localStorage.getItem('year') as string | null;
-        updateYear(Number(savedYear) || 2012);
+        updateYear(JSON.parse(savedYear ?? '[2012,2012]') || [2012, 2012]);
         // return () => mediaQuery()?.removeEventListener('change', handleSystemThemeChange);
     }, [updateYear]);
 

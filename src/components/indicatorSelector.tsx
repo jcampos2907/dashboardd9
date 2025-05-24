@@ -4,16 +4,16 @@ import { Tabs, TabsList, TabsTrigger } from "./ui/tabs";
 
 export default function IndicatorSelector() {
     const { indicator, updateIndicator } = useIndicator();
-    // const [indicator, setIndicator] = useState("Women in Parliament (%)");
+    // const [indicator, setIndicator] = useState("Mujeres en el Parlamento (%)");
 
     return (
         <Tabs defaultValue={indicator} className="w-auto" onValueChange={updateIndicator} value={indicator}>
             <TabsList>
-                <TabsTrigger value='Women in Parliament (%)'>Women in Parliament (%)</TabsTrigger>
-                <TabsTrigger value="Women in Managerial Positions (%)">Women in Managerial Positions (%)</TabsTrigger>
+                <TabsTrigger value='Mujeres en el Parlamento (%)'>Mujeres en el Parlamento (%)</TabsTrigger>
+                <TabsTrigger value="Mujeres en puestos directivos (%)">Mujeres en puestos directivos (%)</TabsTrigger>
             </TabsList>
-            {/* <TabsContent value='Women in Parliament (%)'>Women in Parliament (%)</TabsContent>
-            <TabsContent value="Women in Managerial Positions (%)">Women in Managerial Positions (%)</TabsContent> */}
+            {/* <TabsContent value='Mujeres en el Parlamento (%)'>Mujeres en el Parlamento (%)</TabsContent>
+            <TabsContent value="Mujeres en puestos directivos (%)">Mujeres en puestos directivos (%)</TabsContent> */}
         </Tabs>
     )
 }

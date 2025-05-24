@@ -11,7 +11,7 @@ export function useData() {
     const dataPerYear = useMemo(() => {
         return data.reduce((acc, item) => {
             const year = item.Year;
-            const isGDP = item.Indicator === 'GDP ($)';
+            const isGDP = item.Indicator === 'PIB ($)';
             const isIndicator = item.Indicator === indicator;
 
             if (!acc[year]) {

@@ -42,7 +42,7 @@ export function useIndicator() {
 
     useEffect(() => {
         const savedIndicator = localStorage.getItem('indicator') as string | null;
-        updateIndicator(savedIndicator || 'Women in Parliament (%)');
+        updateIndicator(savedIndicator || 'Mujeres en el Parlamento (%)');
         // return () => mediaQuery()?.removeEventListener('change', handleSystemThemeChange);
     }, [updateIndicator]);
 

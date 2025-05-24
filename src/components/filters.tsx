@@ -1,22 +1,30 @@
 import useStore from "@/hooks/useStore";
+import { FilterXIcon } from "lucide-react";
 import CountryList from "./countryList";
 import FilterSliderGDP from "./filter-sliders-gdp";
 import FilterSliderIndicator from "./filter-sliders-indicator";
+import GroupCheckboxes from "./group-checkboxes";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
+import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Checkbox } from "./ui/checkbox";
 import { Separator } from "./ui/separator";
 
 export default function Filters() {
     const indicator = useStore((state) => state.indicator);
+    const clearFilters = useStore((state) => state.clearFilters);
 
     return (
 
         <Card>
             <CardHeader>
-                <CardTitle>
-                    Filtros
-                </CardTitle>
+                <div className="flex flex-row items-center justify-between">
+                    <CardTitle>
+                        Filtros
+                    </CardTitle>
+                    <Button variant="outline" size={"icon"} onClick={clearFilters}>
+                        <FilterXIcon />
+                    </Button>
+                </div>
             </CardHeader>
             <CardContent>
                 <Accordion type="single" collapsible defaultValue="item-1">
@@ -25,25 +33,7 @@ export default function Filters() {
                         <AccordionContent>
                             <CountryList />
                             <Separator className="w-full my-4" />
-                            <div className="flex items-center space-x-2">
-                                <Checkbox id="terms2" disabled />
-                                <label
-                                    htmlFor="terms2"
-                                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                                >
-                                    Grupo A
-                                </label>
-                            </div>
-                            <Separator className="w-full my-4" />
-                            <div className="flex items-center space-x-2">
-                                <Checkbox id="terms22" disabled />
-                                <label
-                                    htmlFor="terms22"
-                                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                                >
-                                    Grupo B
-                                </label>
-                            </div>
+                            <GroupCheckboxes />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">

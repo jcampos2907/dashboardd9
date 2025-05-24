@@ -49,12 +49,11 @@ export const AxisLeft = ({
                     />
                     <text
                         key={value}
-                        className="pointer-events-none select-none font-mono" // Non-selectable text
+                        className="pointer-events-none select-none font-mono text-muted" // Non-selectable text
                         style={{
                             fontSize: "10px",
                             textAnchor: "middle",
                             transform: "translateX(-20px)",
-                            fill: "#D2D7D3",
                             userSelect: "none", // Double insurance for non-selectable
                         }}
                     >
@@ -65,7 +64,7 @@ export const AxisLeft = ({
 
             {/* Axis label - Corrected Vertical */}
             <text
-                className="pointer-events-none select-none font-mono text-sm text-black" // Non-selectable text
+                className="pointer-events-none select-none font-sans text-sm text-black" // Non-selectable text
                 x={-(((range[0] - range[1]) / 2))} // Adjust distance from the axis
                 y={-(margin - TICK_LENGTH)} // Centered along the axis height
                 transform="rotate(-90)"

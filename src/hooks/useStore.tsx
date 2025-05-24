@@ -8,7 +8,7 @@ import { data } from "../data";
 type Store = {
     indicator: string;
     data: DataRow[];
-    year: number;
+    year: number[];
     interactionData: { 'Country Name': string, 'Group': string } | null;
     xScale: () => ScaleLinear<number, number, never> | null;
     yScale: () => ScaleLinear<number, number, never> | null;
@@ -29,14 +29,15 @@ type Store = {
     setInteractionData: (data: { 'Country Name': string, 'Group': string } | null) => void;
     updateData: (data: DataRow[]) => void;
     updateIndicator: (indicator: string) => void;
-    updateYear: (year: number) => void;
+    updateYear: (year: number[]) => void;
+    clearFilters: () => void;
 };
 
 // Zustand Store Definition
 const useStore = create<Store>((set) => ({
-    indicator: 'Women in Parliament (%)',
+    indicator: 'Mujeres en el Parlamento (%)',
     data: data,
-    year: 2022,
+    year: [2012, 2022],
     boundsWidth: 0,
     boundsHeight: 0,
     // Use a function that returns the scale
@@ -48,7 +49,7 @@ const useStore = create<Store>((set) => ({
     dimensions: { width: 0, height: 0 },
     selectedCountries: Array.from(new Set(data.map((item) => item["Country Name"]))),
     indicatorRange: [],
-    gdpRange: [Math.min(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Value"])) - 0.5, Math.max(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Value"])) + 0.5],
+    gdpRange: [Math.min(...data.filter(item => item.Indicator == 'PIB ($)').map(v => v["Value"])) - 0.5, Math.max(...data.filter(item => item.Indicator == 'PIB ($)').map(v => v["Value"])) + 0.5],
     setGdpRange: (gdpRange: number[]) => set({ gdpRange }),
     setIndicatorRange: (indicatorRange: number[]) => set({ indicatorRange }),
     setSelectedCountries: (selectedCountries: string[]) => set({ selectedCountries }),
@@ -57,6 +58,9 @@ const useStore = create<Store>((set) => ({
         const boundsWidth = dimensions.width - MARGIN.left - MARGIN.right;
         set({ boundsHeight, boundsWidth, dimensions });
     },
+    clearFilters: () => {
+        set({ year: [2012, 2022], selectedCountries: Array.from(new Set(data.map((item) => item["Country Name"]))) });
+    },
     setXScale: (xScaleFn: () => ScaleLinear<number, number, never>) => set({ xScale: xScaleFn }),
     setYScale: (yScaleFn: () => ScaleLinear<number, number, never>) => set({ yScale: yScaleFn }),
     setInteractionData: (interactionData: { 'Country Name': string, 'Group': string } | null) => {
@@ -64,7 +68,7 @@ const useStore = create<Store>((set) => ({
         set({ interactionData });
     },
     updateIndicator: (indicator: string) => set({ indicator }),
-    updateYear: (year: number) => set({ year }),
+    updateYear: (year: number[]) => set({ year }),
     updateData: (data: DataRow[]) => set({ data }),
 }));
 

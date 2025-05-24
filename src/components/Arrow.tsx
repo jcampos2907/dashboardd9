@@ -19,7 +19,7 @@ interface ArrowProps {
 const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickness = 1, country, year }) => {
     const selectedYear = useStore((state) => state.year);
     const interactionData = useStore((state) => state.interactionData);
-    const yearDiff = Math.abs(Number(year) - selectedYear);
+    const yearDiff = Math.abs(Number(year) - selectedYear[1]);
     const maxYearDiff = 10; // Adjust this value based on how many years your dataset spans
     const minRadius = CIRCLE_RADIUS * 0.3; // Minimum radius for distant years
 
@@ -32,7 +32,7 @@ const D3Arrow: React.FC<ArrowProps> = ({ x1, y1, x2, y2, color = '#000', thickne
     const classNames = cn(
         'absolute top-0 left-0 w-full h-full pointer-events-none',
         'transition-all duration-700 ease-in-out transform', 'w-screen h-screen arrow z-10', `stroke-[${color}]`,
-        !interactionData && Number(year) === selectedYear ? 'opacity-90' : 'opacity-10',
+        !interactionData && Number(year) === selectedYear[1] ? 'opacity-90' : 'opacity-10',
         interactionData && interactionData?.['Country Name'] === country ? 'opacity-90' : '')
     const angle = Math.atan2(y2 - y1, x2 - x1);
     const adjustedX2 = x2 - Math.cos(angle) * (radius + 2);

@@ -14,8 +14,10 @@ export default function Circle(
         : { year: string, color: string, data: typeof dataType[number] & { 'is_active': boolean }, gdpData: typeof dataType[number] & { 'is_active': boolean } | undefined }) {
 
     const dataPerYear = useData();
+    const [open, setOpen] = useState(false);
     const previousYearFilteredData = dataPerYear[(Number(year) - 1).toString()]?.filteredData.find((item) => item["Country Name"] === data["Country Name"]);
     const previousYearGdpData = dataPerYear[(Number(year) - 1).toString()]?.filteredDataGDP.find((item) => item["Country Name"] === data["Country Name"]);
+    const selectedCountries = useStore((state) => state.selectedCountries);
 
     const selectedYear = useStore((state) => state.year);
     const setInteractionData = useDebouncedCallback(useStore((state) => state.setInteractionData), 300);
@@ -58,18 +60,18 @@ export default function Circle(
     const classNames = cn(
         'transition-all duration-700 ease-in-out transform', // Tailwind animation
         '  current_year countries',
-        Number(year) === selectedYear ? 'stroke-2 z-20' : 'stroke-0.5 opacity-20 z-0',
+        Number(year) === selectedYear[1] ? 'stroke-2 z-20' : 'stroke-0.5 opacity-20 z-0',
         interactionData?.["Country Name"] == data["Country Name"] ? "opacity-100 z-50" : `opacity-15 z-0`,
         'hover:cursor-pointer hover:transition-opacity',
-        !interactionData && selectedYear === Number(year) ? 'opacity-100 z-50 stroke-white' :
-            (!interactionData && (selectedYear - Number(year) == 1)) ? 'opacity-70 stroke-white' :
-                (!interactionData && (selectedYear - Number(year) == 2)) ? 'opacity-60 stroke-white' :
-                    (!interactionData && (selectedYear - Number(year) == 3)) ? 'opacity-40 stroke-white' : 'stroke-white',
+        !interactionData && selectedYear[1] === Number(year) ? 'opacity-100 z-50 stroke-white' :
+            (!interactionData && (selectedYear[1] - Number(year) == 1)) ? 'opacity-70 stroke-white' :
+                (!interactionData && (selectedYear[1] - Number(year) == 2)) ? 'opacity-60 stroke-white' :
+                    (!interactionData && (selectedYear[1] - Number(year) == 3)) ? 'opacity-40 stroke-white' : 'stroke-white',
 
     );
     const baseColor = color; // e.g., "#D74B4B"
     const darkerColor = d3color(baseColor)?.darker(1.2).formatHex(); // Slightly darker
-    const yearDiff = Math.abs(Number(year) - selectedYear);
+    const yearDiff = Math.abs(Number(year) - selectedYear[1]);
     const maxYearDiff = 10; // Adjust this value based on how many years your dataset spans
     const minRadius = CIRCLE_RADIUS * 0.3; // Minimum radius for distant years
 
@@ -100,7 +102,7 @@ export default function Circle(
             </defs>
             {yearDiff === 0 ?
                 <TooltipProvider>
-                    <Tooltip delayDuration={300} >
+                    <Tooltip delayDuration={300} open={(selectedCountries.length == 1 && selectedCountries[0] == data["Country Name"]) || open} onOpenChange={setOpen}>
                         <TooltipTrigger asChild>
                             <circle
                                 className={classNames}

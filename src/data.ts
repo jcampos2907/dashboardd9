@@ -1,9242 +1,9242 @@
 export const data = [
-    {
-        "Country Name": "Argentina",
-        Year: 2012,
-        Value: 37.35,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6467545278,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2012,
-        Value: 24.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2453229949,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2012,
-        Value: 25.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2726061473,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2012,
-        Value: 8.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.259677592,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2012,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2012,
-        Value: 24.76,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2488229012,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2012,
-        Value: 14.17,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7193197934,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2012,
-        Value: 12.12,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5741377835,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2012,
-        Value: 32.26,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5043554738,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2012,
-        Value: 19.05,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9982291538,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2012,
-        Value: 42.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7727609381,
-    },
-    {
-        "Country Name": "France",
-        Year: 2012,
-        Value: 18.89,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9902170929,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2012,
-        Value: 6.57,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.0241930674,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2012,
-        Value: 32.9,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5234150144,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2012,
-        Value: 13.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6595599919,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2012,
-        Value: 19.53,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.021887231,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2012,
-        Value: 2.76,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.3244189574,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2012,
-        Value: 15.06,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7763317085,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2012,
-        Value: 10.83,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.470638678,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2012,
-        Value: 10.41,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4344901639,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2012,
-        Value: 26.2,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3032169733,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2012,
-        Value: 40.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7297814454,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2012,
-        Value: 22.51,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1574258626,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2012,
-        Value: 21.54,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1152915086,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2012,
-        Value: 23.7,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2068032436,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2012,
-        Value: 0.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 0.0,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2012,
-        Value: 14.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.754933787,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2012,
-        Value: 13.56,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6782780428,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2012,
-        Value: 56.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.0474276424,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2012,
-        Value: 22.22,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1450139763,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2012,
-        Value: 42.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7669972334,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2012,
-        Value: 5.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.913977102,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2012,
-        Value: 44.7,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8220982979,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2012,
-        Value: 28.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3843902633,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2012,
-        Value: 15.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8213788864,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2012,
-        Value: 14.18,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.719978772,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2012,
-        Value: 8.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.1972245773,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2012,
-        Value: 22.31,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.148882453,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2012,
-        Value: 16.82,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.880321422,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2012,
-        Value: 24.4,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.234749174,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2013,
-        Value: 37.35,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6467545278,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2013,
-        Value: 24.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2453229949,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2013,
-        Value: 25.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2726061473,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2013,
-        Value: 8.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.259677592,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2013,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2013,
-        Value: 24.68,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2457124788,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2013,
-        Value: 14.17,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7193197934,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2013,
-        Value: 12.12,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5741377835,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2013,
-        Value: 32.26,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5043554738,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2013,
-        Value: 26.19,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3028492586,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2013,
-        Value: 42.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7727609381,
-    },
-    {
-        "Country Name": "France",
-        Year: 2013,
-        Value: 26.86,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3271919684,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2013,
-        Value: 12.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5649493575,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2013,
-        Value: 32.9,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5234150144,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2013,
-        Value: 13.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6595599919,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2013,
-        Value: 19.53,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.021887231,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2013,
-        Value: 3.1,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.4109869737,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2013,
-        Value: 15.06,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7763317085,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2013,
-        Value: 7.92,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.1882959466,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2013,
-        Value: 10.41,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4344901639,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2013,
-        Value: 36.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6323091026,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2013,
-        Value: 38.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6805952345,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2013,
-        Value: 22.51,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1574258626,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2013,
-        Value: 21.54,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1152915086,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2013,
-        Value: 23.7,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2068032436,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2013,
-        Value: 0.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 0.0,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2013,
-        Value: 15.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8136106968,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2013,
-        Value: 13.56,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6782780428,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2013,
-        Value: 56.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.0474276424,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2013,
-        Value: 24.24,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2284300377,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2013,
-        Value: 42.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7669972334,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2013,
-        Value: 5.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.913977102,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2013,
-        Value: 44.7,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8220982979,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2013,
-        Value: 29.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4011973817,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2013,
-        Value: 15.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8213788864,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2013,
-        Value: 14.18,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.719978772,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2013,
-        Value: 9.44,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3456445825,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2013,
-        Value: 22.46,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1552968432,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2013,
-        Value: 17.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9327924738,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2013,
-        Value: 24.4,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.234749174,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2014,
-        Value: 36.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.626471994,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2014,
-        Value: 26.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.295836866,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2014,
-        Value: 25.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2726061473,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2014,
-        Value: 8.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.259677592,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2014,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2014,
-        Value: 25.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2611687371,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2014,
-        Value: 15.83,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8231630082,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2014,
-        Value: 12.12,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5741377835,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2014,
-        Value: 41.61,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7520889675,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2014,
-        Value: 26.19,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3028492586,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2014,
-        Value: 42.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7727609381,
-    },
-    {
-        "Country Name": "France",
-        Year: 2014,
-        Value: 26.17,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3021134234,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2014,
-        Value: 12.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5649493575,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2014,
-        Value: 36.45,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.62300671,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2014,
-        Value: 13.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6595599919,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2014,
-        Value: 25.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2876553403,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2014,
-        Value: 3.1,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.4109869737,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2014,
-        Value: 15.66,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8130106367,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2014,
-        Value: 8.13,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.2115656946,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2014,
-        Value: 10.36,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4300984133,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2014,
-        Value: 37.4,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6480574596,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2014,
-        Value: 38.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6805952345,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2014,
-        Value: 20.74,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0791538817,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2014,
-        Value: 22.31,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.148882453,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2014,
-        Value: 24.35,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.23277873,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2014,
-        Value: 0.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 0.0,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2014,
-        Value: 15.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8136106968,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2014,
-        Value: 13.56,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6782780428,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2014,
-        Value: 63.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1705337006,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2014,
-        Value: 25.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.267665989,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2014,
-        Value: 44.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8231917917,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2014,
-        Value: 5.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.913977102,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2014,
-        Value: 44.99,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8284239816,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2014,
-        Value: 31.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4657359028,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2014,
-        Value: 15.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8213788864,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2014,
-        Value: 14.42,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7356653681,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2014,
-        Value: 9.73,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3730435566,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2014,
-        Value: 22.62,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1620938108,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2014,
-        Value: 18.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9595868269,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2014,
-        Value: 24.3,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2308043957,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2015,
-        Value: 36.19,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6160399079,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2015,
-        Value: 26.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3203487938,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2015,
-        Value: 53.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.9904644317,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2015,
-        Value: 8.97,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.299580584,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2015,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2015,
-        Value: 25.16,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2642315266,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2015,
-        Value: 15.83,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8231630082,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2015,
-        Value: 19.88,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.038791763,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2015,
-        Value: 41.61,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7520889675,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2015,
-        Value: 27.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3456846717,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2015,
-        Value: 42.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7727609381,
-    },
-    {
-        "Country Name": "France",
-        Year: 2015,
-        Value: 26.17,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3021134234,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2015,
-        Value: 11.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5120353172,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2015,
-        Value: 36.45,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.62300671,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2015,
-        Value: 13.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6595599919,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2015,
-        Value: 25.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2876553403,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2015,
-        Value: 3.1,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.4109869737,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2015,
-        Value: 16.27,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8489708922,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2015,
-        Value: 9.47,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3485140249,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2015,
-        Value: 10.36,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4300984133,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2015,
-        Value: 38.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6635616461,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2015,
-        Value: 37.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6462328794,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2015,
-        Value: 20.74,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0791538817,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2015,
-        Value: 22.31,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.148882453,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2015,
-        Value: 24.13,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2240623516,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2015,
-        Value: 0.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 0.0,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2015,
-        Value: 16.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8524391037,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2015,
-        Value: 13.56,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6782780428,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2015,
-        Value: 63.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1705337006,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2015,
-        Value: 25.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.267665989,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2015,
-        Value: 41.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7495040759,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2015,
-        Value: 5.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.913977102,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2015,
-        Value: 43.55,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7966121539,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2015,
-        Value: 30.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4499875458,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2015,
-        Value: 6.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.9586853405,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2015,
-        Value: 14.42,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7356653681,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2015,
-        Value: 11.85,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5533438113,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2015,
-        Value: 22.77,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1684242814,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2015,
-        Value: 19.35,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0130809119,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2015,
-        Value: 24.3,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2308043957,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2016,
-        Value: 35.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6054978452,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2016,
-        Value: 26.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3203487938,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2016,
-        Value: 53.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.9904644317,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2016,
-        Value: 9.94,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.392425797,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2016,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2016,
-        Value: 26.04,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2973172512,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2016,
-        Value: 15.83,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8231630082,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2016,
-        Value: 19.88,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.038791763,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2016,
-        Value: 41.61,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7520889675,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2016,
-        Value: 32.14,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.500741012,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2016,
-        Value: 41.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7495040759,
-    },
-    {
-        "Country Name": "France",
-        Year: 2016,
-        Value: 26.17,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3021134234,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2016,
-        Value: 11.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5120353172,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2016,
-        Value: 36.45,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.62300671,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2016,
-        Value: 13.92,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7027025948,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2016,
-        Value: 25.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2876553403,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2016,
-        Value: 3.1,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.4109869737,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2016,
-        Value: 16.27,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8489708922,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2016,
-        Value: 9.47,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3485140249,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2016,
-        Value: 10.36,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4300984133,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2016,
-        Value: 42.37,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7697679578,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2016,
-        Value: 37.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6462328794,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2016,
-        Value: 20.59,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0722302445,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2016,
-        Value: 22.31,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.148882453,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2016,
-        Value: 27.39,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3460369705,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2016,
-        Value: 0.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 0.0,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2016,
-        Value: 16.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8524391037,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2016,
-        Value: 13.56,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6782780428,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2016,
-        Value: 63.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1705337006,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2016,
-        Value: 23.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1813816204,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2016,
-        Value: 42.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7612001157,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2016,
-        Value: 5.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.913977102,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2016,
-        Value: 43.55,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7966121539,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2016,
-        Value: 32.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4965075615,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2016,
-        Value: 6.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.9586853405,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2016,
-        Value: 14.91,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7669478423,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2016,
-        Value: 12.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5718485799,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2016,
-        Value: 29.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4137844972,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2016,
-        Value: 19.35,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0130809119,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2016,
-        Value: 24.3,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2308043957,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2017,
-        Value: 38.91,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6866269191,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2017,
-        Value: 28.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3901364343,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2017,
-        Value: 53.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.9904644317,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2017,
-        Value: 10.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4612967841,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2017,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2017,
-        Value: 26.27,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3057871969,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2017,
-        Value: 15.83,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8231630082,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2017,
-        Value: 18.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9790946324,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2017,
-        Value: 41.61,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7520889675,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2017,
-        Value: 32.14,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.500741012,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2017,
-        Value: 42.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7612001157,
-    },
-    {
-        "Country Name": "France",
-        Year: 2017,
-        Value: 25.82,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2891478779,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2017,
-        Value: 16.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8332133441,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2017,
-        Value: 36.98,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6370597054,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2017,
-        Value: 12.66,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6144718541,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2017,
-        Value: 25.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2876553403,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2017,
-        Value: 5.88,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.9286186519,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2017,
-        Value: 22.15,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1419947805,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2017,
-        Value: 9.26,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3282528397,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2017,
-        Value: 10.36,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4300984133,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2017,
-        Value: 42.6,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7750571504,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2017,
-        Value: 38.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6635616461,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2017,
-        Value: 20.59,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0722302445,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2017,
-        Value: 27.69,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.35654863,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2017,
-        Value: 28.04,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.36867419,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2017,
-        Value: 0.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 0.0,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2017,
-        Value: 17.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8903717579,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2017,
-        Value: 15.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.820187701,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2017,
-        Value: 61.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1311585353,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2017,
-        Value: 23.76,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2092294478,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2017,
-        Value: 42.17,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7651458096,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2017,
-        Value: 5.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.913977102,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2017,
-        Value: 43.55,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7966121539,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2017,
-        Value: 32.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5115454388,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2017,
-        Value: 4.86,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.7681496036,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2017,
-        Value: 14.91,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7669478423,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2017,
-        Value: 12.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5870118727,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2017,
-        Value: 30.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4339872045,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2017,
-        Value: 19.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9997242948,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2017,
-        Value: 26.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3221541743,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2018,
-        Value: 38.91,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6866269191,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2018,
-        Value: 28.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3901364343,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2018,
-        Value: 53.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.9904644317,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2018,
-        Value: 10.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4612967841,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2018,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2018,
-        Value: 27.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3322045102,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2018,
-        Value: 22.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1603988951,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2018,
-        Value: 18.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9790946324,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2018,
-        Value: 37.96,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6625354788,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2018,
-        Value: 32.14,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.500741012,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2018,
-        Value: 42.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7612001157,
-    },
-    {
-        "Country Name": "France",
-        Year: 2018,
-        Value: 38.99,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6886294229,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2018,
-        Value: 16.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8332133441,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2018,
-        Value: 30.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4578927253,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2018,
-        Value: 12.66,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.6144718541,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2018,
-        Value: 21.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0951250174,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2018,
-        Value: 5.88,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.9286186519,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2018,
-        Value: 22.15,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1419947805,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2018,
-        Value: 10.11,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4078456037,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2018,
-        Value: 10.36,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4300984133,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2018,
-        Value: 42.6,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7750571504,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2018,
-        Value: 36.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6109179126,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2018,
-        Value: 20.59,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0722302445,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2018,
-        Value: 27.69,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.35654863,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2018,
-        Value: 28.04,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.36867419,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2018,
-        Value: 9.76,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3758355547,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2018,
-        Value: 17.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8903717579,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2018,
-        Value: 15.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.820187701,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2018,
-        Value: 61.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1311585353,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2018,
-        Value: 23.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1780538303,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2018,
-        Value: 42.39,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7702289998,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2018,
-        Value: 5.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.913977102,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2018,
-        Value: 43.55,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7966121539,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2018,
-        Value: 32.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5115454388,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2018,
-        Value: 4.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.7578579176,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2018,
-        Value: 14.57,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7453459858,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2018,
-        Value: 12.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5870118727,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2018,
-        Value: 32.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4965075615,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2018,
-        Value: 19.49,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0199369623,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2018,
-        Value: 26.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3221541743,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2019,
-        Value: 38.82,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6843692986,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2019,
-        Value: 30.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4339872045,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2019,
-        Value: 53.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.9904644317,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2019,
-        Value: 15.01,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.773213527,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2019,
-        Value: 20.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0445224377,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2019,
-        Value: 26.95,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3304171996,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2019,
-        Value: 22.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1603988951,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2019,
-        Value: 18.71,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9811261212,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2019,
-        Value: 37.96,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6625354788,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2019,
-        Value: 30.95,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4641721808,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2019,
-        Value: 41.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7495040759,
-    },
-    {
-        "Country Name": "France",
-        Year: 2019,
-        Value: 39.69,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.705982362,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2019,
-        Value: 14.77,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.758109401,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2019,
-        Value: 30.89,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.462292481,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2019,
-        Value: 18.99,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9952321485,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2019,
-        Value: 21.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0951250174,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2019,
-        Value: 5.88,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.9286186519,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2019,
-        Value: 22.15,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1419947805,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2019,
-        Value: 10.15,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.4114394979,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2019,
-        Value: 14.41,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7350166493,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2019,
-        Value: 48.2,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8958936235,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2019,
-        Value: 31.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4759955917,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2019,
-        Value: 20.23,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0554152757,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2019,
-        Value: 30.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4339872045,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2019,
-        Value: 29.13,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4055213531,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2019,
-        Value: 9.76,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3758355547,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2019,
-        Value: 17.11,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8964642719,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2019,
-        Value: 15.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.820187701,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2019,
-        Value: 61.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1311585353,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2019,
-        Value: 23.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1780538303,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2019,
-        Value: 42.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7784916128,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2019,
-        Value: 5.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.8453002362,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2019,
-        Value: 47.28,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8770173962,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2019,
-        Value: 32.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5115454388,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2019,
-        Value: 5.42,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.8594181177,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2019,
-        Value: 17.45,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9150643705,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2019,
-        Value: 11.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.5321082513,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2019,
-        Value: 32.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4965075615,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2019,
-        Value: 23.56,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2011191033,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2019,
-        Value: 26.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3221541743,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2020,
-        Value: 40.86,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.734330717,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2020,
-        Value: 30.46,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4487168976,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2020,
-        Value: 53.08,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.9904644317,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2020,
-        Value: 14.62,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7485521444,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2020,
-        Value: 20.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0445224377,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2020,
-        Value: 28.99,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4008639928,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2020,
-        Value: 22.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1603988951,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2020,
-        Value: 18.34,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.96217549,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2020,
-        Value: 39.42,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.699324712,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2020,
-        Value: 33.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5360196075,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2020,
-        Value: 46.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8501476017,
-    },
-    {
-        "Country Name": "France",
-        Year: 2020,
-        Value: 39.51,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7015488572,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2020,
-        Value: 14.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7140322728,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2020,
-        Value: 31.17,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4710343413,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2020,
-        Value: 18.99,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9952321485,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2020,
-        Value: 21.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0951250174,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2020,
-        Value: 5.88,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.9286186519,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2020,
-        Value: 20.89,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0860299115,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2020,
-        Value: 9.91,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3896797998,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2020,
-        Value: 14.41,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7350166493,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2020,
-        Value: 48.2,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8958936235,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2020,
-        Value: 33.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5360196075,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2020,
-        Value: 20.18,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0530573402,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2020,
-        Value: 30.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4339872045,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2020,
-        Value: 28.7,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3911470458,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2020,
-        Value: 9.76,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3758355547,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2020,
-        Value: 17.29,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9063544624,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2020,
-        Value: 15.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.820187701,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2020,
-        Value: 61.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1311585353,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2020,
-        Value: 24.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.2188758249,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2020,
-        Value: 46.35,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8575668196,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2020,
-        Value: 5.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.8453002362,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2020,
-        Value: 46.99,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8709926559,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2020,
-        Value: 41.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7495040759,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2020,
-        Value: 16.2,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8449093838,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2020,
-        Value: 17.32,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9079933592,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2020,
-        Value: 20.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0819099698,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2020,
-        Value: 33.85,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5510531372,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2020,
-        Value: 23.43,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1958118853,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2020,
-        Value: 26.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3221541743,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2021,
-        Value: 42.41,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7706898293,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2021,
-        Value: 31.13,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4697901731,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2021,
-        Value: 46.15,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8533340091,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2021,
-        Value: 15.2,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7850112422,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2021,
-        Value: 21.6,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1179499063,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2021,
-        Value: 29.59,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4206731582,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2021,
-        Value: 22.58,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1603988951,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2021,
-        Value: 18.82,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9866915289,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2021,
-        Value: 39.42,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.699324712,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2021,
-        Value: 33.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5360196075,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2021,
-        Value: 46.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8501476017,
-    },
-    {
-        "Country Name": "France",
-        Year: 2021,
-        Value: 39.51,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7015488572,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2021,
-        Value: 20.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0759288155,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2021,
-        Value: 31.45,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4797004432,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2021,
-        Value: 19.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0145540278,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2021,
-        Value: 21.09,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0951250174,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2021,
-        Value: 5.59,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.8855533485,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2021,
-        Value: 22.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1570004212,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2021,
-        Value: 9.91,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3896797998,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2021,
-        Value: 14.86,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7638002162,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2021,
-        Value: 48.2,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8958936235,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2021,
-        Value: 33.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5360196075,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2021,
-        Value: 20.18,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0530573402,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2021,
-        Value: 26.15,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3013770464,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2021,
-        Value: 28.32,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.378269877,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2021,
-        Value: 9.76,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3758355547,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2021,
-        Value: 19.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9957322736,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2021,
-        Value: 15.78,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.820187701,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2021,
-        Value: 61.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1311585353,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2021,
-        Value: 29.47,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.416742593,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2021,
-        Value: 45.84,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8467375387,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2021,
-        Value: 5.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.8531680974,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2021,
-        Value: 46.99,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8709926559,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2021,
-        Value: 42.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7612001157,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2021,
-        Value: 15.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8183982583,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2021,
-        Value: 17.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9085390619,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2021,
-        Value: 20.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0819099698,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2021,
-        Value: 33.85,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5510531372,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2021,
-        Value: 27.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3410934576,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2021,
-        Value: 26.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3221541743,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2022,
-        Value: 44.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8231917917,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2022,
-        Value: 31.13,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4697901731,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2022,
-        Value: 46.15,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8533340091,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2022,
-        Value: 14.81,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7606426512,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2022,
-        Value: 20.8,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0819099698,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2022,
-        Value: 30.47,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4490347111,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2022,
-        Value: 35.48,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5967641652,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2022,
-        Value: 18.56,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9734866646,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2022,
-        Value: 38.69,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.6810992668,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2022,
-        Value: 27.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3456846717,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2022,
-        Value: 45.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8394523126,
-    },
-    {
-        "Country Name": "France",
-        Year: 2022,
-        Value: 39.51,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7015488572,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2022,
-        Value: 19.05,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9982291538,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2022,
-        Value: 34.92,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5812942434,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2022,
-        Value: 19.38,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0145540278,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2022,
-        Value: 27.34,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3442742343,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2022,
-        Value: 5.59,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.8855533485,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2022,
-        Value: 23.12,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.1830413719,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2022,
-        Value: 9.68,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.3683728335,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2022,
-        Value: 15.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.7725887222,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2022,
-        Value: 50.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.9318256327,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2022,
-        Value: 40.67,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7297814454,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2022,
-        Value: 20.47,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0666566119,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2022,
-        Value: 40.0,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7135720667,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2022,
-        Value: 28.26,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3762213956,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2022,
-        Value: 4.44,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.6937790609,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2022,
-        Value: 18.64,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9775683029,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2022,
-        Value: 16.22,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.846071499,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2022,
-        Value: 61.25,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 4.1311585353,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2022,
-        Value: 29.13,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.4055213531,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2022,
-        Value: 46.72,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8653505972,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2022,
-        Value: 5.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 1.8453002362,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2022,
-        Value: 46.13,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.8529097409,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2022,
-        Value: 42.5,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.7727609381,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2022,
-        Value: 15.75,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.8183982583,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2022,
-        Value: 17.35,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 2.9096295745,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2022,
-        Value: 20.33,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.0601145325,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2022,
-        Value: 34.36,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.5655812378,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2022,
-        Value: 27.71,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.3572454941,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2022,
-        Value: 30.26,
-        Indicator: "Women in Parliament (%)",
-        "Log Value": 3.442339325,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2012,
-        Value: 30.4,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4468078929,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2012,
-        Value: 33.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5360196075,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2012,
-        Value: 31.82,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4910380857,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2012,
-        Value: 37.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6423118183,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2012,
-        Value: 30.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4619788539,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2012,
-        Value: 36.43,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6224725219,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2012,
-        Value: 23.27,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1892410197,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2012,
-        Value: 33.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5360196075,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2012,
-        Value: 38.47,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6755408897,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2012,
-        Value: 37.11,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6404767149,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2012,
-        Value: 31.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4928645702,
-    },
-    {
-        "Country Name": "France",
-        Year: 2012,
-        Value: 39.32,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6968476238,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2012,
-        Value: 31.01,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.466048354,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2012,
-        Value: 28.83,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3955145985,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2012,
-        Value: 44.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8253751987,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2012,
-        Value: 59.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 4.1031391099,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2012,
-        Value: 17.1,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.8959119383,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2012,
-        Value: 33.17,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5313480661,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2012,
-        Value: 11.31,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.5104119402,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2012,
-        Value: 21.55,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1157350659,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2012,
-        Value: 35.2,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5890591188,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2012,
-        Value: 28.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3971893603,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2012,
-        Value: 3.48,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.4996230464,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2012,
-        Value: 29.06,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4031953843,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2012,
-        Value: 37.79,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6581624815,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2012,
-        Value: 11.0,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.4849066498,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2012,
-        Value: 11.09,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.4923786646,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2012,
-        Value: 39.19,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6936182085,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2012,
-        Value: 33.95,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5539184687,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2012,
-        Value: 33.78,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5490425089,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2012,
-        Value: 31.1,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4688560301,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2012,
-        Value: 28.42,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3816747152,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2012,
-        Value: 35.49,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5970382504,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2012,
-        Value: 30.52,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.450622265,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2012,
-        Value: 28.22,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3748534063,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2012,
-        Value: 12.15,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.5764217586,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2012,
-        Value: 38.31,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6714789394,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2012,
-        Value: 34.39,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5664292944,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2012,
-        Value: 39.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6970956089,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2012,
-        Value: 23.91,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2152693293,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2013,
-        Value: 30.26,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.442339325,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2013,
-        Value: 36.05,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6122683517,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2013,
-        Value: 34.17,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5601934465,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2013,
-        Value: 37.28,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6449275666,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2013,
-        Value: 28.49,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3840512228,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2013,
-        Value: 35.78,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6049542192,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2013,
-        Value: 24.22,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2276373305,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2013,
-        Value: 34.2,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5610460826,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2013,
-        Value: 34.57,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.571502586,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2013,
-        Value: 43.54,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7963876618,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2013,
-        Value: 30.29,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4432985577,
-    },
-    {
-        "Country Name": "France",
-        Year: 2013,
-        Value: 36.0,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6109179126,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2013,
-        Value: 32.75,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5189804173,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2013,
-        Value: 29.1,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4045251718,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2013,
-        Value: 34.98,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5829632285,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2013,
-        Value: 61.3,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 4.1319614258,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2013,
-        Value: 15.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7837759116,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2013,
-        Value: 33.31,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5354368569,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2013,
-        Value: 10.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.4723278676,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2013,
-        Value: 22.07,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1385330722,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2013,
-        Value: 35.2,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5890591188,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2013,
-        Value: 23.39,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1941732122,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2013,
-        Value: 3.02,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.3912819026,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2013,
-        Value: 30.75,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4578927253,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2013,
-        Value: 37.72,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6563562624,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2013,
-        Value: 12.22,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.5817308344,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2013,
-        Value: 11.37,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.5152741864,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2013,
-        Value: 38.47,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6755408897,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2013,
-        Value: 16.98,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.889260029,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2013,
-        Value: 33.7,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.546739687,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2013,
-        Value: 30.02,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4346321577,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2013,
-        Value: 29.07,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.403527997,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2013,
-        Value: 35.44,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5956670724,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2013,
-        Value: 29.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4187098067,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2013,
-        Value: 33.02,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.526948587,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2013,
-        Value: 14.44,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7369615446,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2013,
-        Value: 38.31,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6714789394,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2013,
-        Value: 34.01,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.555633735,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2013,
-        Value: 38.92,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6868774514,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2013,
-        Value: 24.38,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2339614623,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2014,
-        Value: 30.62,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4537898318,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2014,
-        Value: 37.76,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.657388787,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2014,
-        Value: 39.42,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.699324712,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2014,
-        Value: 37.77,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6576467517,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2014,
-        Value: 24.3,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2308043957,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2014,
-        Value: 35.52,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5978600557,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2014,
-        Value: 25.98,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2950958508,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2014,
-        Value: 33.39,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5377658244,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2014,
-        Value: 34.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5745903077,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2014,
-        Value: 38.19,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6684216122,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2014,
-        Value: 32.94,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5245942598,
-    },
-    {
-        "Country Name": "France",
-        Year: 2014,
-        Value: 32.74,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5186840771,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2014,
-        Value: 33.76,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5484673004,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2014,
-        Value: 28.98,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4005304927,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2014,
-        Value: 34.54,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5706588227,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2014,
-        Value: 59.93,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 4.1097256643,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2014,
-        Value: 18.21,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9554309768,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2014,
-        Value: 33.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5461631519,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2014,
-        Value: 11.39,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.5168896956,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2014,
-        Value: 22.25,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.146305132,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2014,
-        Value: 35.55,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5986811862,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2014,
-        Value: 26.39,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3101779833,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2014,
-        Value: 4.15,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.6389967147,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2014,
-        Value: 24.84,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2519236789,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2014,
-        Value: 38.79,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6836156244,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2014,
-        Value: 13.48,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.672768387,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2014,
-        Value: 11.13,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.495681723,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2014,
-        Value: 38.13,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6668894362,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2014,
-        Value: 14.09,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7140322728,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2014,
-        Value: 33.86,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5513400401,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2014,
-        Value: 31.1,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4688560301,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2014,
-        Value: 24.84,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2519236789,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2014,
-        Value: 37.12,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6407390788,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2014,
-        Value: 31.34,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4763048541,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2014,
-        Value: 32.7,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5174978374,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2014,
-        Value: 13.37,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6651427001,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2014,
-        Value: 37.84,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6594506434,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2014,
-        Value: 35.29,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5915422212,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2014,
-        Value: 38.93,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6871279211,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2014,
-        Value: 22.92,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1747149291,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2015,
-        Value: 30.95,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4641721808,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2015,
-        Value: 36.26,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6179203652,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2015,
-        Value: 37.15,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6415257577,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2015,
-        Value: 38.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6770598773,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2015,
-        Value: 29.49,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.417398761,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2015,
-        Value: 36.25,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6176519448,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2015,
-        Value: 27.46,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3484995927,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2015,
-        Value: 33.83,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5504790844,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2015,
-        Value: 33.07,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5284172317,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2015,
-        Value: 40.91,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7355244619,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2015,
-        Value: 36.61,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6272699725,
-    },
-    {
-        "Country Name": "France",
-        Year: 2015,
-        Value: 31.66,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4861510875,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2015,
-        Value: 38.79,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6836156244,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2015,
-        Value: 28.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3971893603,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2015,
-        Value: 31.83,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4913427315,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2015,
-        Value: 49.14,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.9148190927,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2015,
-        Value: 16.42,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.8576189714,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2015,
-        Value: 34.62,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5729072779,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2015,
-        Value: 12.05,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.5687881338,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2015,
-        Value: 22.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1582762027,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2015,
-        Value: 36.4,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6216707044,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2015,
-        Value: 25.22,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2665224783,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2015,
-        Value: 2.87,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.353254507,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2015,
-        Value: 33.27,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5342703359,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2015,
-        Value: 40.17,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7177098358,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2015,
-        Value: 14.74,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.756205243,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2015,
-        Value: 10.45,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.43798973,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2015,
-        Value: 38.67,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6805952345,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2015,
-        Value: 21.49,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.113070766,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2015,
-        Value: 33.9,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5524868292,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2015,
-        Value: 30.77,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4585224483,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2015,
-        Value: 25.92,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2928695048,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2015,
-        Value: 39.55,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7025357806,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2015,
-        Value: 33.05,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5278300326,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2015,
-        Value: 32.83,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5213479828,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2015,
-        Value: 13.16,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6504210883,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2015,
-        Value: 39.57,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7030288772,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2015,
-        Value: 35.36,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5934692693,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2015,
-        Value: 39.56,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7027823593,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2015,
-        Value: 25.84,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2898933121,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2016,
-        Value: 31.28,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4744478434,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2016,
-        Value: 39.14,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6923733434,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2016,
-        Value: 35.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6022316474,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2016,
-        Value: 38.99,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6886294229,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2016,
-        Value: 34.14,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5593400828,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2016,
-        Value: 35.4,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5945687746,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2016,
-        Value: 26.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3079849999,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2016,
-        Value: 35.03,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5843519248,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2016,
-        Value: 35.44,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5956670724,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2016,
-        Value: 35.26,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5907152053,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2016,
-        Value: 30.96,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4644851209,
-    },
-    {
-        "Country Name": "France",
-        Year: 2016,
-        Value: 32.91,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5237099561,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2016,
-        Value: 44.17,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8104331497,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2016,
-        Value: 29.5,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4177266836,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2016,
-        Value: 44.64,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.820784525,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2016,
-        Value: 46.97,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8705758155,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2016,
-        Value: 17.29,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9063544624,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2016,
-        Value: 36.22,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6168462512,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2016,
-        Value: 13.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6623552418,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2016,
-        Value: 20.41,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.0638581026,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2016,
-        Value: 36.25,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6176519448,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2016,
-        Value: 25.08,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2611687371,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2016,
-        Value: 2.87,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.353254507,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2016,
-        Value: 32.76,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5192766697,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2016,
-        Value: 41.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7419461751,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2016,
-        Value: 14.91,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7669478423,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2016,
-        Value: 9.77,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.3767644912,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2016,
-        Value: 42.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7653774251,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2016,
-        Value: 28.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3971893603,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2016,
-        Value: 34.76,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5768299503,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2016,
-        Value: 31.55,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4827773687,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2016,
-        Value: 28.37,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3799737452,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2016,
-        Value: 39.3,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.696351469,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2016,
-        Value: 33.02,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.526948587,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2016,
-        Value: 32.72,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5180911331,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2016,
-        Value: 15.09,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.778197961,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2016,
-        Value: 40.87,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.73456958,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2016,
-        Value: 36.24,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6173834524,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2016,
-        Value: 39.74,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7072104108,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2016,
-        Value: 26.12,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3002714631,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2017,
-        Value: 31.61,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4846189898,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2017,
-        Value: 38.81,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.684118137,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2017,
-        Value: 35.32,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5923685537,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2017,
-        Value: 39.14,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6923733434,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2017,
-        Value: 24.1,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2228678461,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2017,
-        Value: 34.54,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5706588227,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2017,
-        Value: 29.36,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4131259525,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2017,
-        Value: 34.49,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5692509667,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2017,
-        Value: 34.89,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5804587052,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2017,
-        Value: 32.38,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5079569182,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2017,
-        Value: 32.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5169041894,
-    },
-    {
-        "Country Name": "France",
-        Year: 2017,
-        Value: 33.44,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5392186796,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2017,
-        Value: 31.99,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4962044852,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2017,
-        Value: 28.99,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4008639928,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2017,
-        Value: 29.72,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4249139083,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2017,
-        Value: 48.43,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.9005575273,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2017,
-        Value: 19.06,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9987277825,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2017,
-        Value: 36.19,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6160399079,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2017,
-        Value: 12.78,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6232182656,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2017,
-        Value: 22.11,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1402654243,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2017,
-        Value: 36.79,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6320445174,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2017,
-        Value: 26.62,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.318540148,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2017,
-        Value: 3.9,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.5892352051,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2017,
-        Value: 35.59,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.599774979,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2017,
-        Value: 41.23,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7431308689,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2017,
-        Value: 15.09,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.778197961,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2017,
-        Value: 12.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.5900171342,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2017,
-        Value: 41.4,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7471483622,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2017,
-        Value: 36.28,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6184569898,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2017,
-        Value: 33.92,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.553059731,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2017,
-        Value: 32.05,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4980215663,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2017,
-        Value: 27.58,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3527071725,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2017,
-        Value: 38.93,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6871279211,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2017,
-        Value: 30.79,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4591517749,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2017,
-        Value: 33.59,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5435646229,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2017,
-        Value: 15.01,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.773213527,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2017,
-        Value: 41.06,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7390971703,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2017,
-        Value: 36.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6157709823,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2017,
-        Value: 40.5,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7256934272,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2017,
-        Value: 27.24,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3407394126,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2018,
-        Value: 32.56,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5133348816,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2018,
-        Value: 37.72,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6563562624,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2018,
-        Value: 38.84,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6848714327,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2018,
-        Value: 38.74,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6823582371,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2018,
-        Value: 27.55,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3516569361,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2018,
-        Value: 35.08,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5857386952,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2018,
-        Value: 30.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4556855669,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2018,
-        Value: 34.7,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5751506888,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2018,
-        Value: 35.9,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.608211551,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2018,
-        Value: 35.35,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.593194204,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2018,
-        Value: 30.61,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4534735262,
-    },
-    {
-        "Country Name": "France",
-        Year: 2018,
-        Value: 34.44,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5678411257,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2018,
-        Value: 35.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6022316474,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2018,
-        Value: 29.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4071794533,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2018,
-        Value: 34.14,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5593400828,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2018,
-        Value: 51.35,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.9579519373,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2018,
-        Value: 20.48,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.0671222696,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2018,
-        Value: 36.03,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6117283949,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2018,
-        Value: 14.38,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7330679641,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2018,
-        Value: 24.65,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2445435716,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2018,
-        Value: 36.17,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6155019843,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2018,
-        Value: 24.89,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2538567938,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2018,
-        Value: 4.93,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.780024213,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2018,
-        Value: 28.78,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3938370273,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2018,
-        Value: 42.46,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7718409748,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2018,
-        Value: 13.96,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7053799725,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2018,
-        Value: 14.46,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7382560432,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2018,
-        Value: 41.92,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7593379178,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2018,
-        Value: 31.94,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4946877247,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2018,
-        Value: 35.83,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6063127305,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2018,
-        Value: 30.46,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4487168976,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2018,
-        Value: 25.97,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2947251372,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2018,
-        Value: 38.1,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.666122467,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2018,
-        Value: 32.14,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.500741012,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2018,
-        Value: 33.91,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5527733211,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2018,
-        Value: 14.81,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7606426512,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2018,
-        Value: 40.43,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7240052561,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2018,
-        Value: 36.34,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6200651381,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2018,
-        Value: 40.74,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7314599016,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2018,
-        Value: 27.3,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3428618046,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2019,
-        Value: 31.6,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4843122884,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2019,
-        Value: 39.05,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6901286735,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2019,
-        Value: 35.79,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6052260691,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2019,
-        Value: 38.45,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6750340473,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2019,
-        Value: 30.99,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.465423354,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2019,
-        Value: 35.28,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5912666252,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2019,
-        Value: 30.0,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4339872045,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2019,
-        Value: 34.84,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5790645881,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2019,
-        Value: 36.57,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6262058596,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2019,
-        Value: 44.27,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8126445614,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2019,
-        Value: 32.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5124405605,
-    },
-    {
-        "Country Name": "France",
-        Year: 2019,
-        Value: 34.67,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5743099994,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2019,
-        Value: 36.65,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6283329542,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2019,
-        Value: 29.48,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4170707308,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2019,
-        Value: 36.75,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6309854757,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2019,
-        Value: 50.89,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.9491260934,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2019,
-        Value: 18.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9882040071,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2019,
-        Value: 35.28,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5912666252,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2019,
-        Value: 14.72,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.754933787,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2019,
-        Value: 23.28,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1896529662,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2019,
-        Value: 36.24,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6173834524,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2019,
-        Value: 29.09,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4041928906,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2019,
-        Value: 4.47,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.6992786164,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2019,
-        Value: 30.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.444576105,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2019,
-        Value: 43.05,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7853253524,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2019,
-        Value: 13.95,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7047112998,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2019,
-        Value: 15.41,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7978909051,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2019,
-        Value: 44.74,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8229731886,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2019,
-        Value: 28.62,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3884498088,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2019,
-        Value: 36.7,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6296600945,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2019,
-        Value: 30.2,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4404180948,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2019,
-        Value: 27.19,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3389673051,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2019,
-        Value: 40.27,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7201358438,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2019,
-        Value: 33.45,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5395089975,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2019,
-        Value: 35.11,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5865698353,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2019,
-        Value: 16.17,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.8431636749,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2019,
-        Value: 41.34,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7457322657,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2019,
-        Value: 37.2,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6428355156,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2019,
-        Value: 40.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7300213974,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2019,
-        Value: 24.74,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2480462022,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2020,
-        Value: 32.97,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5254777822,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2020,
-        Value: 39.8,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7086820814,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2020,
-        Value: 30.08,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4365645255,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2020,
-        Value: 36.8,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6323091026,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2020,
-        Value: 34.63,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5731879796,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2020,
-        Value: 35.82,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6060411758,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2020,
-        Value: 27.38,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3456846717,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2020,
-        Value: 34.97,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5826852577,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2020,
-        Value: 39.03,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.689629173,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2020,
-        Value: 46.7,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8649313979,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2020,
-        Value: 40.8,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7328963395,
-    },
-    {
-        "Country Name": "France",
-        Year: 2020,
-        Value: 35.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5981338408,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2020,
-        Value: 36.13,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6144252682,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2020,
-        Value: 28.63,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3887873616,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2020,
-        Value: 41.3,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7447870861,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2020,
-        Value: 40.09,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7157647829,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2020,
-        Value: 17.98,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9433857932,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2020,
-        Value: 36.35,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6203329116,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2020,
-        Value: 13.06,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6433338864,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2020,
-        Value: 24.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.252310601,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2020,
-        Value: 38.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6770598773,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2020,
-        Value: 24.8,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2503744919,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2020,
-        Value: 5.09,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.8066480817,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2020,
-        Value: 34.72,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.575710756,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2020,
-        Value: 43.23,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7894032919,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2020,
-        Value: 10.75,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.4638532406,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2020,
-        Value: 15.65,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.8124102164,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2020,
-        Value: 45.75,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8448142557,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2020,
-        Value: 33.37,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5371840909,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2020,
-        Value: 37.17,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6420498668,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2020,
-        Value: 31.44,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4793922292,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2020,
-        Value: 27.01,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3325615893,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2020,
-        Value: 42.29,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7679216615,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2020,
-        Value: 33.06,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5281236752,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2020,
-        Value: 39.21,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6941157209,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2020,
-        Value: 18.19,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.95438931,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2020,
-        Value: 40.71,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7307409082,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2020,
-        Value: 37.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6597080768,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2020,
-        Value: 41.06,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7390971703,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2020,
-        Value: 26.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3079849999,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2021,
-        Value: 32.69,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5172010574,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2021,
-        Value: 39.49,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.70105503,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2021,
-        Value: 35.16,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5879535355,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2021,
-        Value: 38.78,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6833642734,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2021,
-        Value: 29.23,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4088348088,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2021,
-        Value: 35.59,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.599774979,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2021,
-        Value: 30.32,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4442568711,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2021,
-        Value: 35.31,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5920931854,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2021,
-        Value: 37.77,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6576467517,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2021,
-        Value: 41.06,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7390971703,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2021,
-        Value: 35.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6076693987,
-    },
-    {
-        "Country Name": "France",
-        Year: 2021,
-        Value: 37.79,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6581624815,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2021,
-        Value: 36.3,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6189933266,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2021,
-        Value: 29.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4071794533,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2021,
-        Value: 45.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8469510087,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2021,
-        Value: 47.73,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8862948569,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2021,
-        Value: 18.98,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9947317732,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2021,
-        Value: 38.2,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6686767468,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2021,
-        Value: 13.11,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6468837659,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2021,
-        Value: 24.05,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2208738275,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2021,
-        Value: 38.65,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6800909481,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2021,
-        Value: 26.33,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3079849999,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2021,
-        Value: 5.71,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.903598951,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2021,
-        Value: 35.37,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.593744259,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2021,
-        Value: 42.96,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7832801295,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2021,
-        Value: 13.75,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6912430828,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2021,
-        Value: 16.27,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.8489708922,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2021,
-        Value: 46.16,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8535460757,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2021,
-        Value: 35.01,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5837966777,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2021,
-        Value: 38.14,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.667144962,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2021,
-        Value: 31.62,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4849255972,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2021,
-        Value: 19.47,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.0189603997,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2021,
-        Value: 42.99,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7839623354,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2021,
-        Value: 31.68,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.48676327,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2021,
-        Value: 35.5,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5973122606,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2021,
-        Value: 19.8,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.0349529867,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2021,
-        Value: 41.0,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7376696183,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2021,
-        Value: 38.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6851224052,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2021,
-        Value: 41.39,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7469124854,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2021,
-        Value: 24.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2534704696,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2022,
-        Value: 33.65,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5452977256,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2022,
-        Value: 40.36,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7223142302,
-    },
-    {
-        "Country Name": "Bolivia",
-        Year: 2022,
-        Value: 34.37,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5658640032,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2022,
-        Value: 39.27,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6956067749,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2022,
-        Value: 31.98,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4959013171,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2022,
-        Value: 35.59,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.599774979,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2022,
-        Value: 29.56,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4196919643,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2022,
-        Value: 43.51,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.795713883,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2022,
-        Value: 38.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6858749451,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2022,
-        Value: 40.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7264160576,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2022,
-        Value: 36.02,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6114583071,
-    },
-    {
-        "Country Name": "France",
-        Year: 2022,
-        Value: 39.85,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7099068213,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2022,
-        Value: 36.4,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6216707044,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2022,
-        Value: 28.86,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3965197921,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2022,
-        Value: 35.31,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5920931854,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2022,
-        Value: 29.73,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4252393761,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2022,
-        Value: 18.35,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9626924195,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2022,
-        Value: 37.87,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6602227449,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2022,
-        Value: 13.27,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6581594315,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2022,
-        Value: 24.6,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2425923515,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2022,
-        Value: 39.18,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6933693594,
-    },
-    {
-        "Country Name": "Netherlands ",
-        Year: 2022,
-        Value: 28.53,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.3854066958,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2022,
-        Value: 5.71,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 1.903598951,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2022,
-        Value: 31.26,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4738280727,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2022,
-        Value: 42.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7814586354,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2022,
-        Value: 13.78,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.6932749155,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2022,
-        Value: 14.6,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.7472709143,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2022,
-        Value: 44.03,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.8073289343,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2022,
-        Value: 23.65,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2047769005,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2022,
-        Value: 40.28,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7203781212,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2022,
-        Value: 32.94,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.5245942598,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2022,
-        Value: 22.32,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.1493113615,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2022,
-        Value: 41.95,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7600366484,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2022,
-        Value: 30.93,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.4635460067,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2022,
-        Value: 36.88,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6344232683,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2022,
-        Value: 18.35,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 2.9626924195,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2022,
-        Value: 41.0,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7376696183,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2022,
-        Value: 38.83,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.6846203972,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2022,
-        Value: 41.0,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.7376696183,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2022,
-        Value: 26.07,
-        Indicator: "Women in Managerial Positions (%)",
-        "Log Value": 3.2984261036,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2012,
-        Value: 12949.717486654,
-        Indicator: "GDP ($)",
-        "Log Value": 9.46890647,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2012,
-        Value: 68072.8732340801,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1283487656,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2012,
-        Value: 2575.5985709808,
-        Indicator: "GDP ($)",
-        "Log Value": 7.8542254247,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2012,
-        Value: 12521.7213530369,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4352999815,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2012,
-        Value: 52670.3447335415,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8718268435,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2012,
-        Value: 85836.2076767359,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3602078474,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2012,
-        Value: 15241.9069977366,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6318695589,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2012,
-        Value: 8108.5983824423,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0008036246,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2012,
-        Value: 44735.5882319701,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7085469745,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2012,
-        Value: 5634.0839319109,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6367673211,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2012,
-        Value: 47551.6740841369,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7695933037,
-    },
-    {
-        "Country Name": "France",
-        Year: 2012,
-        Value: 40863.5814412333,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6180189874,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2012,
-        Value: 42497.3404974322,
-        Indicator: "GDP ($)",
-        "Log Value": 10.657220307,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2012,
-        Value: 4530.6953340943,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4188513944,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2012,
-        Value: 3286.6195933627,
-        Indicator: "GDP ($)",
-        "Log Value": 8.097919054,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2012,
-        Value: 2126.034746865,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6624841512,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2012,
-        Value: 49411.7387476787,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8079635393,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2012,
-        Value: 8114.0809983188,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0014794612,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2012,
-        Value: 49145.2804308193,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8025564448,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2012,
-        Value: 1192.8026304167,
-        Indicator: "GDP ($)",
-        "Log Value": 7.0848989791,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2012,
-        Value: 25459.1689000965,
-        Indicator: "GDP ($)",
-        "Log Value": 10.144870506,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2012,
-        Value: 3327.7761240433,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1103599851,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2012,
-        Value: 10744.1335242686,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2822082356,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2012,
-        Value: 10600.5744240026,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2687577996,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2012,
-        Value: 50473.9442002689,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8292323377,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2012,
-        Value: 1204.3647549158,
-        Indicator: "GDP ($)",
-        "Log Value": 7.0945375013,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2012,
-        Value: 6519.3785298153,
-        Indicator: "GDP ($)",
-        "Log Value": 8.78268771,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2012,
-        Value: 13087.420943321,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4794832209,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2012,
-        Value: 108470.378825036,
-        Indicator: "GDP ($)",
-        "Log Value": 11.5942416275,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2012,
-        Value: 15401.8515625,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6423079377,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2012,
-        Value: 706.8173174944,
-        Indicator: "GDP ($)",
-        "Log Value": 6.5621860343,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2012,
-        Value: 55547.5553077786,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9250127877,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2012,
-        Value: 3497.9125691551,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1602075047,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2012,
-        Value: 57749.8251328664,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9638929163,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2012,
-        Value: 5725.5280283546,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6528646973,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2012,
-        Value: 11713.2849831139,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3685643148,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2012,
-        Value: 3951.3422851562,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2820636657,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2012,
-        Value: 51784.4114692048,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8548637567,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2012,
-        Value: 2185.1176765429,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6898824992,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2012,
-        Value: 8076.9767847974,
-        Indicator: "GDP ($)",
-        "Log Value": 8.9968967222,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2013,
-        Value: 12963.675773326,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4699836898,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2013,
-        Value: 68190.7010035651,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1300781503,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2013,
-        Value: 2870.0237700076,
-        Indicator: "GDP ($)",
-        "Log Value": 7.9624239594,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2013,
-        Value: 12458.891214816,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4302700616,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2013,
-        Value: 52638.1187235237,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8712148243,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2013,
-        Value: 87304.3305813557,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3771668005,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2013,
-        Value: 15683.54863663,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6604313435,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2013,
-        Value: 8279.1025564298,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0216106333,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2013,
-        Value: 47220.0102098851,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7625942041,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2013,
-        Value: 6109.2903151034,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7177295658,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2013,
-        Value: 49691.0145200739,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8135995255,
-    },
-    {
-        "Country Name": "France",
-        Year: 2013,
-        Value: 42669.1795111893,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6612555831,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2013,
-        Value: 43426.2981405143,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6788435118,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2013,
-        Value: 4712.0022938267,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4580804136,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2013,
-        Value: 3444.1597184387,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1447255448,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2013,
-        Value: 2081.1284352795,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6411459357,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2013,
-        Value: 52619.2123745817,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8708555906,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2013,
-        Value: 6222.7419484033,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7361266043,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2013,
-        Value: 40898.6478964744,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6188767331,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2013,
-        Value: 1305.6600972686,
-        Indicator: "GDP ($)",
-        "Log Value": 7.1752296165,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2013,
-        Value: 27179.5170146052,
-        Indicator: "GDP ($)",
-        "Log Value": 10.2102557094,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2013,
-        Value: 3740.6158934833,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2272728542,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2013,
-        Value: 11216.8008505428,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3252571572,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2013,
-        Value: 10713.6407638899,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2793663809,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2013,
-        Value: 52602.2860520766,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8705338692,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2013,
-        Value: 1225.4340119198,
-        Indicator: "GDP ($)",
-        "Log Value": 7.1118660603,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2013,
-        Value: 6746.800256966,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8169718429,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2013,
-        Value: 13621.9023794031,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5195076539,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2013,
-        Value: 103697.008372373,
-        Indicator: "GDP ($)",
-        "Log Value": 11.5492381884,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2013,
-        Value: 15941.4482421875,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6767405317,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2013,
-        Value: 704.9241901676,
-        Indicator: "GDP ($)",
-        "Log Value": 6.5595078524,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2013,
-        Value: 56967.4257940383,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9502524599,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2013,
-        Value: 3582.2669400517,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1840302164,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2013,
-        Value: 60844.2767113975,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0160894736,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2013,
-        Value: 6018.0824472925,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7026901093,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2013,
-        Value: 12578.1878632,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4397989704,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2013,
-        Value: 4129.8969726562,
-        Indicator: "GDP ($)",
-        "Log Value": 8.326249847,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2013,
-        Value: 53409.7507774372,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8857673301,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2013,
-        Value: 2359.5173647283,
-        Indicator: "GDP ($)",
-        "Log Value": 7.7666360963,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2013,
-        Value: 7331.6546738492,
-        Indicator: "GDP ($)",
-        "Log Value": 8.9000928949,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2014,
-        Value: 12233.1444119186,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4119860439,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2014,
-        Value: 62544.0873773726,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0436429737,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2014,
-        Value: 3041.4350311811,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0204134709,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2014,
-        Value: 12274.9939689363,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4154009245,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2014,
-        Value: 50960.8431174661,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8388324575,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2014,
-        Value: 88724.9909402638,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3933081461,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2014,
-        Value: 14529.6767210362,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5840173295,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2014,
-        Value: 8187.2082489008,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0104503799,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2014,
-        Value: 48971.0824722599,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7990056693,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2014,
-        Value: 6405.7997930044,
-        Indicator: "GDP ($)",
-        "Log Value": 8.765115173,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2014,
-        Value: 50073.7760815871,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8212726889,
-    },
-    {
-        "Country Name": "France",
-        Year: 2014,
-        Value: 43148.0459288416,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6724155857,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2014,
-        Value: 47439.6165895125,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7672340308,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2014,
-        Value: 4830.3348617025,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4828780773,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2014,
-        Value: 3689.1447247354,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2134209571,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2014,
-        Value: 2179.8817197727,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6874845326,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2014,
-        Value: 57278.2590911107,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9556938667,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2014,
-        Value: 5672.0637289632,
-        Indicator: "GDP ($)",
-        "Log Value": 8.643484591,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2014,
-        Value: 38475.3952461838,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5578002218,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2014,
-        Value: 1431.5639646999,
-        Indicator: "GDP ($)",
-        "Log Value": 7.2672211001,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2014,
-        Value: 29252.9312377352,
-        Indicator: "GDP ($)",
-        "Log Value": 10.2837692449,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2014,
-        Value: 3971.9191314817,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2872564011,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2014,
-        Value: 11391.3773497683,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3406997572,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2014,
-        Value: 11013.3107334403,
-        Indicator: "GDP ($)",
-        "Log Value": 9.306950682,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2014,
-        Value: 53457.2234864322,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8866557584,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2014,
-        Value: 1266.6134084996,
-        Indicator: "GDP ($)",
-        "Log Value": 7.1448912056,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2014,
-        Value: 6667.1341036086,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8050953552,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2014,
-        Value: 14262.2841914116,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5654439754,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2014,
-        Value: 95840.6310094498,
-        Indicator: "GDP ($)",
-        "Log Value": 11.4704524312,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2014,
-        Value: 14055.47265625,
-        Indicator: "GDP ($)",
-        "Log Value": 9.550838256,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2014,
-        Value: 724.9575212094,
-        Indicator: "GDP ($)",
-        "Log Value": 6.5874915024,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2014,
-        Value: 57564.8023114977,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9606839605,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2014,
-        Value: 3666.0124891387,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2071325739,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2014,
-        Value: 59583.7140001673,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9951543437,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2014,
-        Value: 5801.1978916205,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6659920716,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2014,
-        Value: 12165.220135038,
-        Indicator: "GDP ($)",
-        "Log Value": 9.406418549,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2014,
-        Value: 3054.908203125,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0248321116,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2014,
-        Value: 55304.3155317137,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9206243046,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2014,
-        Value: 2546.384644599,
-        Indicator: "GDP ($)",
-        "Log Value": 7.8428224823,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2014,
-        Value: 6856.7313709252,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8331319621,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2015,
-        Value: 13679.6264980954,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5237359868,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2015,
-        Value: 56739.0265346593,
-        Indicator: "GDP ($)",
-        "Log Value": 10.946235176,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2015,
-        Value: 2996.0128980421,
-        Indicator: "GDP ($)",
-        "Log Value": 8.005371371,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2015,
-        Value: 8936.1966175683,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0979772415,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2015,
-        Value: 43594.1941045394,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6827021963,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2015,
-        Value: 83806.4476003837,
-        Indicator: "GDP ($)",
-        "Log Value": 11.336277156,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2015,
-        Value: 13433.9202985339,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5056125887,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2015,
-        Value: 6248.5149053451,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7402591246,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2015,
-        Value: 41911.0109851054,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6433277232,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2015,
-        Value: 5976.1596805651,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6957007643,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2015,
-        Value: 42560.3456767103,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6587017419,
-    },
-    {
-        "Country Name": "France",
-        Year: 2015,
-        Value: 36702.4323733379,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5106255548,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2015,
-        Value: 44964.3911437292,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7136483872,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2015,
-        Value: 4086.6223465965,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3157187466,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2015,
-        Value: 3893.5052184813,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2673219203,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2015,
-        Value: 2271.2026598035,
-        Indicator: "GDP ($)",
-        "Log Value": 7.7285049747,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2015,
-        Value: 64311.8234684057,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0715143222,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2015,
-        Value: 4952.7335553218,
-        Indicator: "GDP ($)",
-        "Log Value": 8.5078968249,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2015,
-        Value: 34960.6393843385,
-        Indicator: "GDP ($)",
-        "Log Value": 10.4620067218,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2015,
-        Value: 1547.3201044439,
-        Indicator: "GDP ($)",
-        "Log Value": 7.3449258186,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2015,
-        Value: 28737.4391706499,
-        Indicator: "GDP ($)",
-        "Log Value": 10.2659908496,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2015,
-        Value: 4060.1313967025,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3092168829,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2015,
-        Value: 10021.2386118827,
-        Indicator: "GDP ($)",
-        "Log Value": 9.212561764,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2015,
-        Value: 9648.6797937523,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1746800118,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2015,
-        Value: 45793.8135434697,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7319261223,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2015,
-        Value: 1380.4702083832,
-        Indicator: "GDP ($)",
-        "Log Value": 7.2309035794,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2015,
-        Value: 6231.7115033889,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7375667504,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2015,
-        Value: 12637.5220324406,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4445047331,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2015,
-        Value: 68985.2946961507,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1416631363,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2015,
-        Value: 9277.7138671875,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1354782243,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2015,
-        Value: 733.9985850183,
-        Indicator: "GDP ($)",
-        "Log Value": 6.5998685741,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2015,
-        Value: 55645.6068614606,
-        Indicator: "GDP ($)",
-        "Log Value": 10.926776382,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2015,
-        Value: 3790.3408910816,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2404750326,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2015,
-        Value: 51197.9529341175,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8434743603,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2015,
-        Value: 5688.8533539788,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6464397542,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2015,
-        Value: 11049.9951100942,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3102757581,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2015,
-        Value: 2094.4738769531,
-        Indicator: "GDP ($)",
-        "Log Value": 7.647535001,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2015,
-        Value: 57040.2082136605,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9515292367,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2015,
-        Value: 2577.5688534011,
-        Indicator: "GDP ($)",
-        "Log Value": 7.854989816,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2015,
-        Value: 6112.2738248597,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7182177229,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2016,
-        Value: 12699.9623137756,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4494330423,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2016,
-        Value: 49888.0410842736,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8175566401,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2016,
-        Value: 3035.8734778704,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0185838039,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2016,
-        Value: 8836.28652637,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0867351545,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2016,
-        Value: 42314.0615817218,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6528983674,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2016,
-        Value: 82153.0745447889,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3163517211,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2016,
-        Value: 13649.8520455553,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5215572196,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2016,
-        Value: 5959.8425036757,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6929671097,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2016,
-        Value: 42961.0356905775,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6680721138,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2016,
-        Value: 5917.6377127148,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6858615853,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2016,
-        Value: 43451.2562442158,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6794180567,
-    },
-    {
-        "Country Name": "France",
-        Year: 2016,
-        Value: 37024.2157133669,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5193544653,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2016,
-        Value: 40985.2351382417,
-        Indicator: "GDP ($)",
-        "Log Value": 10.620991561,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2016,
-        Value: 4143.4012568631,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3295136076,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2016,
-        Value: 4060.1375562122,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3092183996,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2016,
-        Value: 2307.3446835108,
-        Indicator: "GDP ($)",
-        "Log Value": 7.7442859594,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2016,
-        Value: 64292.659966313,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0712163045,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2016,
-        Value: 5477.0371238991,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6085021267,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2016,
-        Value: 39375.4731620781,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5809237891,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2016,
-        Value: 1675.1955571111,
-        Indicator: "GDP ($)",
-        "Log Value": 7.4242819551,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2016,
-        Value: 29280.4403170048,
-        Indicator: "GDP ($)",
-        "Log Value": 10.284709158,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2016,
-        Value: 4149.7610545446,
-        Indicator: "GDP ($)",
-        "Log Value": 8.331046983,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2016,
-        Value: 9097.9239767477,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1159114412,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2016,
-        Value: 9476.5340980992,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1566794452,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2016,
-        Value: 46808.5291492503,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7538420755,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2016,
-        Value: 1424.691611959,
-        Indicator: "GDP ($)",
-        "Log Value": 7.2624123167,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2016,
-        Value: 6217.0359999545,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7352093802,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2016,
-        Value: 12464.0110508476,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4306808825,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2016,
-        Value: 61253.6375482797,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0227948406,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2016,
-        Value: 8663.158203125,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0669500483,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2016,
-        Value: 729.5191541996,
-        Indicator: "GDP ($)",
-        "Log Value": 6.5937554515,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2016,
-        Value: 56899.9181805173,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9490667567,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2016,
-        Value: 3901.3401496581,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2693316905,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2016,
-        Value: 51820.3972482676,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8555584172,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2016,
-        Value: 5833.577156171,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6715570753,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2016,
-        Value: 10970.0458948862,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3030148901,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2016,
-        Value: 2158.4611816406,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6776140166,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2016,
-        Value: 58206.6141931844,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9717714532,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2016,
-        Value: 2735.0604380416,
-        Indicator: "GDP ($)",
-        "Log Value": 7.9142743684,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2016,
-        Value: 5651.2058516575,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6398011642,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2017,
-        Value: 14532.5009308511,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5842116725,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2017,
-        Value: 53901.7145392154,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8949361181,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2017,
-        Value: 3306.3030117656,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1038883362,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2017,
-        Value: 10080.5092817775,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2184582608,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2017,
-        Value: 45129.628116623,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7173164107,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2017,
-        Value: 82254.3769269767,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3175840395,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2017,
-        Value: 14879.9086230423,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6078343699,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2017,
-        Value: 6479.5323129243,
-        Indicator: "GDP ($)",
-        "Log Value": 8.776557933,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2017,
-        Value: 45526.5999576533,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7260740135,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2017,
-        Value: 6233.3224479772,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7378251831,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2017,
-        Value: 46085.0174739036,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7382648744,
-    },
-    {
-        "Country Name": "France",
-        Year: 2017,
-        Value: 38687.1626407164,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5632889573,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2017,
-        Value: 40572.1214823783,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6108610939,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2017,
-        Value: 4418.7520654668,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3938388797,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2017,
-        Value: 4324.9960791137,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3723977002,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2017,
-        Value: 2413.0076562942,
-        Indicator: "GDP ($)",
-        "Log Value": 7.7890435733,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2017,
-        Value: 72499.3268743015,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1913463494,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2017,
-        Value: 5753.115446594,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6576706076,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2017,
-        Value: 38834.0529341227,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5670785439,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2017,
-        Value: 1826.3539168875,
-        Indicator: "GDP ($)",
-        "Log Value": 7.5106242524,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2017,
-        Value: 31600.7358741365,
-        Indicator: "GDP ($)",
-        "Log Value": 10.3609673308,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2017,
-        Value: 4401.055670455,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3898269086,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2017,
-        Value: 9649.278167724,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1747420196,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2017,
-        Value: 9862.5480661224,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1966012273,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2017,
-        Value: 49513.6817346384,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8100245053,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2017,
-        Value: 1519.2345951425,
-        Indicator: "GDP ($)",
-        "Log Value": 7.3266199408,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2017,
-        Value: 6736.1669372549,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8153947798,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2017,
-        Value: 13913.3402919927,
-        Indicator: "GDP ($)",
-        "Log Value": 9.540675263,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2017,
-        Value: 63279.8556949332,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0553381247,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2017,
-        Value: 10658.9130859375,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2742455444,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2017,
-        Value: 758.301002986,
-        Indicator: "GDP ($)",
-        "Log Value": 6.6323982772,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2017,
-        Value: 61162.0973932771,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0212993029,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2017,
-        Value: 4020.1267137392,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2993174194,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2017,
-        Value: 53300.8587281785,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8837264825,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2017,
-        Value: 6413.0918253034,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7662526965,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2017,
-        Value: 10695.550196231,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2776765569,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2017,
-        Value: 2604.2875976562,
-        Indicator: "GDP ($)",
-        "Log Value": 7.8652983503,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2017,
-        Value: 60322.2614241747,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0074730699,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2017,
-        Value: 2956.1099212775,
-        Indicator: "GDP ($)",
-        "Log Value": 7.9919676924,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2017,
-        Value: 6618.335082557,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7977502032,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2018,
-        Value: 11752.7998922979,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3719318624,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2018,
-        Value: 57196.4220783778,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9542641078,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2018,
-        Value: 3500.7264218937,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1610113893,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2018,
-        Value: 9300.661649365,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1379483352,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2018,
-        Value: 46539.1761570405,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7480712219,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2018,
-        Value: 85217.3691512274,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3529722899,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2018,
-        Value: 15659.4808675628,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6588956758,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2018,
-        Value: 6816.9681830954,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8273167861,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2018,
-        Value: 48874.8595028454,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7970388829,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2018,
-        Value: 6303.918925236,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7490853895,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2018,
-        Value: 49654.2497035329,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8128593981,
-    },
-    {
-        "Country Name": "France",
-        Year: 2018,
-        Value: 41418.1766484844,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6314992566,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2018,
-        Value: 43203.8141057739,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6737072057,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2018,
-        Value: 4804.0546040444,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4774236853,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2018,
-        Value: 4352.9465179025,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3788379583,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2018,
-        Value: 2464.6424153192,
-        Indicator: "GDP ($)",
-        "Log Value": 7.8102076673,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2018,
-        Value: 81248.3135388,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3052776514,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2018,
-        Value: 4631.7870901651,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4409139293,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2018,
-        Value: 39751.1330982711,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5904187815,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2018,
-        Value: 2036.6737756658,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6195641301,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2018,
-        Value: 33447.1562836166,
-        Indicator: "GDP ($)",
-        "Log Value": 10.4177519455,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2018,
-        Value: 4360.5847346925,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3805907416,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2018,
-        Value: 10084.7937562021,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2188831539,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2018,
-        Value: 10901.8019954421,
-        Indicator: "GDP ($)",
-        "Log Value": 9.296775099,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2018,
-        Value: 53955.0770024266,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8959256057,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2018,
-        Value: 1569.3381462636,
-        Indicator: "GDP ($)",
-        "Log Value": 7.3590462549,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2018,
-        Value: 6978.4912154863,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8507313013,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2018,
-        Value: 15658.2120316794,
-        Indicator: "GDP ($)",
-        "Log Value": 9.658814651,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2018,
-        Value: 71039.8490579352,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1710103294,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2018,
-        Value: 11211.8876953125,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3248190828,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2018,
-        Value: 771.7735219626,
-        Indicator: "GDP ($)",
-        "Log Value": 6.6499860198,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2018,
-        Value: 66840.6373389791,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1100814788,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2018,
-        Value: 4183.5462097136,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3391535445,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2018,
-        Value: 54181.9069780904,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9001207683,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2018,
-        Value: 7099.7765008146,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8679594234,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2018,
-        Value: 9568.8350633023,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1663712495,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2018,
-        Value: 3059.0517578125,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0261871091,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2018,
-        Value: 63201.0458483771,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0540919506,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2018,
-        Value: 3222.3100312537,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0781640706,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2018,
-        Value: 6914.1780318076,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8414739895,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2019,
-        Value: 9955.9747868043,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2060285682,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2019,
-        Value: 54972.7017885437,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9146102006,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2019,
-        Value: 3503.8960106182,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1619161302,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2019,
-        Value: 9029.8332674218,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1083999198,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2019,
-        Value: 46352.8693445211,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7440600485,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2019,
-        Value: 84121.9310304414,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3400344727,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2019,
-        Value: 14495.716721687,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5816774698,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2019,
-        Value: 6472.545449247,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7754792203,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2019,
-        Value: 47623.8656074829,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7711102905,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2019,
-        Value: 6205.0575947976,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7332811255,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2019,
-        Value: 48358.1807773701,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7864113645,
-    },
-    {
-        "Country Name": "France",
-        Year: 2019,
-        Value: 40408.2848574751,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6068148607,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2019,
-        Value: 42662.5353740311,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6610998619,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2019,
-        Value: 4741.2832715876,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4642740016,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2019,
-        Value: 4511.9975515766,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4147168573,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2019,
-        Value: 2502.3274432807,
-        Indicator: "GDP ($)",
-        "Log Value": 7.8253761032,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2019,
-        Value: 82508.4659883582,
-        Indicator: "GDP ($)",
-        "Log Value": 11.320668305,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2019,
-        Value: 3831.2789476334,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2512149307,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2019,
-        Value: 40415.9567649547,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6070046978,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2019,
-        Value: 2225.8770548569,
-        Indicator: "GDP ($)",
-        "Log Value": 7.7083554591,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2019,
-        Value: 31902.4169048194,
-        Indicator: "GDP ($)",
-        "Log Value": 10.370468396,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2019,
-        Value: 4082.6940487153,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3147572619,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2019,
-        Value: 10369.5553568761,
-        Indicator: "GDP ($)",
-        "Log Value": 9.246725854,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2019,
-        Value: 10920.191763972,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2984603792,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2019,
-        Value: 53554.9007491475,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8884812612,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2019,
-        Value: 1390.4169098175,
-        Indicator: "GDP ($)",
-        "Log Value": 7.2380778665,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2019,
-        Value: 7037.008036926,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8590804598,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2019,
-        Value: 15874.5220531254,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6725337085,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2019,
-        Value: 66841.3013472693,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1100914128,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2019,
-        Value: 11447.701171875,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3456315678,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2019,
-        Value: 810.0514202437,
-        Indicator: "GDP ($)",
-        "Log Value": 6.6983314556,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2019,
-        Value: 66081.7199235165,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0986625684,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2019,
-        Value: 4320.1167153463,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3712691468,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2019,
-        Value: 51773.0464558993,
-        Indicator: "GDP ($)",
-        "Log Value": 10.854644269,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2019,
-        Value: 7605.6965779776,
-        Indicator: "GDP ($)",
-        "Log Value": 8.936784267,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2019,
-        Value: 9215.4404988811,
-        Indicator: "GDP ($)",
-        "Log Value": 9.128744179,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2019,
-        Value: 3619.8615722656,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1944672799,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2019,
-        Value: 65604.6815198734,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0914175797,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2019,
-        Value: 3440.9002537543,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1437789972,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2019,
-        Value: 6533.7112103286,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7848834339,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2020,
-        Value: 8535.5993800439,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0521180084,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2020,
-        Value: 51791.540179984,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8550014059,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2020,
-        Value: 3099.9421904457,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0394612767,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2020,
-        Value: 7074.1937828187,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8643501119,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2020,
-        Value: 43537.839298904,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6814086762,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2020,
-        Value: 85897.7843338323,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3609249558,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2020,
-        Value: 13114.815470545,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4815740688,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2020,
-        Value: 5339.6871135794,
-        Indicator: "GDP ($)",
-        "Log Value": 8.5831095966,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2020,
-        Value: 47379.765194548,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7659716277,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2020,
-        Value: 5463.6450964932,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6060544573,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2020,
-        Value: 48828.6846862799,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7960936997,
-    },
-    {
-        "Country Name": "France",
-        Year: 2020,
-        Value: 39169.8606000707,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5756883973,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2020,
-        Value: 40201.6812422928,
-        Indicator: "GDP ($)",
-        "Log Value": 10.60168897,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2020,
-        Value: 4300.8570129121,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3668020719,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2020,
-        Value: 4477.6176179642,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4070697104,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2020,
-        Value: 2307.6149431951,
-        Indicator: "GDP ($)",
-        "Log Value": 7.744403032,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2020,
-        Value: 87567.1148972037,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3801722255,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2020,
-        Value: 2988.7812241472,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0029554945,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2020,
-        Value: 40040.7655055923,
-        Indicator: "GDP ($)",
-        "Log Value": 10.597678326,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2020,
-        Value: 2081.7391424294,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6414392017,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2020,
-        Value: 31721.2989141857,
-        Indicator: "GDP ($)",
-        "Log Value": 10.3647751483,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2020,
-        Value: 3846.1744956674,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2550942606,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2020,
-        Value: 8841.2707500316,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0872989948,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2020,
-        Value: 9957.5262669761,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2061843745,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2020,
-        Value: 53467.9277413737,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8868559743,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2020,
-        Value: 1278.397352069,
-        Indicator: "GDP ($)",
-        "Log Value": 7.1541444273,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2020,
-        Value: 6133.3255241018,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7216554121,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2020,
-        Value: 15987.5753654045,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6796297065,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2020,
-        Value: 51683.5054353851,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8529133141,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2020,
-        Value: 10108.3271484375,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2212137567,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2020,
-        Value: 778.7015385503,
-        Indicator: "GDP ($)",
-        "Log Value": 6.6589112036,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2020,
-        Value: 61466.803676358,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0262687993,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2020,
-        Value: 3997.1927958371,
-        Indicator: "GDP ($)",
-        "Log Value": 8.293597737,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2020,
-        Value: 52653.7565934247,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8715118571,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2020,
-        Value: 6985.6439389257,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8517555967,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2020,
-        Value: 8638.739038481,
-        Indicator: "GDP ($)",
-        "Log Value": 9.0641276575,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2020,
-        Value: 3709.7692871094,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2189944891,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2020,
-        Value: 64411.3731779373,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0730610237,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2020,
-        Value: 3534.0395348265,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1704797621,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2020,
-        Value: 5580.6038307519,
-        Indicator: "GDP ($)",
-        "Log Value": 8.6272314389,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2021,
-        Value: 10738.0179223384,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2816389228,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2021,
-        Value: 60607.7788605166,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0121950273,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2021,
-        Value: 3384.8448647925,
-        Indicator: "GDP ($)",
-        "Log Value": 8.127358745,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2021,
-        Value: 7972.5366504839,
-        Indicator: "GDP ($)",
-        "Log Value": 8.9838834187,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2021,
-        Value: 52496.8441693242,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8685273843,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2021,
-        Value: 93446.4344518943,
-        Indicator: "GDP ($)",
-        "Log Value": 11.4451543588,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2021,
-        Value: 16216.5706467899,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6938505413,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2021,
-        Value: 6222.6216439761,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7361072742,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2021,
-        Value: 52265.6541620571,
-        Indicator: "GDP ($)",
-        "Log Value": 10.864113859,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2021,
-        Value: 6075.8026572556,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7122339579,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2021,
-        Value: 53099.1351400148,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8799347522,
-    },
-    {
-        "Country Name": "France",
-        Year: 2021,
-        Value: 43725.0999521245,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6857004557,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2021,
-        Value: 46896.8662432834,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7557274575,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2021,
-        Value: 5083.6069548458,
-        Indicator: "GDP ($)",
-        "Log Value": 8.5339730105,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2021,
-        Value: 4913.9471286935,
-        Indicator: "GDP ($)",
-        "Log Value": 8.5000362754,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2021,
-        Value: 2735.1475150398,
-        Indicator: "GDP ($)",
-        "Log Value": 7.9143061936,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2021,
-        Value: 105561.137468992,
-        Indicator: "GDP ($)",
-        "Log Value": 11.5670550393,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2021,
-        Value: 4334.7926863135,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3746597298,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2021,
-        Value: 40058.5373276179,
-        Indicator: "GDP ($)",
-        "Log Value": 10.5981220597,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2021,
-        Value: 2167.403241985,
-        Indicator: "GDP ($)",
-        "Log Value": 7.6817463425,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2021,
-        Value: 35125.5224984723,
-        Indicator: "GDP ($)",
-        "Log Value": 10.4667117508,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2021,
-        Value: 3999.3376467764,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2941340482,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2021,
-        Value: 10314.0506741437,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2413593382,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2021,
-        Value: 10903.1116425938,
-        Indicator: "GDP ($)",
-        "Log Value": 9.296895212,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2021,
-        Value: 60141.9880911492,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0044801409,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2021,
-        Value: 1455.3192237019,
-        Indicator: "GDP ($)",
-        "Log Value": 7.2836674518,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2021,
-        Value: 6826.9720069846,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8287829842,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2021,
-        Value: 18635.5104895754,
-        Indicator: "GDP ($)",
-        "Log Value": 9.8328778652,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2021,
-        Value: 71751.8831234838,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1809833157,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2021,
-        Value: 12521.5224609375,
-        Indicator: "GDP ($)",
-        "Log Value": 9.4352840989,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2021,
-        Value: 828.833032801,
-        Indicator: "GDP ($)",
-        "Log Value": 6.7212245153,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2021,
-        Value: 79601.4129622433,
-        Indicator: "GDP ($)",
-        "Log Value": 11.284799685,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2021,
-        Value: 4642.6074310134,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4432468067,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2021,
-        Value: 61174.9680215622,
-        Indicator: "GDP ($)",
-        "Log Value": 11.021509712,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2021,
-        Value: 7058.0694998852,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8620685229,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2021,
-        Value: 9743.2127780485,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1844288265,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2021,
-        Value: 4775.9458007812,
-        Indicator: "GDP ($)",
-        "Log Value": 8.4715566675,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2021,
-        Value: 71318.3073592183,
-        Indicator: "GDP ($)",
-        "Log Value": 11.1749223602,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2021,
-        Value: 3704.1935590038,
-        Indicator: "GDP ($)",
-        "Log Value": 8.217490779,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2021,
-        Value: 6843.399418862,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8311859938,
-    },
-    {
-        "Country Name": "Argentina",
-        Year: 2022,
-        Value: 13935.6811110049,
-        Indicator: "GDP ($)",
-        "Log Value": 9.5422795721,
-    },
-    {
-        "Country Name": "Australia",
-        Year: 2022,
-        Value: 64997.0136536475,
-        Indicator: "GDP ($)",
-        "Log Value": 11.0821119892,
-    },
-    {
-        "Country Name": "Bolivia ",
-        Year: 2022,
-        Value: 3643.9282696868,
-        Indicator: "GDP ($)",
-        "Log Value": 8.2010919652,
-    },
-    {
-        "Country Name": "Brazil",
-        Year: 2022,
-        Value: 9281.3333444123,
-        Indicator: "GDP ($)",
-        "Log Value": 9.1358682322,
-    },
-    {
-        "Country Name": "Canada",
-        Year: 2022,
-        Value: 55509.393176404,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9243255466,
-    },
-    {
-        "Country Name": "Switzerland",
-        Year: 2022,
-        Value: 93245.7952120851,
-        Indicator: "GDP ($)",
-        "Log Value": 11.4430049692,
-    },
-    {
-        "Country Name": "Chile",
-        Year: 2022,
-        Value: 15451.1319576678,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6455022636,
-    },
-    {
-        "Country Name": "Colombia",
-        Year: 2022,
-        Value: 6674.5960194806,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8062137706,
-    },
-    {
-        "Country Name": "Germany",
-        Year: 2022,
-        Value: 49686.1154582583,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8135009322,
-    },
-    {
-        "Country Name": "Ecuador",
-        Year: 2022,
-        Value: 6540.998245221,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7859979399,
-    },
-    {
-        "Country Name": "Finland",
-        Year: 2022,
-        Value: 50438.4753952355,
-        Indicator: "GDP ($)",
-        "Log Value": 10.8285293895,
-    },
-    {
-        "Country Name": "France",
-        Year: 2022,
-        Value: 41082.8119320747,
-        Indicator: "GDP ($)",
-        "Log Value": 10.6233694526,
-    },
-    {
-        "Country Name": "United Kingdom",
-        Year: 2022,
-        Value: 45935.9276473925,
-        Indicator: "GDP ($)",
-        "Log Value": 10.7350245965,
-    },
-    {
-        "Country Name": "Georgia",
-        Year: 2022,
-        Value: 6729.8465993028,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8144562096,
-    },
-    {
-        "Country Name": "Guatemala",
-        Year: 2022,
-        Value: 5358.08963795,
-        Indicator: "GDP ($)",
-        "Log Value": 8.586549396,
-    },
-    {
-        "Country Name": "Honduras",
-        Year: 2022,
-        Value: 3003.289968264,
-        Indicator: "GDP ($)",
-        "Log Value": 8.0077965356,
-    },
-    {
-        "Country Name": "Ireland",
-        Year: 2022,
-        Value: 106194.755859223,
-        Indicator: "GDP ($)",
-        "Log Value": 11.5730394233,
-    },
-    {
-        "Country Name": "Iran",
-        Year: 2022,
-        Value: 4405.0929151979,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3907436155,
-    },
-    {
-        "Country Name": "Japan",
-        Year: 2022,
-        Value: 34017.2718075024,
-        Indicator: "GDP ($)",
-        "Log Value": 10.4346530654,
-    },
-    {
-        "Country Name": "Cambodia",
-        Year: 2022,
-        Value: 2325.0305004084,
-        Indicator: "GDP ($)",
-        "Log Value": 7.7519184458,
-    },
-    {
-        "Country Name": "Republic of Korea",
-        Year: 2022,
-        Value: 32394.6833725203,
-        Indicator: "GDP ($)",
-        "Log Value": 10.3857804637,
-    },
-    {
-        "Country Name": "Sri Lanka",
-        Year: 2022,
-        Value: 3342.719896462,
-        Indicator: "GDP ($)",
-        "Log Value": 8.1148392077,
-    },
-    {
-        "Country Name": "Mexico",
-        Year: 2022,
-        Value: 11385.4070757929,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3401755612,
-    },
-    {
-        "Country Name": "Malaysia",
-        Year: 2022,
-        Value: 11748.0919307944,
-        Indicator: "GDP ($)",
-        "Log Value": 9.3715312341,
-    },
-    {
-        "Country Name": "Netherlands",
-        Year: 2022,
-        Value: 59123.318556487,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9873976003,
-    },
-    {
-        "Country Name": "Pakistan",
-        Year: 2022,
-        Value: 1538.3228133171,
-        Indicator: "GDP ($)",
-        "Log Value": 7.3390978671,
-    },
-    {
-        "Country Name": "Peru",
-        Year: 2022,
-        Value: 7363.2720693964,
-        Indicator: "GDP ($)",
-        "Log Value": 8.9043954875,
-    },
-    {
-        "Country Name": "Poland",
-        Year: 2022,
-        Value: 18891.2121169279,
-        Indicator: "GDP ($)",
-        "Log Value": 9.8465050588,
-    },
-    {
-        "Country Name": "Qatar",
-        Year: 2022,
-        Value: 88701.463350036,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3930429396,
-    },
-    {
-        "Country Name": "Russian Federation",
-        Year: 2022,
-        Value: 15445.2421875,
-        Indicator: "GDP ($)",
-        "Log Value": 9.6451210286,
-    },
-    {
-        "Country Name": "Rwanda",
-        Year: 2022,
-        Value: 975.4693158717,
-        Indicator: "GDP ($)",
-        "Log Value": 6.8839433273,
-    },
-    {
-        "Country Name": "Singapore",
-        Year: 2022,
-        Value: 88428.7024226232,
-        Indicator: "GDP ($)",
-        "Log Value": 11.3899631924,
-    },
-    {
-        "Country Name": "El Salvador",
-        Year: 2022,
-        Value: 5093.5183387978,
-        Indicator: "GDP ($)",
-        "Log Value": 8.5359204051,
-    },
-    {
-        "Country Name": "Sweden",
-        Year: 2022,
-        Value: 55296.9371472535,
-        Indicator: "GDP ($)",
-        "Log Value": 10.9204908839,
-    },
-    {
-        "Country Name": "Thailand",
-        Year: 2022,
-        Value: 6909.3599748145,
-        Indicator: "GDP ($)",
-        "Log Value": 8.8407770102,
-    },
-    {
-        "Country Name": "T\u00fcrkiye",
-        Year: 2022,
-        Value: 10674.504157865,
-        Indicator: "GDP ($)",
-        "Log Value": 9.2757070649,
-    },
-    {
-        "Country Name": "Ukraine",
-        Year: 2022,
-        Value: 4199.6708984375,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3429995292,
-    },
-    {
-        "Country Name": "United States",
-        Year: 2022,
-        Value: 78035.1753604212,
-        Indicator: "GDP ($)",
-        "Log Value": 11.2649277848,
-    },
-    {
-        "Country Name": "Viet Nam",
-        Year: 2022,
-        Value: 4116.3857609415,
-        Indicator: "GDP ($)",
-        "Log Value": 8.3229737169,
-    },
-    {
-        "Country Name": "South Africa",
-        Year: 2022,
-        Value: 6523.4109781585,
-        Indicator: "GDP ($)",
-        "Log Value": 8.7833059566,
-    },
+  {
+    "Country Name":"Argentina",
+    "Year":"2012",
+    "Value":37.35,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2012",
+    "Value":24.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2012",
+    "Value":25.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2012",
+    "Value":8.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2012",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2012",
+    "Value":24.76,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2012",
+    "Value":14.17,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2012",
+    "Value":12.12,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2012",
+    "Value":32.26,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2012",
+    "Value":19.05,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2012",
+    "Value":42.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2012",
+    "Value":18.89,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2012",
+    "Value":6.57,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2012",
+    "Value":32.9,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2012",
+    "Value":13.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2012",
+    "Value":19.53,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2012",
+    "Value":2.76,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2012",
+    "Value":15.06,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2012",
+    "Value":10.83,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2012",
+    "Value":10.41,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2012",
+    "Value":26.2,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2012",
+    "Value":40.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2012",
+    "Value":22.51,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2012",
+    "Value":21.54,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2012",
+    "Value":23.7,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2012",
+    "Value":0.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2012",
+    "Value":14.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2012",
+    "Value":13.56,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2012",
+    "Value":56.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2012",
+    "Value":22.22,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2012",
+    "Value":42.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2012",
+    "Value":5.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2012",
+    "Value":44.7,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2012",
+    "Value":28.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2012",
+    "Value":15.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2012",
+    "Value":14.18,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2012",
+    "Value":8.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2012",
+    "Value":22.31,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2012",
+    "Value":16.82,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2012",
+    "Value":24.4,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2013",
+    "Value":37.35,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2013",
+    "Value":24.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2013",
+    "Value":25.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2013",
+    "Value":8.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2013",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2013",
+    "Value":24.68,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2013",
+    "Value":14.17,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2013",
+    "Value":12.12,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2013",
+    "Value":32.26,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2013",
+    "Value":26.19,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2013",
+    "Value":42.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2013",
+    "Value":26.86,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2013",
+    "Value":12.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2013",
+    "Value":32.9,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2013",
+    "Value":13.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2013",
+    "Value":19.53,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2013",
+    "Value":3.1,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2013",
+    "Value":15.06,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2013",
+    "Value":7.92,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2013",
+    "Value":10.41,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2013",
+    "Value":36.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2013",
+    "Value":38.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2013",
+    "Value":22.51,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2013",
+    "Value":21.54,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2013",
+    "Value":23.7,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2013",
+    "Value":0.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2013",
+    "Value":15.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2013",
+    "Value":13.56,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2013",
+    "Value":56.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2013",
+    "Value":24.24,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2013",
+    "Value":42.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2013",
+    "Value":5.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2013",
+    "Value":44.7,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2013",
+    "Value":29.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2013",
+    "Value":15.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2013",
+    "Value":14.18,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2013",
+    "Value":9.44,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2013",
+    "Value":22.46,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2013",
+    "Value":17.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2013",
+    "Value":24.4,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2014",
+    "Value":36.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2014",
+    "Value":26.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2014",
+    "Value":25.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2014",
+    "Value":8.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2014",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2014",
+    "Value":25.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2014",
+    "Value":15.83,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2014",
+    "Value":12.12,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2014",
+    "Value":41.61,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2014",
+    "Value":26.19,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2014",
+    "Value":42.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2014",
+    "Value":26.17,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2014",
+    "Value":12.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2014",
+    "Value":36.45,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2014",
+    "Value":13.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2014",
+    "Value":25.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2014",
+    "Value":3.1,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2014",
+    "Value":15.66,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2014",
+    "Value":8.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2014",
+    "Value":10.36,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2014",
+    "Value":37.4,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2014",
+    "Value":38.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2014",
+    "Value":20.74,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2014",
+    "Value":22.31,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2014",
+    "Value":24.35,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2014",
+    "Value":0.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2014",
+    "Value":15.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2014",
+    "Value":13.56,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2014",
+    "Value":63.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2014",
+    "Value":25.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2014",
+    "Value":44.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2014",
+    "Value":5.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2014",
+    "Value":44.99,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2014",
+    "Value":31.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2014",
+    "Value":15.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2014",
+    "Value":14.42,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2014",
+    "Value":9.73,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2014",
+    "Value":22.62,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2014",
+    "Value":18.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2014",
+    "Value":24.3,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2015",
+    "Value":36.19,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2015",
+    "Value":26.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2015",
+    "Value":53.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2015",
+    "Value":8.97,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2015",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2015",
+    "Value":25.16,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2015",
+    "Value":15.83,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2015",
+    "Value":19.88,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2015",
+    "Value":41.61,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2015",
+    "Value":27.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2015",
+    "Value":42.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2015",
+    "Value":26.17,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2015",
+    "Value":11.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2015",
+    "Value":36.45,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2015",
+    "Value":13.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2015",
+    "Value":25.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2015",
+    "Value":3.1,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2015",
+    "Value":16.27,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2015",
+    "Value":9.47,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2015",
+    "Value":10.36,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2015",
+    "Value":38.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2015",
+    "Value":37.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2015",
+    "Value":20.74,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2015",
+    "Value":22.31,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2015",
+    "Value":24.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2015",
+    "Value":0.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2015",
+    "Value":16.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2015",
+    "Value":13.56,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2015",
+    "Value":63.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2015",
+    "Value":25.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2015",
+    "Value":41.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2015",
+    "Value":5.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2015",
+    "Value":43.55,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2015",
+    "Value":30.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2015",
+    "Value":6.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2015",
+    "Value":14.42,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2015",
+    "Value":11.85,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2015",
+    "Value":22.77,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2015",
+    "Value":19.35,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2015",
+    "Value":24.3,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2016",
+    "Value":35.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2016",
+    "Value":26.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2016",
+    "Value":53.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2016",
+    "Value":9.94,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2016",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2016",
+    "Value":26.04,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2016",
+    "Value":15.83,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2016",
+    "Value":19.88,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2016",
+    "Value":41.61,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2016",
+    "Value":32.14,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2016",
+    "Value":41.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2016",
+    "Value":26.17,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2016",
+    "Value":11.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2016",
+    "Value":36.45,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2016",
+    "Value":13.92,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2016",
+    "Value":25.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2016",
+    "Value":3.1,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2016",
+    "Value":16.27,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2016",
+    "Value":9.47,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2016",
+    "Value":10.36,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2016",
+    "Value":42.37,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2016",
+    "Value":37.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2016",
+    "Value":20.59,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2016",
+    "Value":22.31,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2016",
+    "Value":27.39,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2016",
+    "Value":0.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2016",
+    "Value":16.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2016",
+    "Value":13.56,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2016",
+    "Value":63.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2016",
+    "Value":23.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2016",
+    "Value":42.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2016",
+    "Value":5.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2016",
+    "Value":43.55,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2016",
+    "Value":32.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2016",
+    "Value":6.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2016",
+    "Value":14.91,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2016",
+    "Value":12.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2016",
+    "Value":29.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2016",
+    "Value":19.35,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2016",
+    "Value":24.3,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2017",
+    "Value":38.91,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2017",
+    "Value":28.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2017",
+    "Value":53.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2017",
+    "Value":10.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2017",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2017",
+    "Value":26.27,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2017",
+    "Value":15.83,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2017",
+    "Value":18.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2017",
+    "Value":41.61,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2017",
+    "Value":32.14,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2017",
+    "Value":42.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2017",
+    "Value":25.82,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2017",
+    "Value":16.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2017",
+    "Value":36.98,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2017",
+    "Value":12.66,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2017",
+    "Value":25.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2017",
+    "Value":5.88,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2017",
+    "Value":22.15,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2017",
+    "Value":9.26,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2017",
+    "Value":10.36,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2017",
+    "Value":42.6,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2017",
+    "Value":38.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2017",
+    "Value":20.59,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2017",
+    "Value":27.69,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2017",
+    "Value":28.04,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2017",
+    "Value":0.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2017",
+    "Value":17.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2017",
+    "Value":15.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2017",
+    "Value":61.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2017",
+    "Value":23.76,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2017",
+    "Value":42.17,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2017",
+    "Value":5.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2017",
+    "Value":43.55,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2017",
+    "Value":32.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2017",
+    "Value":4.86,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2017",
+    "Value":14.91,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2017",
+    "Value":12.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2017",
+    "Value":30.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2017",
+    "Value":19.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2017",
+    "Value":26.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2018",
+    "Value":38.91,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2018",
+    "Value":28.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2018",
+    "Value":53.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2018",
+    "Value":10.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2018",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2018",
+    "Value":27.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2018",
+    "Value":22.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2018",
+    "Value":18.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2018",
+    "Value":37.96,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2018",
+    "Value":32.14,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2018",
+    "Value":42.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2018",
+    "Value":38.99,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2018",
+    "Value":16.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2018",
+    "Value":30.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2018",
+    "Value":12.66,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2018",
+    "Value":21.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2018",
+    "Value":5.88,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2018",
+    "Value":22.15,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2018",
+    "Value":10.11,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2018",
+    "Value":10.36,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2018",
+    "Value":42.6,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2018",
+    "Value":36.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2018",
+    "Value":20.59,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2018",
+    "Value":27.69,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2018",
+    "Value":28.04,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2018",
+    "Value":9.76,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2018",
+    "Value":17.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2018",
+    "Value":15.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2018",
+    "Value":61.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2018",
+    "Value":23.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2018",
+    "Value":42.39,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2018",
+    "Value":5.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2018",
+    "Value":43.55,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2018",
+    "Value":32.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2018",
+    "Value":4.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2018",
+    "Value":14.57,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2018",
+    "Value":12.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2018",
+    "Value":32.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2018",
+    "Value":19.49,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2018",
+    "Value":26.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2019",
+    "Value":38.82,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2019",
+    "Value":30.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2019",
+    "Value":53.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2019",
+    "Value":15.01,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2019",
+    "Value":20.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2019",
+    "Value":26.95,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2019",
+    "Value":22.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2019",
+    "Value":18.71,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2019",
+    "Value":37.96,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2019",
+    "Value":30.95,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2019",
+    "Value":41.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2019",
+    "Value":39.69,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2019",
+    "Value":14.77,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2019",
+    "Value":30.89,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2019",
+    "Value":18.99,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2019",
+    "Value":21.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2019",
+    "Value":5.88,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2019",
+    "Value":22.15,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2019",
+    "Value":10.15,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2019",
+    "Value":14.41,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2019",
+    "Value":48.2,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2019",
+    "Value":31.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2019",
+    "Value":20.23,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2019",
+    "Value":30.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2019",
+    "Value":29.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2019",
+    "Value":9.76,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2019",
+    "Value":17.11,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2019",
+    "Value":15.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2019",
+    "Value":61.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2019",
+    "Value":23.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2019",
+    "Value":42.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2019",
+    "Value":5.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2019",
+    "Value":47.28,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2019",
+    "Value":32.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2019",
+    "Value":5.42,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2019",
+    "Value":17.45,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2019",
+    "Value":11.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2019",
+    "Value":32.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2019",
+    "Value":23.56,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2019",
+    "Value":26.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2020",
+    "Value":40.86,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2020",
+    "Value":30.46,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2020",
+    "Value":53.08,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2020",
+    "Value":14.62,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2020",
+    "Value":20.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2020",
+    "Value":28.99,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2020",
+    "Value":22.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2020",
+    "Value":18.34,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2020",
+    "Value":39.42,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2020",
+    "Value":33.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2020",
+    "Value":46.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2020",
+    "Value":39.51,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2020",
+    "Value":14.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2020",
+    "Value":31.17,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2020",
+    "Value":18.99,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2020",
+    "Value":21.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2020",
+    "Value":5.88,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2020",
+    "Value":20.89,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2020",
+    "Value":9.91,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2020",
+    "Value":14.41,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2020",
+    "Value":48.2,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2020",
+    "Value":33.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2020",
+    "Value":20.18,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2020",
+    "Value":30.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2020",
+    "Value":28.7,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2020",
+    "Value":9.76,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2020",
+    "Value":17.29,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2020",
+    "Value":15.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2020",
+    "Value":61.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2020",
+    "Value":24.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2020",
+    "Value":46.35,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2020",
+    "Value":5.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2020",
+    "Value":46.99,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2020",
+    "Value":41.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2020",
+    "Value":16.2,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2020",
+    "Value":17.32,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2020",
+    "Value":20.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2020",
+    "Value":33.85,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2020",
+    "Value":23.43,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2020",
+    "Value":26.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2021",
+    "Value":42.41,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2021",
+    "Value":31.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2021",
+    "Value":46.15,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2021",
+    "Value":15.2,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2021",
+    "Value":21.6,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2021",
+    "Value":29.59,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2021",
+    "Value":22.58,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2021",
+    "Value":18.82,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2021",
+    "Value":39.42,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2021",
+    "Value":33.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2021",
+    "Value":46.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2021",
+    "Value":39.51,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2021",
+    "Value":20.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2021",
+    "Value":31.45,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2021",
+    "Value":19.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2021",
+    "Value":21.09,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2021",
+    "Value":5.59,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2021",
+    "Value":22.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2021",
+    "Value":9.91,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2021",
+    "Value":14.86,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2021",
+    "Value":48.2,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2021",
+    "Value":33.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2021",
+    "Value":20.18,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2021",
+    "Value":26.15,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2021",
+    "Value":28.32,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2021",
+    "Value":9.76,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2021",
+    "Value":19.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2021",
+    "Value":15.78,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2021",
+    "Value":61.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2021",
+    "Value":29.47,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2021",
+    "Value":45.84,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2021",
+    "Value":5.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2021",
+    "Value":46.99,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2021",
+    "Value":42.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2021",
+    "Value":15.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2021",
+    "Value":17.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2021",
+    "Value":20.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2021",
+    "Value":33.85,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2021",
+    "Value":27.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2021",
+    "Value":26.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2022",
+    "Value":44.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2022",
+    "Value":31.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2022",
+    "Value":46.15,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2022",
+    "Value":14.81,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2022",
+    "Value":20.8,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2022",
+    "Value":30.47,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2022",
+    "Value":35.48,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2022",
+    "Value":18.56,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2022",
+    "Value":38.69,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2022",
+    "Value":27.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2022",
+    "Value":45.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2022",
+    "Value":39.51,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2022",
+    "Value":19.05,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2022",
+    "Value":34.92,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2022",
+    "Value":19.38,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2022",
+    "Value":27.34,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2022",
+    "Value":5.59,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2022",
+    "Value":23.12,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2022",
+    "Value":9.68,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2022",
+    "Value":15.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2022",
+    "Value":50.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2022",
+    "Value":40.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2022",
+    "Value":20.47,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2022",
+    "Value":40.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2022",
+    "Value":28.26,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2022",
+    "Value":4.44,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2022",
+    "Value":18.64,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2022",
+    "Value":16.22,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2022",
+    "Value":61.25,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2022",
+    "Value":29.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2022",
+    "Value":46.72,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2022",
+    "Value":5.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2022",
+    "Value":46.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2022",
+    "Value":42.5,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2022",
+    "Value":15.75,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2022",
+    "Value":17.35,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2022",
+    "Value":20.33,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2022",
+    "Value":34.36,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2022",
+    "Value":27.71,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2022",
+    "Value":30.26,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2012",
+    "Value":30.4,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2012",
+    "Value":33.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2012",
+    "Value":31.82,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2012",
+    "Value":37.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2012",
+    "Value":30.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2012",
+    "Value":36.43,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2012",
+    "Value":23.27,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2012",
+    "Value":33.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2012",
+    "Value":38.47,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2012",
+    "Value":37.11,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2012",
+    "Value":31.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2012",
+    "Value":39.32,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2012",
+    "Value":31.01,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2012",
+    "Value":28.83,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2012",
+    "Value":44.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2012",
+    "Value":59.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2012",
+    "Value":17.1,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2012",
+    "Value":33.17,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2012",
+    "Value":11.31,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2012",
+    "Value":21.55,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2012",
+    "Value":35.2,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2012",
+    "Value":28.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2012",
+    "Value":3.48,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2012",
+    "Value":29.06,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2012",
+    "Value":37.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2012",
+    "Value":11.0,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2012",
+    "Value":11.09,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2012",
+    "Value":39.19,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2012",
+    "Value":33.95,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2012",
+    "Value":33.78,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2012",
+    "Value":31.1,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2012",
+    "Value":28.42,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2012",
+    "Value":35.49,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2012",
+    "Value":30.52,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2012",
+    "Value":28.22,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2012",
+    "Value":12.15,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2012",
+    "Value":38.31,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2012",
+    "Value":34.39,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2012",
+    "Value":39.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2012",
+    "Value":23.91,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2013",
+    "Value":30.26,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2013",
+    "Value":36.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2013",
+    "Value":34.17,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2013",
+    "Value":37.28,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2013",
+    "Value":28.49,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2013",
+    "Value":35.78,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2013",
+    "Value":24.22,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2013",
+    "Value":34.2,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2013",
+    "Value":34.57,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2013",
+    "Value":43.54,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2013",
+    "Value":30.29,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2013",
+    "Value":36.0,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2013",
+    "Value":32.75,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2013",
+    "Value":29.1,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2013",
+    "Value":34.98,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2013",
+    "Value":61.3,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2013",
+    "Value":15.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2013",
+    "Value":33.31,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2013",
+    "Value":10.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2013",
+    "Value":22.07,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2013",
+    "Value":35.2,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2013",
+    "Value":23.39,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2013",
+    "Value":3.02,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2013",
+    "Value":30.75,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2013",
+    "Value":37.72,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2013",
+    "Value":12.22,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2013",
+    "Value":11.37,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2013",
+    "Value":38.47,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2013",
+    "Value":16.98,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2013",
+    "Value":33.7,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2013",
+    "Value":30.02,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2013",
+    "Value":29.07,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2013",
+    "Value":35.44,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2013",
+    "Value":29.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2013",
+    "Value":33.02,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2013",
+    "Value":14.44,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2013",
+    "Value":38.31,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2013",
+    "Value":34.01,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2013",
+    "Value":38.92,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2013",
+    "Value":24.38,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2014",
+    "Value":30.62,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2014",
+    "Value":37.76,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2014",
+    "Value":39.42,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2014",
+    "Value":37.77,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2014",
+    "Value":24.3,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2014",
+    "Value":35.52,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2014",
+    "Value":25.98,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2014",
+    "Value":33.39,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2014",
+    "Value":34.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2014",
+    "Value":38.19,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2014",
+    "Value":32.94,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2014",
+    "Value":32.74,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2014",
+    "Value":33.76,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2014",
+    "Value":28.98,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2014",
+    "Value":34.54,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2014",
+    "Value":59.93,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2014",
+    "Value":18.21,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2014",
+    "Value":33.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2014",
+    "Value":11.39,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2014",
+    "Value":22.25,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2014",
+    "Value":35.55,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2014",
+    "Value":26.39,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2014",
+    "Value":4.15,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2014",
+    "Value":24.84,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2014",
+    "Value":38.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2014",
+    "Value":13.48,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2014",
+    "Value":11.13,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2014",
+    "Value":38.13,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2014",
+    "Value":14.09,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2014",
+    "Value":33.86,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2014",
+    "Value":31.1,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2014",
+    "Value":24.84,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2014",
+    "Value":37.12,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2014",
+    "Value":31.34,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2014",
+    "Value":32.7,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2014",
+    "Value":13.37,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2014",
+    "Value":37.84,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2014",
+    "Value":35.29,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2014",
+    "Value":38.93,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2014",
+    "Value":22.92,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2015",
+    "Value":30.95,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2015",
+    "Value":36.26,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2015",
+    "Value":37.15,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2015",
+    "Value":38.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2015",
+    "Value":29.49,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2015",
+    "Value":36.25,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2015",
+    "Value":27.46,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2015",
+    "Value":33.83,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2015",
+    "Value":33.07,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2015",
+    "Value":40.91,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2015",
+    "Value":36.61,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2015",
+    "Value":31.66,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2015",
+    "Value":38.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2015",
+    "Value":28.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2015",
+    "Value":31.83,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2015",
+    "Value":49.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2015",
+    "Value":16.42,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2015",
+    "Value":34.62,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2015",
+    "Value":12.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2015",
+    "Value":22.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2015",
+    "Value":36.4,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2015",
+    "Value":25.22,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2015",
+    "Value":2.87,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2015",
+    "Value":33.27,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2015",
+    "Value":40.17,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2015",
+    "Value":14.74,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2015",
+    "Value":10.45,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2015",
+    "Value":38.67,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2015",
+    "Value":21.49,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2015",
+    "Value":33.9,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2015",
+    "Value":30.77,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2015",
+    "Value":25.92,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2015",
+    "Value":39.55,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2015",
+    "Value":33.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2015",
+    "Value":32.83,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2015",
+    "Value":13.16,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2015",
+    "Value":39.57,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2015",
+    "Value":35.36,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2015",
+    "Value":39.56,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2015",
+    "Value":25.84,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2016",
+    "Value":31.28,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2016",
+    "Value":39.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2016",
+    "Value":35.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2016",
+    "Value":38.99,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2016",
+    "Value":34.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2016",
+    "Value":35.4,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2016",
+    "Value":26.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2016",
+    "Value":35.03,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2016",
+    "Value":35.44,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2016",
+    "Value":35.26,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2016",
+    "Value":30.96,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2016",
+    "Value":32.91,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2016",
+    "Value":44.17,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2016",
+    "Value":29.5,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2016",
+    "Value":44.64,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2016",
+    "Value":46.97,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2016",
+    "Value":17.29,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2016",
+    "Value":36.22,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2016",
+    "Value":13.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2016",
+    "Value":20.41,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2016",
+    "Value":36.25,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2016",
+    "Value":25.08,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2016",
+    "Value":2.87,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2016",
+    "Value":32.76,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2016",
+    "Value":41.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2016",
+    "Value":14.91,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2016",
+    "Value":9.77,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2016",
+    "Value":42.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2016",
+    "Value":28.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2016",
+    "Value":34.76,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2016",
+    "Value":31.55,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2016",
+    "Value":28.37,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2016",
+    "Value":39.3,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2016",
+    "Value":33.02,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2016",
+    "Value":32.72,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2016",
+    "Value":15.09,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2016",
+    "Value":40.87,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2016",
+    "Value":36.24,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2016",
+    "Value":39.74,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2016",
+    "Value":26.12,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2017",
+    "Value":31.61,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2017",
+    "Value":38.81,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2017",
+    "Value":35.32,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2017",
+    "Value":39.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2017",
+    "Value":24.1,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2017",
+    "Value":34.54,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2017",
+    "Value":29.36,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2017",
+    "Value":34.49,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2017",
+    "Value":34.89,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2017",
+    "Value":32.38,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2017",
+    "Value":32.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2017",
+    "Value":33.44,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2017",
+    "Value":31.99,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2017",
+    "Value":28.99,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2017",
+    "Value":29.72,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2017",
+    "Value":48.43,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2017",
+    "Value":19.06,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2017",
+    "Value":36.19,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2017",
+    "Value":12.78,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2017",
+    "Value":22.11,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2017",
+    "Value":36.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2017",
+    "Value":26.62,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2017",
+    "Value":3.9,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2017",
+    "Value":35.59,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2017",
+    "Value":41.23,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2017",
+    "Value":15.09,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2017",
+    "Value":12.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2017",
+    "Value":41.4,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2017",
+    "Value":36.28,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2017",
+    "Value":33.92,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2017",
+    "Value":32.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2017",
+    "Value":27.58,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2017",
+    "Value":38.93,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2017",
+    "Value":30.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2017",
+    "Value":33.59,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2017",
+    "Value":15.01,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2017",
+    "Value":41.06,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2017",
+    "Value":36.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2017",
+    "Value":40.5,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2017",
+    "Value":27.24,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2018",
+    "Value":32.56,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2018",
+    "Value":37.72,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2018",
+    "Value":38.84,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2018",
+    "Value":38.74,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2018",
+    "Value":27.55,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2018",
+    "Value":35.08,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2018",
+    "Value":30.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2018",
+    "Value":34.7,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2018",
+    "Value":35.9,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2018",
+    "Value":35.35,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2018",
+    "Value":30.61,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2018",
+    "Value":34.44,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2018",
+    "Value":35.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2018",
+    "Value":29.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2018",
+    "Value":34.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2018",
+    "Value":51.35,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2018",
+    "Value":20.48,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2018",
+    "Value":36.03,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2018",
+    "Value":14.38,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2018",
+    "Value":24.65,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2018",
+    "Value":36.17,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2018",
+    "Value":24.89,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2018",
+    "Value":4.93,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2018",
+    "Value":28.78,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2018",
+    "Value":42.46,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2018",
+    "Value":13.96,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2018",
+    "Value":14.46,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2018",
+    "Value":41.92,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2018",
+    "Value":31.94,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2018",
+    "Value":35.83,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2018",
+    "Value":30.46,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2018",
+    "Value":25.97,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2018",
+    "Value":38.1,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2018",
+    "Value":32.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2018",
+    "Value":33.91,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2018",
+    "Value":14.81,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2018",
+    "Value":40.43,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2018",
+    "Value":36.34,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2018",
+    "Value":40.74,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2018",
+    "Value":27.3,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2019",
+    "Value":31.6,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2019",
+    "Value":39.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2019",
+    "Value":35.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2019",
+    "Value":38.45,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2019",
+    "Value":30.99,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2019",
+    "Value":35.28,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2019",
+    "Value":30.0,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2019",
+    "Value":34.84,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2019",
+    "Value":36.57,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2019",
+    "Value":44.27,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2019",
+    "Value":32.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2019",
+    "Value":34.67,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2019",
+    "Value":36.65,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2019",
+    "Value":29.48,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2019",
+    "Value":36.75,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2019",
+    "Value":50.89,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2019",
+    "Value":18.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2019",
+    "Value":35.28,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2019",
+    "Value":14.72,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2019",
+    "Value":23.28,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2019",
+    "Value":36.24,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2019",
+    "Value":29.09,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2019",
+    "Value":4.47,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2019",
+    "Value":30.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2019",
+    "Value":43.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2019",
+    "Value":13.95,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2019",
+    "Value":15.41,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2019",
+    "Value":44.74,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2019",
+    "Value":28.62,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2019",
+    "Value":36.7,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2019",
+    "Value":30.2,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2019",
+    "Value":27.19,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2019",
+    "Value":40.27,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2019",
+    "Value":33.45,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2019",
+    "Value":35.11,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2019",
+    "Value":16.17,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2019",
+    "Value":41.34,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2019",
+    "Value":37.2,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2019",
+    "Value":40.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2019",
+    "Value":24.74,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2020",
+    "Value":32.97,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2020",
+    "Value":39.8,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2020",
+    "Value":30.08,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2020",
+    "Value":36.8,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2020",
+    "Value":34.63,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2020",
+    "Value":35.82,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2020",
+    "Value":27.38,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2020",
+    "Value":34.97,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2020",
+    "Value":39.03,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2020",
+    "Value":46.7,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2020",
+    "Value":40.8,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2020",
+    "Value":35.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2020",
+    "Value":36.13,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2020",
+    "Value":28.63,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2020",
+    "Value":41.3,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2020",
+    "Value":40.09,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2020",
+    "Value":17.98,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2020",
+    "Value":36.35,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2020",
+    "Value":13.06,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2020",
+    "Value":24.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2020",
+    "Value":38.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2020",
+    "Value":24.8,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2020",
+    "Value":5.09,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2020",
+    "Value":34.72,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2020",
+    "Value":43.23,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2020",
+    "Value":10.75,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2020",
+    "Value":15.65,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2020",
+    "Value":45.75,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2020",
+    "Value":33.37,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2020",
+    "Value":37.17,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2020",
+    "Value":31.44,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2020",
+    "Value":27.01,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2020",
+    "Value":42.29,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2020",
+    "Value":33.06,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2020",
+    "Value":39.21,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2020",
+    "Value":18.19,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2020",
+    "Value":40.71,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2020",
+    "Value":37.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2020",
+    "Value":41.06,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2020",
+    "Value":26.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2021",
+    "Value":32.69,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2021",
+    "Value":39.49,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2021",
+    "Value":35.16,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2021",
+    "Value":38.78,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2021",
+    "Value":29.23,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2021",
+    "Value":35.59,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2021",
+    "Value":30.32,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2021",
+    "Value":35.31,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2021",
+    "Value":37.77,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2021",
+    "Value":41.06,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2021",
+    "Value":35.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2021",
+    "Value":37.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2021",
+    "Value":36.3,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2021",
+    "Value":29.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2021",
+    "Value":45.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2021",
+    "Value":47.73,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2021",
+    "Value":18.98,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2021",
+    "Value":38.2,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2021",
+    "Value":13.11,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2021",
+    "Value":24.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2021",
+    "Value":38.65,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2021",
+    "Value":26.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2021",
+    "Value":5.71,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2021",
+    "Value":35.37,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2021",
+    "Value":42.96,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2021",
+    "Value":13.75,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2021",
+    "Value":16.27,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2021",
+    "Value":46.16,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2021",
+    "Value":35.01,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2021",
+    "Value":38.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2021",
+    "Value":31.62,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2021",
+    "Value":19.47,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2021",
+    "Value":42.99,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2021",
+    "Value":31.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2021",
+    "Value":35.5,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2021",
+    "Value":19.8,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2021",
+    "Value":41.0,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2021",
+    "Value":38.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2021",
+    "Value":41.39,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2021",
+    "Value":24.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2022",
+    "Value":33.65,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2022",
+    "Value":40.36,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2022",
+    "Value":34.37,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2022",
+    "Value":39.27,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2022",
+    "Value":31.98,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2022",
+    "Value":35.59,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2022",
+    "Value":29.56,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2022",
+    "Value":43.51,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2022",
+    "Value":38.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2022",
+    "Value":40.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2022",
+    "Value":36.02,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2022",
+    "Value":39.85,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2022",
+    "Value":36.4,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2022",
+    "Value":28.86,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2022",
+    "Value":35.31,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2022",
+    "Value":29.73,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2022",
+    "Value":18.35,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2022",
+    "Value":37.87,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2022",
+    "Value":13.27,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2022",
+    "Value":24.6,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2022",
+    "Value":39.18,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2022",
+    "Value":28.53,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2022",
+    "Value":5.71,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2022",
+    "Value":31.26,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2022",
+    "Value":42.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2022",
+    "Value":13.78,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2022",
+    "Value":14.6,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2022",
+    "Value":44.03,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2022",
+    "Value":23.65,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2022",
+    "Value":40.28,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2022",
+    "Value":32.94,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2022",
+    "Value":22.32,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2022",
+    "Value":41.95,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2022",
+    "Value":30.93,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2022",
+    "Value":36.88,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2022",
+    "Value":18.35,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2022",
+    "Value":41.0,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2022",
+    "Value":38.83,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2022",
+    "Value":41.0,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2022",
+    "Value":26.07,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2012",
+    "Value":12949.717486654,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2012",
+    "Value":68072.8732340801,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2012",
+    "Value":2575.5985709808,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2012",
+    "Value":12521.7213530369,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2012",
+    "Value":52670.3447335415,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2012",
+    "Value":85836.2076767359,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2012",
+    "Value":15241.9069977366,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2012",
+    "Value":8108.5983824423,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2012",
+    "Value":44735.5882319701,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2012",
+    "Value":5634.0839319109,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2012",
+    "Value":47551.6740841369,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2012",
+    "Value":40863.5814412333,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2012",
+    "Value":42497.3404974322,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2012",
+    "Value":4530.6953340943,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2012",
+    "Value":3286.6195933627,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2012",
+    "Value":2126.034746865,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2012",
+    "Value":49411.7387476787,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2012",
+    "Value":8114.0809983188,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2012",
+    "Value":49145.2804308193,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2012",
+    "Value":1192.8026304167,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2012",
+    "Value":25459.1689000965,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2012",
+    "Value":3327.7761240433,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2012",
+    "Value":10744.1335242686,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2012",
+    "Value":10600.5744240026,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2012",
+    "Value":50473.9442002689,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2012",
+    "Value":1204.3647549158,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2012",
+    "Value":6519.3785298153,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2012",
+    "Value":13087.420943321,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2012",
+    "Value":108470.378825036,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2012",
+    "Value":15401.8515625,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2012",
+    "Value":706.8173174944,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2012",
+    "Value":55547.5553077786,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2012",
+    "Value":3497.9125691551,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2012",
+    "Value":57749.8251328664,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2012",
+    "Value":5725.5280283546,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2012",
+    "Value":11713.2849831139,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2012",
+    "Value":3951.3422851562,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2012",
+    "Value":51784.4114692048,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2012",
+    "Value":2185.1176765429,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2012",
+    "Value":8076.9767847974,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2013",
+    "Value":12963.675773326,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2013",
+    "Value":68190.7010035651,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2013",
+    "Value":2870.0237700076,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2013",
+    "Value":12458.891214816,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2013",
+    "Value":52638.1187235237,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2013",
+    "Value":87304.3305813557,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2013",
+    "Value":15683.54863663,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2013",
+    "Value":8279.1025564298,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2013",
+    "Value":47220.0102098851,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2013",
+    "Value":6109.2903151034,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2013",
+    "Value":49691.0145200739,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2013",
+    "Value":42669.1795111893,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2013",
+    "Value":43426.2981405143,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2013",
+    "Value":4712.0022938267,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2013",
+    "Value":3444.1597184387,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2013",
+    "Value":2081.1284352795,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2013",
+    "Value":52619.2123745817,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2013",
+    "Value":6222.7419484033,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2013",
+    "Value":40898.6478964744,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2013",
+    "Value":1305.6600972686,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2013",
+    "Value":27179.5170146052,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2013",
+    "Value":3740.6158934833,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2013",
+    "Value":11216.8008505428,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2013",
+    "Value":10713.6407638899,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2013",
+    "Value":52602.2860520766,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2013",
+    "Value":1225.4340119198,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2013",
+    "Value":6746.800256966,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2013",
+    "Value":13621.9023794031,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2013",
+    "Value":103697.008372373,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2013",
+    "Value":15941.4482421875,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2013",
+    "Value":704.9241901676,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2013",
+    "Value":56967.4257940383,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2013",
+    "Value":3582.2669400517,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2013",
+    "Value":60844.2767113975,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2013",
+    "Value":6018.0824472925,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2013",
+    "Value":12578.1878632,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2013",
+    "Value":4129.8969726562,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2013",
+    "Value":53409.7507774372,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2013",
+    "Value":2359.5173647283,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2013",
+    "Value":7331.6546738492,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2014",
+    "Value":12233.1444119186,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2014",
+    "Value":62544.0873773726,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2014",
+    "Value":3041.4350311811,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2014",
+    "Value":12274.9939689363,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2014",
+    "Value":50960.8431174661,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2014",
+    "Value":88724.9909402638,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2014",
+    "Value":14529.6767210362,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2014",
+    "Value":8187.2082489008,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2014",
+    "Value":48971.0824722599,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2014",
+    "Value":6405.7997930044,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2014",
+    "Value":50073.7760815871,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2014",
+    "Value":43148.0459288416,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2014",
+    "Value":47439.6165895125,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2014",
+    "Value":4830.3348617025,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2014",
+    "Value":3689.1447247354,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2014",
+    "Value":2179.8817197727,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2014",
+    "Value":57278.2590911107,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2014",
+    "Value":5672.0637289632,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2014",
+    "Value":38475.3952461838,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2014",
+    "Value":1431.5639646999,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2014",
+    "Value":29252.9312377352,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2014",
+    "Value":3971.9191314817,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2014",
+    "Value":11391.3773497683,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2014",
+    "Value":11013.3107334403,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2014",
+    "Value":53457.2234864322,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2014",
+    "Value":1266.6134084996,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2014",
+    "Value":6667.1341036086,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2014",
+    "Value":14262.2841914116,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2014",
+    "Value":95840.6310094498,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2014",
+    "Value":14055.47265625,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2014",
+    "Value":724.9575212094,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2014",
+    "Value":57564.8023114977,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2014",
+    "Value":3666.0124891387,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2014",
+    "Value":59583.7140001673,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2014",
+    "Value":5801.1978916205,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2014",
+    "Value":12165.220135038,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2014",
+    "Value":3054.908203125,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2014",
+    "Value":55304.3155317137,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2014",
+    "Value":2546.384644599,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2014",
+    "Value":6856.7313709252,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2015",
+    "Value":13679.6264980954,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2015",
+    "Value":56739.0265346593,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2015",
+    "Value":2996.0128980421,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2015",
+    "Value":8936.1966175683,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2015",
+    "Value":43594.1941045394,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2015",
+    "Value":83806.4476003837,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2015",
+    "Value":13433.9202985339,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2015",
+    "Value":6248.5149053451,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2015",
+    "Value":41911.0109851054,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2015",
+    "Value":5976.1596805651,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2015",
+    "Value":42560.3456767103,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2015",
+    "Value":36702.4323733379,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2015",
+    "Value":44964.3911437292,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2015",
+    "Value":4086.6223465965,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2015",
+    "Value":3893.5052184813,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2015",
+    "Value":2271.2026598035,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2015",
+    "Value":64311.8234684057,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2015",
+    "Value":4952.7335553218,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2015",
+    "Value":34960.6393843385,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2015",
+    "Value":1547.3201044439,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2015",
+    "Value":28737.4391706499,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2015",
+    "Value":4060.1313967025,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2015",
+    "Value":10021.2386118827,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2015",
+    "Value":9648.6797937523,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2015",
+    "Value":45793.8135434697,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2015",
+    "Value":1380.4702083832,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2015",
+    "Value":6231.7115033889,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2015",
+    "Value":12637.5220324406,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2015",
+    "Value":68985.2946961507,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2015",
+    "Value":9277.7138671875,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2015",
+    "Value":733.9985850183,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2015",
+    "Value":55645.6068614606,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2015",
+    "Value":3790.3408910816,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2015",
+    "Value":51197.9529341175,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2015",
+    "Value":5688.8533539788,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2015",
+    "Value":11049.9951100942,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2015",
+    "Value":2094.4738769531,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2015",
+    "Value":57040.2082136605,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2015",
+    "Value":2577.5688534011,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2015",
+    "Value":6112.2738248597,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2016",
+    "Value":12699.9623137756,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2016",
+    "Value":49888.0410842736,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2016",
+    "Value":3035.8734778704,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2016",
+    "Value":8836.28652637,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2016",
+    "Value":42314.0615817218,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2016",
+    "Value":82153.0745447889,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2016",
+    "Value":13649.8520455553,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2016",
+    "Value":5959.8425036757,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2016",
+    "Value":42961.0356905775,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2016",
+    "Value":5917.6377127148,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2016",
+    "Value":43451.2562442158,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2016",
+    "Value":37024.2157133669,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2016",
+    "Value":40985.2351382417,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2016",
+    "Value":4143.4012568631,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2016",
+    "Value":4060.1375562122,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2016",
+    "Value":2307.3446835108,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2016",
+    "Value":64292.659966313,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2016",
+    "Value":5477.0371238991,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2016",
+    "Value":39375.4731620781,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2016",
+    "Value":1675.1955571111,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2016",
+    "Value":29280.4403170048,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2016",
+    "Value":4149.7610545446,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2016",
+    "Value":9097.9239767477,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2016",
+    "Value":9476.5340980992,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2016",
+    "Value":46808.5291492503,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2016",
+    "Value":1424.691611959,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2016",
+    "Value":6217.0359999545,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2016",
+    "Value":12464.0110508476,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2016",
+    "Value":61253.6375482797,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2016",
+    "Value":8663.158203125,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2016",
+    "Value":729.5191541996,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2016",
+    "Value":56899.9181805173,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2016",
+    "Value":3901.3401496581,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2016",
+    "Value":51820.3972482676,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2016",
+    "Value":5833.577156171,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2016",
+    "Value":10970.0458948862,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2016",
+    "Value":2158.4611816406,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2016",
+    "Value":58206.6141931844,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2016",
+    "Value":2735.0604380416,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2016",
+    "Value":5651.2058516575,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2017",
+    "Value":14532.5009308511,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2017",
+    "Value":53901.7145392154,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2017",
+    "Value":3306.3030117656,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2017",
+    "Value":10080.5092817775,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2017",
+    "Value":45129.628116623,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2017",
+    "Value":82254.3769269767,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2017",
+    "Value":14879.9086230423,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2017",
+    "Value":6479.5323129243,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2017",
+    "Value":45526.5999576533,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2017",
+    "Value":6233.3224479772,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2017",
+    "Value":46085.0174739036,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2017",
+    "Value":38687.1626407164,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2017",
+    "Value":40572.1214823783,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2017",
+    "Value":4418.7520654668,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2017",
+    "Value":4324.9960791137,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2017",
+    "Value":2413.0076562942,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2017",
+    "Value":72499.3268743015,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2017",
+    "Value":5753.115446594,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2017",
+    "Value":38834.0529341227,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2017",
+    "Value":1826.3539168875,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2017",
+    "Value":31600.7358741365,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2017",
+    "Value":4401.055670455,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2017",
+    "Value":9649.278167724,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2017",
+    "Value":9862.5480661224,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2017",
+    "Value":49513.6817346384,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2017",
+    "Value":1519.2345951425,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2017",
+    "Value":6736.1669372549,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2017",
+    "Value":13913.3402919927,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2017",
+    "Value":63279.8556949332,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2017",
+    "Value":10658.9130859375,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2017",
+    "Value":758.301002986,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2017",
+    "Value":61162.0973932771,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2017",
+    "Value":4020.1267137392,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2017",
+    "Value":53300.8587281785,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2017",
+    "Value":6413.0918253034,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2017",
+    "Value":10695.550196231,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2017",
+    "Value":2604.2875976562,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2017",
+    "Value":60322.2614241747,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2017",
+    "Value":2956.1099212775,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2017",
+    "Value":6618.335082557,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2018",
+    "Value":11752.7998922979,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2018",
+    "Value":57196.4220783778,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2018",
+    "Value":3500.7264218937,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2018",
+    "Value":9300.661649365,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2018",
+    "Value":46539.1761570405,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2018",
+    "Value":85217.3691512274,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2018",
+    "Value":15659.4808675628,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2018",
+    "Value":6816.9681830954,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2018",
+    "Value":48874.8595028454,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2018",
+    "Value":6303.918925236,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2018",
+    "Value":49654.2497035329,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2018",
+    "Value":41418.1766484844,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2018",
+    "Value":43203.8141057739,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2018",
+    "Value":4804.0546040444,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2018",
+    "Value":4352.9465179025,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2018",
+    "Value":2464.6424153192,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2018",
+    "Value":81248.3135388,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2018",
+    "Value":4631.7870901651,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2018",
+    "Value":39751.1330982711,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2018",
+    "Value":2036.6737756658,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2018",
+    "Value":33447.1562836166,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2018",
+    "Value":4360.5847346925,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2018",
+    "Value":10084.7937562021,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2018",
+    "Value":10901.8019954421,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2018",
+    "Value":53955.0770024266,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2018",
+    "Value":1569.3381462636,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2018",
+    "Value":6978.4912154863,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2018",
+    "Value":15658.2120316794,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2018",
+    "Value":71039.8490579352,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2018",
+    "Value":11211.8876953125,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2018",
+    "Value":771.7735219626,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2018",
+    "Value":66840.6373389791,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2018",
+    "Value":4183.5462097136,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2018",
+    "Value":54181.9069780904,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2018",
+    "Value":7099.7765008146,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2018",
+    "Value":9568.8350633023,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2018",
+    "Value":3059.0517578125,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2018",
+    "Value":63201.0458483771,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2018",
+    "Value":3222.3100312537,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2018",
+    "Value":6914.1780318076,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2019",
+    "Value":9955.9747868043,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2019",
+    "Value":54972.7017885437,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2019",
+    "Value":3503.8960106182,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2019",
+    "Value":9029.8332674218,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2019",
+    "Value":46352.8693445211,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2019",
+    "Value":84121.9310304414,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2019",
+    "Value":14495.716721687,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2019",
+    "Value":6472.545449247,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2019",
+    "Value":47623.8656074829,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2019",
+    "Value":6205.0575947976,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2019",
+    "Value":48358.1807773701,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2019",
+    "Value":40408.2848574751,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2019",
+    "Value":42662.5353740311,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2019",
+    "Value":4741.2832715876,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2019",
+    "Value":4511.9975515766,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2019",
+    "Value":2502.3274432807,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2019",
+    "Value":82508.4659883582,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2019",
+    "Value":3831.2789476334,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2019",
+    "Value":40415.9567649547,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2019",
+    "Value":2225.8770548569,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2019",
+    "Value":31902.4169048194,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2019",
+    "Value":4082.6940487153,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2019",
+    "Value":10369.5553568761,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2019",
+    "Value":10920.191763972,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2019",
+    "Value":53554.9007491475,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2019",
+    "Value":1390.4169098175,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2019",
+    "Value":7037.008036926,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2019",
+    "Value":15874.5220531254,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2019",
+    "Value":66841.3013472693,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2019",
+    "Value":11447.701171875,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2019",
+    "Value":810.0514202437,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2019",
+    "Value":66081.7199235165,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2019",
+    "Value":4320.1167153463,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2019",
+    "Value":51773.0464558993,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2019",
+    "Value":7605.6965779776,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2019",
+    "Value":9215.4404988811,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2019",
+    "Value":3619.8615722656,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2019",
+    "Value":65604.6815198734,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2019",
+    "Value":3440.9002537543,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2019",
+    "Value":6533.7112103286,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2020",
+    "Value":8535.5993800439,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2020",
+    "Value":51791.540179984,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2020",
+    "Value":3099.9421904457,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2020",
+    "Value":7074.1937828187,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2020",
+    "Value":43537.839298904,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2020",
+    "Value":85897.7843338323,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2020",
+    "Value":13114.815470545,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2020",
+    "Value":5339.6871135794,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2020",
+    "Value":47379.765194548,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2020",
+    "Value":5463.6450964932,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2020",
+    "Value":48828.6846862799,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2020",
+    "Value":39169.8606000707,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2020",
+    "Value":40201.6812422928,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2020",
+    "Value":4300.8570129121,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2020",
+    "Value":4477.6176179642,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2020",
+    "Value":2307.6149431951,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2020",
+    "Value":87567.1148972037,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2020",
+    "Value":2988.7812241472,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2020",
+    "Value":40040.7655055923,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2020",
+    "Value":2081.7391424294,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2020",
+    "Value":31721.2989141857,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2020",
+    "Value":3846.1744956674,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2020",
+    "Value":8841.2707500316,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2020",
+    "Value":9957.5262669761,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2020",
+    "Value":53467.9277413737,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2020",
+    "Value":1278.397352069,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2020",
+    "Value":6133.3255241018,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2020",
+    "Value":15987.5753654045,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2020",
+    "Value":51683.5054353851,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2020",
+    "Value":10108.3271484375,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2020",
+    "Value":778.7015385503,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2020",
+    "Value":61466.803676358,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2020",
+    "Value":3997.1927958371,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2020",
+    "Value":52653.7565934247,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2020",
+    "Value":6985.6439389257,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2020",
+    "Value":8638.739038481,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2020",
+    "Value":3709.7692871094,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2020",
+    "Value":64411.3731779373,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2020",
+    "Value":3534.0395348265,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2020",
+    "Value":5580.6038307519,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2021",
+    "Value":10738.0179223384,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2021",
+    "Value":60607.7788605166,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2021",
+    "Value":3384.8448647925,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2021",
+    "Value":7972.5366504839,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2021",
+    "Value":52496.8441693242,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2021",
+    "Value":93446.4344518943,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2021",
+    "Value":16216.5706467899,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2021",
+    "Value":6222.6216439761,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2021",
+    "Value":52265.6541620571,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2021",
+    "Value":6075.8026572556,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2021",
+    "Value":53099.1351400148,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2021",
+    "Value":43725.0999521245,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2021",
+    "Value":46896.8662432834,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2021",
+    "Value":5083.6069548458,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2021",
+    "Value":4913.9471286935,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2021",
+    "Value":2735.1475150398,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2021",
+    "Value":105561.137468992,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2021",
+    "Value":4334.7926863135,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2021",
+    "Value":40058.5373276179,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2021",
+    "Value":2167.403241985,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2021",
+    "Value":35125.5224984723,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2021",
+    "Value":3999.3376467764,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2021",
+    "Value":10314.0506741437,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2021",
+    "Value":10903.1116425938,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2021",
+    "Value":60141.9880911492,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2021",
+    "Value":1455.3192237019,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2021",
+    "Value":6826.9720069846,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2021",
+    "Value":18635.5104895754,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2021",
+    "Value":71751.8831234838,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2021",
+    "Value":12521.5224609375,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2021",
+    "Value":828.833032801,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2021",
+    "Value":79601.4129622433,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2021",
+    "Value":4642.6074310134,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2021",
+    "Value":61174.9680215622,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2021",
+    "Value":7058.0694998852,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2021",
+    "Value":9743.2127780485,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2021",
+    "Value":4775.9458007812,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2021",
+    "Value":71318.3073592183,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2021",
+    "Value":3704.1935590038,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2021",
+    "Value":6843.399418862,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Argentina",
+    "Year":"2022",
+    "Value":13935.6811110049,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Australia",
+    "Year":"2022",
+    "Value":64997.0136536475,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Bolivia",
+    "Year":"2022",
+    "Value":3643.9282696868,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Brasil",
+    "Year":"2022",
+    "Value":9281.3333444123,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Canad\u00e1",
+    "Year":"2022",
+    "Value":55509.393176404,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Suiza",
+    "Year":"2022",
+    "Value":93245.7952120851,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Chile",
+    "Year":"2022",
+    "Value":15451.1319576678,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Colombia",
+    "Year":"2022",
+    "Value":6674.5960194806,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Alemania",
+    "Year":"2022",
+    "Value":49686.1154582583,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ecuador",
+    "Year":"2022",
+    "Value":6540.998245221,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Finlandia",
+    "Year":"2022",
+    "Value":50438.4753952355,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Francia",
+    "Year":"2022",
+    "Value":41082.8119320747,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Reino Unido",
+    "Year":"2022",
+    "Value":45935.9276473925,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Georgia",
+    "Year":"2022",
+    "Value":6729.8465993028,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Guatemala",
+    "Year":"2022",
+    "Value":5358.08963795,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Honduras",
+    "Year":"2022",
+    "Value":3003.289968264,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Irlanda",
+    "Year":"2022",
+    "Value":106194.755859223,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ir\u00e1n",
+    "Year":"2022",
+    "Value":4405.0929151979,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Jap\u00f3n",
+    "Year":"2022",
+    "Value":34017.2718075024,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Camboya",
+    "Year":"2022",
+    "Value":2325.0305004084,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Rep\u00fablica de Corea",
+    "Year":"2022",
+    "Value":32394.6833725203,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Sri Lanka",
+    "Year":"2022",
+    "Value":3342.719896462,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"M\u00e9xico",
+    "Year":"2022",
+    "Value":11385.4070757929,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Malasia",
+    "Year":"2022",
+    "Value":11748.0919307944,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Pa\u00edses Bajos",
+    "Year":"2022",
+    "Value":59123.318556487,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Pakist\u00e1n",
+    "Year":"2022",
+    "Value":1538.3228133171,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Per\u00fa",
+    "Year":"2022",
+    "Value":7363.2720693964,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Polonia",
+    "Year":"2022",
+    "Value":18891.2121169279,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Catar",
+    "Year":"2022",
+    "Value":88701.463350036,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Rusia",
+    "Year":"2022",
+    "Value":15445.2421875,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ruanda",
+    "Year":"2022",
+    "Value":975.4693158717,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Singapur",
+    "Year":"2022",
+    "Value":88428.7024226232,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"El Salvador",
+    "Year":"2022",
+    "Value":5093.5183387978,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Suecia",
+    "Year":"2022",
+    "Value":55296.9371472535,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Tailandia",
+    "Year":"2022",
+    "Value":6909.3599748145,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Turqu\u00eda",
+    "Year":"2022",
+    "Value":10674.504157865,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Ucrania",
+    "Year":"2022",
+    "Value":4199.6708984375,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Estados Unidos",
+    "Year":"2022",
+    "Value":78035.1753604212,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Vietnam",
+    "Year":"2022",
+    "Value":4116.3857609415,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  },
+  {
+    "Country Name":"Sud\u00e1frica",
+    "Year":"2022",
+    "Value":6523.4109781585,
+    "Indicator":"PIB ($)",
+    "Group":"B"
+  }
 ];

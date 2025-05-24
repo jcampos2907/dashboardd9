@@ -24,8 +24,8 @@ export default function ScatterPlot({ width, height }: ScatterplotProps) {
     const boundsWidth = useStore((state) => state.boundsWidth)
     const setXScale = useStore((state) => state.setXScale)
     const setYScale = useStore((state) => state.setYScale)
-    const yScale = scaleLinear().domain([Math.min(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Value"])) - 0.5, Math.max(...data.filter(item => item.Indicator == 'GDP ($)').map(v => v["Value"])) + 0.5]).range([boundsHeight, 0]);
-    const xScale = scaleLinear().domain([Math.min(...data.filter(item => item.Indicator != 'GDP ($)').map(v => v["Value"])) - 1, Math.max(...data.filter(item => item.Indicator != 'GDP ($)').map(v => v["Value"])) + 1]).range([0, boundsWidth]);
+    const yScale = scaleLinear().domain([Math.min(...data.filter(item => item.Indicator == 'PIB ($)').map(v => v["Value"])) - 0.5, Math.max(...data.filter(item => item.Indicator == 'PIB ($)').map(v => v["Value"])) + 0.5]).range([boundsHeight, 0]);
+    const xScale = scaleLinear().domain([Math.min(...data.filter(item => item.Indicator != 'PIB ($)').map(v => v["Value"])) - 1, Math.max(...data.filter(item => item.Indicator != 'PIB ($)').map(v => v["Value"])) + 1]).range([0, boundsWidth]);
     useEffect(() => {
         setXScale(() =>
             xScale

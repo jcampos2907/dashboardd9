@@ -13,13 +13,15 @@ function App() {
   return (
     <div className='p-8 h-screen flex flex-col items-center justify-center font-sans'>
       <h1 className="w-full text-3xl mb-4 h-auto">Liderazgo femenino y desarrollo económico: historias que contrastan</h1>
-      <div className='h-full flex flex-col items-end gap-4 w-full'>
-        <IndicatorSelector />
-        <div className='flex flex-row gap-8 w-full flex-1'>
-          <div className='w-[33vw]'>
-            <Filters />
+      <div className='flex flex-row gap-8 h-screen w-full'>
+        <div className='w-[33vw]'>
+          <Filters />
+        </div>
+        <div className='flex flex-col gap-2 w-full'>
+          <div className='flex flex-col items-end'>
+            <IndicatorSelector />
           </div>
-          <div className='w-full flex flex-col gap-4' >
+          <div className='w-full flex flex-col gap-4 h-full' >
             <div ref={ref} id='svg-container' className='w-full h-full'>
               <ScatterPlot height={height} width={width} />
             </div>
