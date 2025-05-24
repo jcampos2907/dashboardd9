@@ -46,7 +46,7 @@ export default function GroupCheckboxes() {
             </div>
             <Separator className="w-full my-4" />
             <div className="flex items-center space-x-2">
-                <Checkbox checked={isGroupBSelected} defaultChecked={isGroupBSelected} id="terms2" value={'A'} onCheckedChange={(checked) => {
+                <Checkbox checked={isGroupBSelected} defaultChecked={isGroupBSelected} id="terms22" value={'A'} onCheckedChange={(checked) => {
                     return checked ?
                         setSelectedCountries([...selectedCountries, ...groupB])
                         :
