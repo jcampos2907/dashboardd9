@@ -14,6 +14,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2012",
+    "Value":27.87,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2012",
+    "Value":38.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2012",
     "Value":25.38,
@@ -175,13 +189,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2012",
-    "Value":0.0,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2012",
     "Value":14.72,
@@ -227,13 +234,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2012",
     "Value":44.7,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2012",
-    "Value":28.5,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -290,6 +290,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2013",
     "Value":24.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2013",
+    "Value":27.87,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2013",
+    "Value":38.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -455,13 +469,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2013",
-    "Value":0.0,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2013",
     "Value":15.67,
@@ -507,13 +514,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2013",
     "Value":44.7,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2013",
-    "Value":29.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -570,6 +570,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2014",
     "Value":26.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2014",
+    "Value":32.24,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2014",
+    "Value":41.33,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -735,13 +749,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2014",
-    "Value":0.0,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2014",
     "Value":15.67,
@@ -787,13 +794,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2014",
     "Value":44.99,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2014",
-    "Value":31.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -850,6 +850,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2015",
     "Value":26.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2015",
+    "Value":30.6,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2015",
+    "Value":39.33,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1015,13 +1029,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2015",
-    "Value":0.0,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2015",
     "Value":16.33,
@@ -1067,13 +1074,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2015",
     "Value":43.55,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2015",
-    "Value":30.5,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1130,6 +1130,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2016",
     "Value":26.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2016",
+    "Value":30.6,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2016",
+    "Value":39.33,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1295,13 +1309,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2016",
-    "Value":0.0,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2016",
     "Value":16.33,
@@ -1347,13 +1354,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2016",
     "Value":43.55,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2016",
-    "Value":32.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1410,6 +1410,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2017",
     "Value":28.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2017",
+    "Value":30.6,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2017",
+    "Value":38.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1575,13 +1589,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2017",
-    "Value":0.0,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2017",
     "Value":17.0,
@@ -1627,13 +1634,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2017",
     "Value":43.55,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2017",
-    "Value":32.5,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1690,6 +1690,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2018",
     "Value":28.67,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2018",
+    "Value":34.43,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2018",
+    "Value":38.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1855,13 +1869,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2018",
-    "Value":9.76,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2018",
     "Value":17.0,
@@ -1907,13 +1914,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2018",
     "Value":43.55,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2018",
-    "Value":32.5,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -1970,6 +1970,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2019",
     "Value":30.0,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2019",
+    "Value":37.16,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2019",
+    "Value":38.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -2135,13 +2149,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2019",
-    "Value":9.76,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2019",
     "Value":17.11,
@@ -2187,13 +2194,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2019",
     "Value":47.28,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2019",
-    "Value":32.5,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -2250,6 +2250,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2020",
     "Value":30.46,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2020",
+    "Value":39.34,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2020",
+    "Value":40.67,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -2415,13 +2429,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2020",
-    "Value":9.76,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2020",
     "Value":17.29,
@@ -2467,13 +2474,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2020",
     "Value":46.99,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2020",
-    "Value":41.5,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -2530,6 +2530,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2021",
     "Value":31.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2021",
+    "Value":39.89,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2021",
+    "Value":42.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -2695,13 +2709,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2021",
-    "Value":9.76,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2021",
     "Value":19.0,
@@ -2747,13 +2754,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2021",
     "Value":46.99,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2021",
-    "Value":42.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -2810,6 +2810,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2022",
     "Value":31.13,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2022",
+    "Value":41.53,
+    "Indicator":"Mujeres en el Parlamento (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2022",
+    "Value":42.0,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -2975,13 +2989,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2022",
-    "Value":4.44,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2022",
     "Value":18.64,
@@ -3027,13 +3034,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2022",
     "Value":46.13,
-    "Indicator":"Mujeres en el Parlamento (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2022",
-    "Value":42.5,
     "Indicator":"Mujeres en el Parlamento (%)",
     "Group":"A"
   },
@@ -3090,6 +3090,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2012",
     "Value":33.33,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2012",
+    "Value":30.08,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2012",
+    "Value":32.44,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -3255,13 +3269,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2012",
-    "Value":11.0,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2012",
     "Value":11.09,
@@ -3307,13 +3314,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2012",
     "Value":35.49,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2012",
-    "Value":30.52,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -3370,6 +3370,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2013",
     "Value":36.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2013",
+    "Value":29.35,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2013",
+    "Value":31.42,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -3535,13 +3549,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2013",
-    "Value":12.22,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2013",
     "Value":11.37,
@@ -3587,13 +3594,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2013",
     "Value":35.44,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2013",
-    "Value":29.53,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -3650,6 +3650,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2014",
     "Value":37.76,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2014",
+    "Value":30.31,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2014",
+    "Value":31.65,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -3815,13 +3829,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2014",
-    "Value":13.48,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2014",
     "Value":11.13,
@@ -3867,13 +3874,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2014",
     "Value":37.12,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2014",
-    "Value":31.34,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -3930,6 +3930,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2015",
     "Value":36.26,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2015",
+    "Value":29.68,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2015",
+    "Value":32.56,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -4095,13 +4109,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2015",
-    "Value":14.74,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2015",
     "Value":10.45,
@@ -4147,13 +4154,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2015",
     "Value":39.55,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2015",
-    "Value":33.05,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -4210,6 +4210,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2016",
     "Value":39.14,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2016",
+    "Value":31.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2016",
+    "Value":32.66,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -4375,13 +4389,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2016",
-    "Value":14.91,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2016",
     "Value":9.77,
@@ -4427,13 +4434,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2016",
     "Value":39.3,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2016",
-    "Value":33.02,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -4490,6 +4490,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2017",
     "Value":38.81,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2017",
+    "Value":31.8,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2017",
+    "Value":33.19,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -4655,13 +4669,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2017",
-    "Value":15.09,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2017",
     "Value":12.33,
@@ -4707,13 +4714,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2017",
     "Value":38.93,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2017",
-    "Value":30.79,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -4770,6 +4770,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2018",
     "Value":37.72,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2018",
+    "Value":31.59,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2018",
+    "Value":34.03,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -4935,13 +4949,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2018",
-    "Value":13.96,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2018",
     "Value":14.46,
@@ -4987,13 +4994,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2018",
     "Value":38.1,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2018",
-    "Value":32.14,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -5050,6 +5050,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2019",
     "Value":39.05,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2019",
+    "Value":33.24,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2019",
+    "Value":35.03,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -5215,13 +5229,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2019",
-    "Value":13.95,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2019",
     "Value":15.41,
@@ -5267,13 +5274,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2019",
     "Value":40.27,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2019",
-    "Value":33.45,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -5330,6 +5330,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2020",
     "Value":39.8,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2020",
+    "Value":32.79,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2020",
+    "Value":35.98,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -5495,13 +5509,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2020",
-    "Value":10.75,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2020",
     "Value":15.65,
@@ -5547,13 +5554,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2020",
     "Value":42.29,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2020",
-    "Value":33.06,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -5610,6 +5610,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2021",
     "Value":39.49,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2021",
+    "Value":35.45,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2021",
+    "Value":35.43,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -5775,13 +5789,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2021",
-    "Value":13.75,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2021",
     "Value":16.27,
@@ -5827,13 +5834,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2021",
     "Value":42.99,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2021",
-    "Value":31.68,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -5890,6 +5890,20 @@ export const data = [
     "Country Name":"Australia",
     "Year":"2022",
     "Value":40.36,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"Austria",
+    "Year":"2022",
+    "Value":33.43,
+    "Indicator":"Mujeres en puestos directivos (%)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2022",
+    "Value":36.5,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -6055,13 +6069,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2022",
-    "Value":13.78,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rep\u00fablica de Corea",
     "Year":"2022",
     "Value":14.6,
@@ -6107,13 +6114,6 @@ export const data = [
     "Country Name":"Suecia",
     "Year":"2022",
     "Value":41.95,
-    "Indicator":"Mujeres en puestos directivos (%)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2022",
-    "Value":30.93,
     "Indicator":"Mujeres en puestos directivos (%)",
     "Group":"A"
   },
@@ -6174,6 +6174,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2012",
+    "Value":48250.4059142637,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2012",
+    "Value":44874.1709182123,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2012",
     "Value":2575.5985709808,
@@ -6191,13 +6205,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2012",
     "Value":52670.3447335415,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2012",
-    "Value":85836.2076767359,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -6356,13 +6363,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2012",
-    "Value":108470.378825036,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2012",
     "Value":15401.8515625,
@@ -6454,6 +6454,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2013",
+    "Value":50305.3545774973,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2013",
+    "Value":46964.5946777056,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2013",
     "Value":2870.0237700076,
@@ -6471,13 +6485,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2013",
     "Value":52638.1187235237,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2013",
-    "Value":87304.3305813557,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -6636,13 +6643,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2013",
-    "Value":103697.008372373,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2013",
     "Value":15941.4482421875,
@@ -6734,6 +6734,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2014",
+    "Value":51314.9722616322,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2014",
+    "Value":47995.7786961339,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2014",
     "Value":3041.4350311811,
@@ -6751,13 +6765,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2014",
     "Value":50960.8431174661,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2014",
-    "Value":88724.9909402638,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -6916,13 +6923,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2014",
-    "Value":95840.6310094498,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2014",
     "Value":14055.47265625,
@@ -7014,6 +7014,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2015",
+    "Value":43915.228020857,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2015",
+    "Value":40893.804537772,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2015",
     "Value":2996.0128980421,
@@ -7031,13 +7045,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2015",
     "Value":43594.1941045394,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2015",
-    "Value":83806.4476003837,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -7196,13 +7203,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2015",
-    "Value":68985.2946961507,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2015",
     "Value":9277.7138671875,
@@ -7294,6 +7294,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2016",
+    "Value":45061.4993920192,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2016",
+    "Value":41854.5498296444,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2016",
     "Value":3035.8734778704,
@@ -7311,13 +7325,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2016",
     "Value":42314.0615817218,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2016",
-    "Value":82153.0745447889,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -7476,13 +7483,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2016",
-    "Value":61253.6375482797,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2016",
     "Value":8663.158203125,
@@ -7574,6 +7574,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2017",
+    "Value":47163.7425775142,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2017",
+    "Value":44035.3239358548,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2017",
     "Value":3306.3030117656,
@@ -7591,13 +7605,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2017",
     "Value":45129.628116623,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2017",
-    "Value":82254.3769269767,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -7756,13 +7763,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2017",
-    "Value":63279.8556949332,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2017",
     "Value":10658.9130859375,
@@ -7854,6 +7854,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2018",
+    "Value":51194.0749841299,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2018",
+    "Value":47487.2100392561,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2018",
     "Value":3500.7264218937,
@@ -7871,13 +7885,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2018",
     "Value":46539.1761570405,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2018",
-    "Value":85217.3691512274,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -8036,13 +8043,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2018",
-    "Value":71039.8490579352,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2018",
     "Value":11211.8876953125,
@@ -8134,6 +8134,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2019",
+    "Value":49885.9947355204,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2019",
+    "Value":46716.6227467964,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2019",
     "Value":3503.8960106182,
@@ -8151,13 +8165,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2019",
     "Value":46352.8693445211,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2019",
-    "Value":84121.9310304414,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -8316,13 +8323,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2019",
-    "Value":66841.3013472693,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2019",
     "Value":11447.701171875,
@@ -8414,6 +8414,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2020",
+    "Value":48716.4098900349,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2020",
+    "Value":45906.2875805246,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2020",
     "Value":3099.9421904457,
@@ -8431,13 +8445,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2020",
     "Value":43537.839298904,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2020",
-    "Value":85897.7843338323,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -8596,13 +8603,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2020",
-    "Value":51683.5054353851,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2020",
     "Value":10108.3271484375,
@@ -8694,6 +8694,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2021",
+    "Value":53648.7190742245,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2021",
+    "Value":51655.7883303715,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2021",
     "Value":3384.8448647925,
@@ -8711,13 +8725,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2021",
     "Value":52496.8441693242,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2021",
-    "Value":93446.4344518943,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -8876,13 +8883,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2021",
-    "Value":71751.8831234838,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2021",
     "Value":12521.5224609375,
@@ -8974,6 +8974,20 @@ export const data = [
     "Group":"A"
   },
   {
+    "Country Name":"Austria",
+    "Year":"2022",
+    "Value":52176.6649141178,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
+    "Country Name":"B\u00e9lgica",
+    "Year":"2022",
+    "Value":50807.2047084918,
+    "Indicator":"PIB ($)",
+    "Group":"A"
+  },
+  {
     "Country Name":"Bolivia",
     "Year":"2022",
     "Value":3643.9282696868,
@@ -8991,13 +9005,6 @@ export const data = [
     "Country Name":"Canad\u00e1",
     "Year":"2022",
     "Value":55509.393176404,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
-    "Country Name":"Suiza",
-    "Year":"2022",
-    "Value":93245.7952120851,
     "Indicator":"PIB ($)",
     "Group":"A"
   },
@@ -9156,13 +9163,6 @@ export const data = [
     "Group":"A"
   },
   {
-    "Country Name":"Catar",
-    "Year":"2022",
-    "Value":88701.463350036,
-    "Indicator":"PIB ($)",
-    "Group":"A"
-  },
-  {
     "Country Name":"Rusia",
     "Year":"2022",
     "Value":15445.2421875,
@@ -9239,4 +9239,4 @@ export const data = [
     "Indicator":"PIB ($)",
     "Group":"B"
   }
-];
+]
