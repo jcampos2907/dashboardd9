@@ -41,7 +41,7 @@ export default function GroupCheckboxes() {
                     htmlFor="terms2"
                     className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 >
-                    Países de alto y mediano ingreso
+                    Países de alto ingreso
                 </label>
             </div>
             <Separator className="w-full my-4" />

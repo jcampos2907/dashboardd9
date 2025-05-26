@@ -1,6 +1,7 @@
 import { data } from '@/data';
 import * as d3 from 'd3';
 import { useMemo } from 'react';
+import useStore from './useStore';
 
 // Hash function for consistent color mapping
 const hashCode = (str: string) => {
@@ -14,6 +15,8 @@ const hashCode = (str: string) => {
 };
 
 export const useCountryColors = () => {
+    const openFilter = useStore((state) => state.openFilter)
+
     const [countriesA, countriesB] = useMemo(() => {
         const countriesA: string[] = [];
         const countriesB: string[] = [];
@@ -32,7 +35,12 @@ export const useCountryColors = () => {
     const countryColorsA = useMemo(() => {
         const uniqueCountries = Array.from(new Set(countriesA));
         const colorMap: Record<string, string> = {};
-        const colorScale = d3.schemeSet2; // Color scale for Group A
+        let colorScale = d3.schemeSet2; // Color scale for Group A
+
+        if (openFilter == 'group-checkboxes') {
+            colorScale = d3.schemeBlues[9]
+        }
+
 
         uniqueCountries.forEach(country => {
             const index = Math.abs(hashCode(country)) % colorScale.length;
@@ -40,12 +48,17 @@ export const useCountryColors = () => {
         });
 
         return colorMap;
-    }, [countriesA]);
+    }, [countriesA, openFilter]);
 
     const countryColorsB = useMemo(() => {
         const uniqueCountries = Array.from(new Set(countriesB));
         const colorMap: Record<string, string> = {};
-        const colorScale = d3.schemeTableau10; // Color scale for Group B
+        let colorScale = d3.schemeTableau10; // Color scale for Group B
+
+        if (openFilter == 'group-checkboxes') {
+
+            colorScale = d3.schemeReds[9]
+        }
 
         uniqueCountries.forEach(country => {
             const index = Math.abs(hashCode(country)) % colorScale.length;
@@ -53,7 +66,7 @@ export const useCountryColors = () => {
         });
 
         return colorMap;
-    }, [countriesB]);
+    }, [countriesB, openFilter]);
 
     return { ...countryColorsA, ...countryColorsB };
 };

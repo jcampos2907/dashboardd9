@@ -7,6 +7,8 @@ import { data } from "../data";
 // Store Type Definition
 type Store = {
     indicator: string;
+    openFilter: string;
+    setOpenFilter: (openFilter: string) => void;
     data: DataRow[];
     year: number[];
     interactionData: { 'Country Name': string, 'Group': string } | null;
@@ -36,6 +38,8 @@ type Store = {
 // Zustand Store Definition
 const useStore = create<Store>((set) => ({
     indicator: 'Mujeres en el Parlamento (%)',
+    openFilter: 'item-1',
+    setOpenFilter: (openFilter: string) => set({ openFilter }),
     data: data,
     year: [2012, 2022],
     boundsWidth: 0,

@@ -1,3 +1,4 @@
+import { data } from "@/data";
 import useStore from "@/hooks/useStore";
 import ClearFiltersButton from "./clearFiltersButton";
 import CountryList from "./countryList";
@@ -6,10 +7,13 @@ import FilterSliderIndicator from "./filter-sliders-indicator";
 import GroupCheckboxes from "./group-checkboxes";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Separator } from "./ui/separator";
 
 export default function Filters() {
     const indicator = useStore((state) => state.indicator);
+    const openFilter = useStore((state) => state.openFilter);
+    const setOpenFilter = useStore((state) => state.setOpenFilter);
+    const setSelectedCountries = useStore((state) => state.setSelectedCountries);
+
 
     return (
 
@@ -24,12 +28,19 @@ export default function Filters() {
                 </div>
             </CardHeader>
             <CardContent>
-                <Accordion type="single" collapsible defaultValue="item-1">
+                <Accordion type="single" collapsible value={openFilter} onValueChange={(value) => {
+                    setSelectedCountries(Array.from(new Set(data.map((item) => item["Country Name"]))))
+                    setOpenFilter(value)
+                }}>
                     <AccordionItem value="item-1">
                         <AccordionTrigger>Filtrar por Paises</AccordionTrigger>
                         <AccordionContent>
                             <CountryList />
-                            <Separator className="w-full my-4" />
+                        </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="group-checkboxes">
+                        <AccordionTrigger>Filtrar por Grupos</AccordionTrigger>
+                        <AccordionContent>
                             <GroupCheckboxes />
                         </AccordionContent>
                     </AccordionItem>
