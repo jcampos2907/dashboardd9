@@ -39,7 +39,7 @@ export default function GroupCheckboxes() {
                 }} />
                 <label
                     htmlFor="terms2"
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                    className="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 >
                     Países de alto ingreso
                 </label>
@@ -56,7 +56,7 @@ export default function GroupCheckboxes() {
                 }} />
                 <label
                     htmlFor="terms22"
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                    className="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 >
                     Países de mediano y bajo ingreso
                 </label>

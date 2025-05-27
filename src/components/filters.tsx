@@ -17,10 +17,10 @@ export default function Filters() {
 
     return (
 
-        <Card>
+        <Card className="font-normal">
             <CardHeader>
                 <div className="flex flex-row font-sans items-center justify-between">
-                    <CardTitle>
+                    <CardTitle className="font-normal">
                         Filtros
                     </CardTitle>
                     <ClearFiltersButton />
@@ -33,25 +33,25 @@ export default function Filters() {
                     setOpenFilter(value)
                 }}>
                     <AccordionItem value="item-1">
-                        <AccordionTrigger>Filtrar por Paises</AccordionTrigger>
+                        <AccordionTrigger className="font-normal">Filtrar por Paises</AccordionTrigger>
                         <AccordionContent>
                             <CountryList />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="group-checkboxes">
-                        <AccordionTrigger>Filtrar por Grupos</AccordionTrigger>
+                        <AccordionTrigger className="font-normal">Filtrar por Grupos</AccordionTrigger>
                         <AccordionContent>
                             <GroupCheckboxes />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
-                        <AccordionTrigger>Filtrar por {indicator}</AccordionTrigger>
+                        <AccordionTrigger className="font-normal">Filtrar por {indicator}</AccordionTrigger>
                         <AccordionContent>
                             <FilterSliderIndicator />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
-                        <AccordionTrigger>Filtrar por PIB per capita</AccordionTrigger>
+                        <AccordionTrigger className="font-normal">Filtrar por PIB per capita</AccordionTrigger>
                         <AccordionContent>
                             <FilterSliderGDP />
 

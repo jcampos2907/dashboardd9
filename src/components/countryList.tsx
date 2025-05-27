@@ -14,7 +14,7 @@ export default function CountryList() {
     const filteredDataGDP = dataPerYear[yearRange[1]]?.filteredDataGDP ?? []
 
     return (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 ">
             <div className="flex items-center space-x-2">
                 <Checkbox
                     id={`selectall-checkbox`}
@@ -30,7 +30,7 @@ export default function CountryList() {
                 />
                 <label
                     htmlFor={`selectall-checkbox`}
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                    className="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                 >
                     Todos los paises
                 </label>
@@ -62,7 +62,7 @@ export default function CountryList() {
                                 />
                                 <label
                                     htmlFor={`${item}-checkbox`}
-                                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                                    className="text-sm font-normal leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                                 >
                                     {item}
                                 </label>
