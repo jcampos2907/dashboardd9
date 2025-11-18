@@ -82,25 +82,40 @@ src/
 
 ### **7. Deployment**
 
-The project can be deployed as a static frontend on any service that supports static hosting, such as:
+The project can be deployed as a fully static frontend on any service that supports static hosting, such as:
 
 - Netlify
 - Vercel
 - GitHub Pages
 - Cloudflare Pages
 
-Vite outputs a fully static build (`dist/`) with no backend dependencies.
+Vite outputs an optimized static build in the `dist/` directory with **no backend dependencies**, making the project portable and easy to host.
+
+#### Docker Deployment
+
+The repository includes a `Dockerfile` that provides an alternative deployment method.  
+Docker can be used to:
+
+- Serve the production build using a lightweight Node/Express or static server
+- Standardize the runtime environment
+- Facilitate local testing or deployment on container-based platforms (Kubernetes, Fly.io, etc.)
+
+This enables you to run the dashboard using:
+
+```bash
+docker build -t dashboardd9 .
+docker run -p 3000:3000 dashboardd9
 
 ---
 
 ## Licensing
 
-This project is licensed under the **MIT License**.  
+This project is licensed under the **MIT License**.
 You are free to use, modify, and distribute the source code under the terms of that license.
 
 - **Code ownership:** All source code in this repository was developed by **Juan Ignacio Campos**.
 
-- **UX/UI research contributions:**  
+- **UX/UI research contributions:**
   This project includes collaborative design research, ideation, and conceptual development conducted with:
 
   - _Analuisa Aguilar Rodríguez_
@@ -109,5 +124,6 @@ You are free to use, modify, and distribute the source code under the terms of t
 
   These contributions are acknowledged here but **are not included under the MIT license**, as they involve shared authorship.
 
-- **Datasets:**  
+- **Datasets:**
   The datasets used in this project are the property of their respective institutions and are **not licensed** under this repository. They remain the intellectual property of their original owners.
+```
