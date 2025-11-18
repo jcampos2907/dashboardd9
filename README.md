@@ -73,12 +73,18 @@ src/
 
 ### **6. Styling**
 
-- Styling uses a simple modular CSS approach (or CSS modules, depending on your setup).
-- The design system prioritizes:
-  - High visual contrast
-  - Strong hierarchy
-  - Clear data-to-ink ratio (Tufte principle)
-  - Color palettes derived from the design research phase
+The project uses **Tailwind CSS** as its primary styling framework.  
+Tailwind enables rapid prototyping and consistent visual design through utility-first class naming.
+
+Key styling principles followed in this project include:
+
+- **High visual contrast** to support accessibility and data readability
+- **Clear visual hierarchy** driven by scale, spacing, and type
+- **Low data-to-ink ratio**, aligning with Tufte’s principles for effective data visualization
+- **Color system** derived from the design research phase, ensuring consistency with the project’s UX/UI direction
+- **Responsiveness** built into component layouts through Tailwind’s breakpoint utilities
+
+Custom CSS (e.g., global resets or component-specific rules) is minimal and lives in `index.css` or module-level CSS files where needed.
 
 ### **7. Deployment**
 
@@ -105,6 +111,7 @@ This enables you to run the dashboard using:
 ```bash
 docker build -t dashboardd9 .
 docker run -p 3000:3000 dashboardd9
+```
 
 ---
 
@@ -126,4 +133,3 @@ You are free to use, modify, and distribute the source code under the terms of t
 
 - **Datasets:**
   The datasets used in this project are the property of their respective institutions and are **not licensed** under this repository. They remain the intellectual property of their original owners.
-```
